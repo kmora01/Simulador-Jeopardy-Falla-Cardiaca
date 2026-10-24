@@ -23,23 +23,23 @@ ESC 2023 Miocardiopatías: RM con realce tardío en la evaluación inicial de to
 
 @@@ img-002
 difficulty: 1
-clue: Prueba de TC sin contraste que cuantifica el calcio coronario mediante la escala de Agatston.
-answer: ¿Qué es la puntuación de calcio coronario?
-accept: calcio coronario | score de calcio | puntuacion de calcio | agatston | cac | indice de agatston | calcium score
-reject: angiotc | ffr ct
-guideline: ESC 2021 Prevención
-tags: TC, calcio coronario
+clue: Sistema estandarizado de informe de la angio-TC coronaria que gradúa la estenosis máxima de 0 a 5 y orienta el manejo.
+answer: ¿Qué es CAD-RADS?
+accept: cad rads | cadrads | cad-rads | coronary artery disease reporting and data system
+reject: agatston | syntax
+guideline: SCCT 2022
+tags: TC coronaria, informe
 
 ### Por qué
-Una puntuación de 0 en una persona de riesgo intermedio permite reclasificarla a bajo riesgo; >100 o percentil ≥75 indica mayor riesgo y favorece tratamiento con estatinas.
+CAD-RADS 0: sin placa; 1: 1–24 %; 2: 25–49 %; 3: 50–69 %; 4A: 70–99 %; 4B: tronco >50 % o tres vasos ≥70 %; 5: oclusión. La versión 2.0 añade la carga de placa (P1–P4) y modificadores.
 
 ### Perlas de revisión
-- Las estatinas pueden aumentar el calcio (placas más calcificadas y estables).
-- No sirve para seguir el efecto del tratamiento.
-- CAC 0 tiene alto valor pronóstico negativo.
+- CAD-RADS 3 o más: considerar prueba funcional o FFR-TC.
+- 4B y 5: coronariografía invasiva.
+- Modificador HRP: placa de alto riesgo.
 
 ### Lo que dicen las guías
-ESC 2021: considerar el calcio coronario para reclasificar el riesgo en casos limítrofes (IIb).
+SCCT 2022: CAD-RADS 2.0 para estandarizar los informes de TC coronaria.
 
 @@@ img-003
 difficulty: 1
