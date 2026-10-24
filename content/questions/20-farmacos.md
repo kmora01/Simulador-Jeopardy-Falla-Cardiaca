@@ -43,7 +43,7 @@ ESC 2021: ARM en todos los pacientes con IC-FEr (I) para reducir mortalidad y ho
 
 @@@ far-003
 difficulty: 1
-clue: Antiarrítmico que contiene yodo y puede causar tanto hipotiroidismo como hipertiroidismo, fibrosis pulmonar y depósitos corneales.
+clue: Paciente con FA que toma este antiarrítmico de vida media de semanas: su INR pasa de 2,5 a 5 y su digoxinemia se duplica. El fármaco responsable de ambas interacciones.
 answer: ¿Qué es la amiodarona?
 accept: amiodarona | amiodarone | trangorex | cordarone
 reject: dronedarona | sotalol
