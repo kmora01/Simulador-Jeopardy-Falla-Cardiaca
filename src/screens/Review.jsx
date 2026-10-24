@@ -4,7 +4,7 @@ import { useApp } from '../App'
 import { recordAttempt, removeSrs, srsCards, updateSrs } from '../lib/db'
 import { loadExplanation } from '../lib/bank'
 import { checkAnswer } from '../lib/match'
-import { Card, Markdown, Modal, PageHeader, Pill, Spinner } from '../components/ui'
+import { Card, ClinicalImage, Markdown, Modal, PageHeader, Pill, Spinner } from '../components/ui'
 import { sfx } from '../lib/sound'
 
 const relTime = (ts) => {
@@ -119,6 +119,11 @@ export function ExplanationModal({ q, onClose }) {
           {q.guideline && <Pill tone="gold">{q.guideline}</Pill>}
         </div>
         <p className="clue-text text-lg sm:text-xl mb-4">{q.clue}</p>
+        {q.image && (
+          <div className="mb-4 text-center">
+            <ClinicalImage src={q.image} maxH="max-h-[36vh]" />
+          </div>
+        )}
         <div className="text-jgold text-xl font-bold mb-5">{q.answer}</div>
         {exp ? <Markdown>{exp}</Markdown> : <Spinner />}
         {q.source && <div className="text-xs text-white/40 mt-6">Fuente: {q.source}</div>}
@@ -188,6 +193,11 @@ function ReviewSession({ queue: initial, bank, tolerance, onGrade, onExit }) {
           <div className="tile rounded-2xl p-8 sm:p-12 min-h-[260px] flex flex-col items-center justify-center text-center">
             <div className="category-text text-white/70 mb-4">{q.category}</div>
             <p className="clue-text text-xl sm:text-3xl">{q.clue}</p>
+            {q.image && (
+              <div className="mt-5">
+                <ClinicalImage src={q.image} maxH="max-h-[40vh]" />
+              </div>
+            )}
           </div>
           {!revealed ? (
             <form onSubmit={reveal} className="mt-5 flex gap-2">

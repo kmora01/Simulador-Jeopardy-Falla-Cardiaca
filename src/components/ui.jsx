@@ -1,4 +1,6 @@
-import { motion } from 'framer-motion'
+import { useEffect, useState } from 'react'
+import { createPortal } from 'react-dom'
+import { AnimatePresence, motion } from 'framer-motion'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
@@ -75,5 +77,76 @@ export function Spinner({ label = 'Cargando…' }) {
       <div className="h-10 w-10 rounded-full border-4 border-jgold/30 border-t-jgold animate-spin" />
       {label}
     </div>
+  )
+}
+
+/**
+ * Imagen clínica (ECG, eco, radiografía…) con visor a pantalla completa.
+ * Clic para ampliar; en el visor, clic en la imagen alterna tamaño real y ajustado; Esc cierra.
+ */
+export function ClinicalImage({ src, className = '', maxH = 'max-h-[40vh]' }) {
+  const [open, setOpen] = useState(false)
+  const [zoom, setZoom] = useState(false)
+  const url = import.meta.env.BASE_URL + src
+  useEffect(() => {
+    if (!open) return
+    const onKey = (e) => {
+      if (e.key === 'Escape') {
+        e.stopPropagation()
+        setOpen(false)
+      }
+    }
+    window.addEventListener('keydown', onKey, true)
+    return () => window.removeEventListener('keydown', onKey, true)
+  }, [open])
+  return (
+    <>
+      <button
+        type="button"
+        onClick={() => {
+          setZoom(false)
+          setOpen(true)
+        }}
+        className={`group relative inline-block rounded-lg overflow-hidden border-2 border-white/15 bg-black shadow-xl hover:border-jgold/70 transition ${className}`}
+        title="Ampliar imagen"
+      >
+        <img src={url} alt="Imagen clínica de la pista" className={`${maxH} w-auto max-w-full object-contain block`} />
+        <span className="absolute bottom-2 right-2 rounded-full bg-black/70 px-2.5 py-1 text-xs font-semibold text-white/90 opacity-80 group-hover:opacity-100">
+          🔍 Ampliar
+        </span>
+      </button>
+      {createPortal(
+        <AnimatePresence>
+          {open && (
+            <motion.div
+              className="fixed inset-0 z-[80] bg-black/95 flex flex-col"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setOpen(false)}
+            >
+              <div className="flex items-center justify-between px-4 py-3 text-sm text-white/70">
+                <span>{zoom ? 'Tamaño real: desplázate para recorrer la imagen' : 'Clic en la imagen para verla a tamaño real'}</span>
+                <button className="btn-ghost !py-1.5" onClick={() => setOpen(false)}>
+                  Cerrar ✕
+                </button>
+              </div>
+              <div className={`flex-1 min-h-0 ${zoom ? 'overflow-auto' : 'flex items-center justify-center p-2 sm:p-6'}`}>
+                <img
+                  src={url}
+                  alt="Imagen clínica ampliada"
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    setZoom((z) => !z)
+                  }}
+                  className={zoom ? 'max-w-none w-[200%] sm:w-[160%] cursor-zoom-out' : 'max-h-full max-w-full object-contain cursor-zoom-in'}
+                />
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>,
+        document.body,
+      )}
+    </>
   )
 }

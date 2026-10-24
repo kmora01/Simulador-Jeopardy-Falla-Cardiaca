@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import Timer from './Timer'
-import { Money } from './ui'
+import { ClinicalImage, Money } from './ui'
 import { checkAnswer } from '../lib/match'
 
 /**
@@ -59,9 +59,9 @@ export default function ClueScreen({ question, header, stake, strict, seconds, t
         )}
       </div>
 
-      <div className="flex-1 flex items-center justify-center px-5 sm:px-16 overflow-y-auto">
+      <div className={`flex-1 flex items-center justify-center px-5 sm:px-16 overflow-y-auto ${question.image ? 'py-3' : ''}`}>
         <motion.p
-          className="clue-text text-white text-xl sm:text-3xl lg:text-[2.6rem] text-center max-w-5xl"
+          className={`clue-text text-white text-center max-w-5xl ${question.image ? 'text-lg sm:text-2xl lg:text-[1.9rem]' : 'text-xl sm:text-3xl lg:text-[2.6rem]'}`}
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.35 }}
@@ -71,9 +71,9 @@ export default function ClueScreen({ question, header, stake, strict, seconds, t
       </div>
 
       {question.image && (
-        <div className="flex justify-center px-6 pb-3">
-          <img src={import.meta.env.BASE_URL + question.image} alt="" className="max-h-[30vh] rounded-lg border-4 border-black/40 bg-white" />
-        </div>
+        <motion.div className="flex justify-center px-4 pb-3" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }}>
+          <ClinicalImage src={question.image} maxH="max-h-[46vh]" />
+        </motion.div>
       )}
 
       <div className="px-4 sm:px-8 pb-6 sm:pb-10">

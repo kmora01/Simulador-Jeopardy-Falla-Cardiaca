@@ -75,7 +75,10 @@ export default function BankBrowser() {
               {played.has(q.id) && <Pill tone="green">Jugada</Pill>}
               {q.final && <Pill tone="gold">Final</Pill>}
             </div>
-            <div className="text-white/90">{q.clue}</div>
+            <div className="text-white/90">
+              {q.image && <span className="mr-1.5" title="Incluye imagen">🖼️</span>}
+              {q.clue}
+            </div>
             {showAnswers && <div className="text-jgold font-semibold mt-1">{q.answer}</div>}
           </button>
         ))}

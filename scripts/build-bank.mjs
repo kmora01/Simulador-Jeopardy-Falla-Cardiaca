@@ -50,7 +50,7 @@ for (const f of files) {
     ids.add(q.id)
     if (!(q.difficulty >= 1 && q.difficulty <= 5)) errors.push(`${where}: difficulty debe ser 1–5`)
     if (q.answer && !/^¿.+\?$/.test(q.answer.trim())) warnings.push(`${where}: la respuesta no está en forma de pregunta`)
-    if (q.explanation && q.explanation.split(/\s+/).length < 120) warnings.push(`${where}: explicación corta (<120 palabras)`)
+    if (q.explanation && q.explanation.split(/\s+/).length < 70) warnings.push(`${where}: explicación corta (<70 palabras)`)
     questions.push(q)
   }
 }

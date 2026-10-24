@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { Markdown, Modal, Money, Pill, Spinner } from './ui'
+import { ClinicalImage, Markdown, Modal, Money, Pill, Spinner } from './ui'
 import { loadExplanation } from '../lib/bank'
 
 /**
@@ -62,6 +62,11 @@ export default function Feedback({ question, result, delta, onOverride, onContin
         </div>
       </div>
       <div className="px-6 sm:px-8 py-6 border-t border-white/10">
+        {question.image && (
+          <div className="mb-5 text-center">
+            <ClinicalImage src={question.image} maxH="max-h-[34vh]" />
+          </div>
+        )}
         <div className="text-xs uppercase tracking-wider text-white/50 mb-3">Explicación de estudio</div>
         {exp ? <Markdown>{exp}</Markdown> : <Spinner label="Cargando explicación…" />}
       </div>
