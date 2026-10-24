@@ -1,0 +1,10 @@
+node_modules
+dist
+*.local
+.env
+.env.*
+# Nunca subir los libros ni el texto extraído
+books/
+pipeline/work/
+*.pdf
+public/bank/
