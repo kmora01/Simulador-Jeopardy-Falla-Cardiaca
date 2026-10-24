@@ -2,7 +2,7 @@ name: Publicar en GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, claude/project-thread-nn1690]
   workflow_dispatch:
 
 permissions:
