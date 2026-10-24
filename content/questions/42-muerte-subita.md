@@ -343,23 +343,23 @@ ESC 2022: betabloqueante en todos los TVPC (I); añadir flecainida si hay evento
 
 @@@ ms-018
 difficulty: 4
-clue: Ensayo danés de 2016 que no encontró reducción significativa de la mortalidad total con DAI profiláctico en insuficiencia cardíaca no isquémica.
-answer: ¿Qué es DANISH?
-accept: danish | ensayo danish | danish trial
-reject: madit ii | scd-heft
+clue: Ensayo de 2004 que no mostró beneficio en mortalidad del DAI implantado entre 6 y 40 días después de un infarto con FEVI ≤35 %.
+answer: ¿Qué es DINAMIT?
+accept: dinamit | ensayo dinamit | defibrillator in acute myocardial infarction trial
+reject: madit ii | iris
 guideline: ESC 2022 Arritmias ventriculares
 tags: ensayos, DAI
 
 ### Por qué
-DANISH redujo la muerte súbita a la mitad pero no la mortalidad total, en una población muy bien tratada (58 % con TRC). Los menores de 68 años sí parecieron beneficiarse. Hay que individualizar con RM (realce tardío) y genética.
+En DINAMIT, el DAI precoz redujo la muerte arrítmica pero aumentó la muerte no arrítmica, sin efecto neto. IRIS (2009) lo confirmó. Por eso se espera al menos 40 días tras el infarto y se reevalúa la FEVI con tratamiento optimizado.
 
 ### Perlas de revisión
-- Beneficio en jóvenes.
-- Factores de alto riesgo: LMNA, FLNC, realce extenso.
-- La terapia médica moderna reduce la muerte súbita.
+- Puente con desfibrilador portátil en casos seleccionados.
+- 90 días tras revascularización.
+- La FEVI suele mejorar tras el infarto.
 
 ### Lo que dicen las guías
-ESC 2022: DAI en miocardiopatía no isquémica con FEVI ≤35 % (IIa).
+ESC 2022: no implantar DAI en prevención primaria en los primeros 40 días tras el infarto (III).
 
 @@@ ms-019
 difficulty: 4
