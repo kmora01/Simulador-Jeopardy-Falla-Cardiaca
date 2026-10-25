@@ -243,23 +243,23 @@ ESC 2026 IC: la TRC debe considerarse en la FA permanente si se asegura un alto 
 
 @@@ evd-013
 difficulty: 3
-clue: En este ensayo de 2013, la TRC en pacientes con QRS <130 ms y asincronía ecocardiográfica no redujo los eventos y se asoció a más mortalidad.
-answer: ¿Qué es ECHO-CRT?
-accept: echo crt | echo-crt | estudio echo crt
-reject: prospect | rethinq | madit crt
-guideline: ESC 2026 IC
+clue: En este ensayo de 2013 con bloqueo AV que requiere marcapasos y FEVI ≤50 %, la estimulación biventricular redujo la muerte, la IC urgente y el remodelado frente a la estimulación del VD.
+answer: ¿Qué es BLOCK-HF?
+accept: block hf | block-hf | estudio block hf
+reject: biopace | madit crt | damper
+guideline: ESC 2021 Estimulación
 tags: ensayos, TRC
 
 ### Por qué
-ECHO-CRT (809 pacientes) se detuvo por futilidad y posible daño: más mortalidad con TRC activada. La asincronía mecánica por eco no basta para seleccionar candidatos. El QRS estrecho es contraindicación para la TRC.
+BLOCK HF (691 pacientes) mostró que la estimulación crónica del ápex del VD, que genera un patrón tipo BRIHH, deteriora la función en pacientes con FEVI ya algo reducida. La TRC redujo el combinado un 26 %.
 
 ### Perlas de revisión
-- PROSPECT (2008) ya había mostrado que los parámetros ecocardiográficos de asincronía eran poco reproducibles.
-- Un QRS ≥130 ms es el mínimo para considerar la TRC.
-- La estimulación del sistema de conducción (rama izquierda o His) es una alternativa emergente.
+- La miocardiopatía inducida por estimulación aparece en ~10–20 % de los pacientes con estimulación ventricular >20 %.
+- La estimulación del sistema de conducción (His o rama izquierda) es una alternativa fisiológica.
+- En FEVI normal con bloqueo AV, la estimulación del VD convencional sigue siendo aceptable.
 
 ### Lo que dicen las guías
-ESC 2026 IC: la TRC no se recomienda con QRS <130 ms salvo indicación de estimulación ventricular por bloqueo AV (clase III).
+ESC 2021 Estimulación: en pacientes con FEVI 36–50 % e indicación de estimulación ventricular por bloqueo AV de alto grado, debe considerarse la TRC en lugar de la estimulación del VD (IIa).
 
 @@@ evd-014
 difficulty: 3
