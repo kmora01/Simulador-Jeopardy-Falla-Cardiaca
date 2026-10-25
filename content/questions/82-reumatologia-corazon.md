@@ -294,7 +294,7 @@ tags: autoinmunidad, IAo
 La policondritis recidivante ataca el cartílago (orejas, nariz, tráquea, articulaciones) y los tejidos ricos en proteoglicanos, incluida la aorta. La afectación CV (IAo, IM, aneurismas, bloqueos, pericarditis) es la segunda causa de muerte tras la afectación de la vía aérea.
 
 ### Perlas de revisión
-- El síndrome VEXAS (mutación de UBA1, varones mayores) puede presentarse como policondritis.
+- La afectación de la vía aérea (traqueomalacia, estenosis) es la principal causa de muerte.
 - El lóbulo de la oreja se respeta porque no tiene cartílago.
 - La IAo puede progresar incluso con la enfermedad controlada, por lo que se hace seguimiento con eco.
 
@@ -463,23 +463,23 @@ Medicina interna: el SAF catastrófico requiere tratamiento combinado inmediato 
 
 @@@ reu-024
 difficulty: 5
-clue: Un varón joven con hemoptisis masiva tiene aneurismas múltiples de las arterias pulmonares y trombosis venosas profundas recurrentes, sin aftas ni uveítis. Este síndrome se considera una variante de la enfermedad de Behçet.
-answer: ¿Qué es el síndrome de Hughes-Stovin?
-accept: sindrome de hughes-stovin | hughes-stovin | hughes stovin | hughes-stovin syndrome
-reject: tromboembolismo pulmonar cronico | sindrome de rasmussen | malformacion arteriovenosa pulmonar
-guideline: ESC/ERS 2022 HP
-tags: vasculitis, arteria pulmonar
+clue: Un varón de 68 años tiene fiebre recurrente, condritis auricular, dermatosis neutrofílica, trombosis venosas y anemia macrocítica. La médula muestra vacuolas en los precursores mieloides. Este síndrome autoinflamatorio, por una mutación somática de UBA1.
+answer: ¿Qué es el síndrome VEXAS?
+accept: sindrome vexas | vexas | vexas syndrome | mutacion de uba1
+reject: policondritis recidivante | sindrome mielodisplasico | enfermedad de still
+guideline: Medicina interna
+tags: autoinflamatorias, trombosis
 
 ### Por qué
-El síndrome de Hughes-Stovin combina aneurismas de las arterias pulmonares y trombosis venosas (incluidas las de vena cava y cavidades derechas). Se considera una forma incompleta de Behçet. La rotura de los aneurismas causa hemoptisis masiva, la principal causa de muerte.
+VEXAS (Vacuolas, enzima E1, ligado al X, Autoinflamatorio, Somático) se describió en 2020. Una mutación somática de UBA1 en células madre hematopoyéticas causa inflamación sistémica en varones mayores. Las trombosis venosas son frecuentes (~40 %) y también puede haber miocarditis, pericarditis y aortitis.
 
 ### Perlas de revisión
-- La anticoagulación puede precipitar la rotura de los aneurismas, por lo que se prioriza la inmunosupresión.
-- La embolización endovascular trata los aneurismas que sangran.
-- El aneurisma de Rasmussen es la dilatación de una rama pulmonar por una caverna tuberculosa.
+- Muchos casos cumplían criterios de policondritis recidivante, Sweet o PAN.
+- Se asocia a síndromes mielodisplásicos. El alotrasplante es el único tratamiento curativo.
+- Suele ser dependiente de corticoides. Se usan inhibidores de JAK y azacitidina.
 
 ### Lo que dicen las guías
-ESC/ERS 2022 HP: en los aneurismas de las arterias pulmonares se recomienda buscar causas vasculíticas, HP e infecciones, y valorarlos con angio-TC.
+Medicina interna: en varones mayores con inflamación sistémica refractaria, macrocitosis y trombosis se recomienda buscar mutaciones de UBA1.
 
 @@@ reu-025
 difficulty: 5
