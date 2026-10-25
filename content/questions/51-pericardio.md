@@ -7,7 +7,7 @@ clue: Número mínimo de criterios (de dolor típico, roce, ECG compatible y der
 answer: ¿Qué son 2 de 4 criterios?
 accept: 2 | dos | 2 de 4 | dos de cuatro | 2 criterios
 reject: 3 | 1
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: diagnóstico
 
 ### Por qué
@@ -27,7 +27,7 @@ clue: Antiinflamatorio de primera línea de la pericarditis aguda que se combina
 answer: ¿Qué es la aspirina o el ibuprofeno (AINE)?
 accept: aine | aspirina | ibuprofeno | antiinflamatorios no esteroideos | aas
 reject: corticoides | paracetamol
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: tratamiento
 
 ### Por qué
@@ -47,7 +47,7 @@ clue: Tipo de fármaco que, usado como primera línea a dosis altas en la perica
 answer: ¿Qué son los corticoides?
 accept: corticoides | corticosteroides | glucocorticoides | prednisona | esteroides
 reject: colchicina | aine
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: tratamiento
 
 ### Por qué
@@ -67,7 +67,7 @@ clue: Hallazgo de alto riesgo en la pericarditis aguda que indica ingreso hospit
 answer: ¿Qué son 38 °C?
 accept: 38 | 38 grados | 38 °c | mas de 38 | fiebre mayor de 38
 reject: 37 | 40
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: estratificación
 
 ### Por qué
@@ -87,7 +87,7 @@ clue: Pericarditis que aparece días o semanas después de una cirugía cardíac
 answer: ¿Qué es el síndrome pospericardiotomía?
 accept: sindrome pospericardiotomia | pospericardiotomia | postpericardiotomia | postpericardiotomy syndrome | sindrome postpericardiotomia
 reject: dressler | constriccion
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: síndromes de lesión pericárdica
 
 ### Por qué
@@ -107,7 +107,7 @@ clue: Antagonista recombinante del receptor de IL-1 que en el ensayo AIRTRIP red
 answer: ¿Qué es la anakinra?
 accept: anakinra | kineret
 reject: rilonacept | tocilizumab
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: pericarditis recurrente
 
 ### Por qué
@@ -127,7 +127,7 @@ clue: Constricción pericárdica que se resuelve en semanas o meses con tratamie
 answer: ¿Qué es la constricción transitoria?
 accept: constriccion transitoria | pericarditis constrictiva transitoria | constriccion inflamatoria | transient constriction
 reject: constriccion cronica | efusivo constrictiva
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: constricción
 
 ### Por qué
@@ -147,7 +147,7 @@ clue: Síndrome en el que la presión de la AD no baja ≥50 % tras evacuar el d
 answer: ¿Qué es la pericarditis efusivo-constrictiva?
 accept: efusivo constrictiva | pericarditis efusivo constrictiva | effusive constrictive | efusivoconstrictiva
 reject: taponamiento | constriccion transitoria
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: constricción
 
 ### Por qué
@@ -167,7 +167,7 @@ clue: Tratamiento definitivo de la pericarditis constrictiva crónica sintomáti
 answer: ¿Qué es la pericardiectomía?
 accept: pericardiectomia | pericardiectomia radical | decorticacion pericardica | pericardiectomy
 reject: pericardiocentesis | ventana pericardica
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: constricción
 
 ### Por qué
@@ -187,7 +187,7 @@ clue: Procedimiento quirúrgico subxifoideo o por toracoscopia para drenar derra
 answer: ¿Qué es la ventana pericárdica?
 accept: ventana pericardica | pericardiotomia subxifoidea | ventana pleuropericardica | pericardial window
 reject: pericardiocentesis | pericardiectomia
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: derrame
 
 ### Por qué
@@ -207,7 +207,7 @@ clue: Taponamiento en pacientes hipovolémicos (hemodiálisis, diuréticos) con 
 answer: ¿Qué es el taponamiento de baja presión?
 accept: taponamiento de baja presion | low pressure tamponade | taponamiento hipovolemico
 reject: taponamiento clasico | constriccion
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: taponamiento
 
 ### Por qué
@@ -247,7 +247,7 @@ clue: Derrame pericárdico lechoso rico en triglicéridos tras lesión del condu
 answer: ¿Qué es el quilopericardio?
 accept: quilopericardio | chylopericardium | derrame quiloso
 reject: hemopericardio | pericarditis purulenta
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: derrame
 
 ### Por qué
@@ -267,7 +267,7 @@ clue: Diálisis intensificada como tratamiento de esta pericarditis que aparece 
 answer: ¿Qué es la pericarditis urémica?
 accept: pericarditis uremica | uremica | uremic pericarditis
 reject: pericarditis de dialisis | pericarditis purulenta
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: nefrología
 
 ### Por qué
@@ -287,7 +287,7 @@ clue: Lesión quística benigna más frecuente en el ángulo cardiofrénico dere
 answer: ¿Qué es el quiste pericárdico?
 accept: quiste pericardico | quiste pleuropericardico | quiste celomico | pericardial cyst
 reject: hernia de morgagni | timoma
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: imagen
 
 ### Por qué
@@ -307,7 +307,7 @@ clue: Variación respiratoria de la velocidad de la onda E mitral superior a est
 answer: ¿Qué es >25 %?
 accept: 25 | 25% | mas del 25 | 25 por ciento
 reject: 10 | 50
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: ecocardiografía
 
 ### Por qué
@@ -327,7 +327,7 @@ clue: Puntuación de la ESC que combina etiología, características clínicas y
 answer: ¿Qué es la escala de triaje del taponamiento de la ESC?
 accept: escala de triaje | triaje del taponamiento | score de triaje | puntuacion de triaje | escala de triaje esc
 reject: escala de beck | grace
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: taponamiento
 
 ### Por qué
@@ -347,7 +347,7 @@ clue: Defecto congénito del pericardio izquierdo que produce desplazamiento car
 answer: ¿Qué es la ausencia congénita del pericardio?
 accept: ausencia congenita del pericardio | agenesia pericardica | ausencia de pericardio | defecto pericardico congenito
 reject: quiste pericardico | divertículo
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: congénitas
 
 ### Por qué
@@ -367,7 +367,7 @@ clue: Biomarcador elevado en la pericarditis que guía la duración del tratamie
 answer: ¿Qué es la proteína C reactiva (PCR)?
 accept: pcr | proteina c reactiva | crp | pcr ultrasensible
 reject: troponina | vsg
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: biomarcadores
 
 ### Por qué
@@ -387,7 +387,7 @@ clue: Inflamación pericárdica con elevación de troponina y sin disfunción de
 answer: ¿Qué es la miopericarditis?
 accept: miopericarditis | perimiocarditis | myopericarditis
 reject: miocarditis | pericarditis aislada
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: miopericarditis
 
 ### Por qué
@@ -407,7 +407,7 @@ clue: Agente intrapericárdico usado en derrames malignos recurrentes por cánce
 answer: ¿Qué es la tiotepa?
 accept: tiotepa | thiotepa
 reject: cisplatino | doxorrubicina
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: oncología
 
 ### Por qué
@@ -429,7 +429,7 @@ clue: Principal causa de derrame pericárdico grande con taponamiento en países
 answer: ¿Qué es Mycobacterium tuberculosis?
 accept: mycobacterium tuberculosis | tuberculosis | tb | bacilo de koch
 reject: virus | neoplasia
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: tuberculosis
 
 ### Por qué
@@ -449,7 +449,7 @@ clue: Movimiento de vaivén del corazón dentro de un derrame pericárdico grand
 answer: ¿Qué es el corazón oscilante (swinging heart)?
 accept: swinging heart | corazon oscilante | corazon bailarin | balanceo cardiaco | corazon en vaiven
 reject: signo de ewart | colapso de la ad
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: taponamiento, ecocardiografía
 
 ### Por qué
@@ -469,7 +469,7 @@ clue: Ensayo que mostró que la prednisolona y la inmunoterapia con Mycobacteriu
 answer: ¿Qué es IMPI?
 accept: impi | impi trial | ensayo impi
 reject: copps | icap
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: tuberculosis
 
 ### Por qué
@@ -489,7 +489,7 @@ clue: Duración recomendada de la colchicina tras un primer episodio de pericard
 answer: ¿Qué son 3 meses?
 accept: 3 meses | tres meses | 3 | 90 dias
 reject: 2 semanas | 1 ano
-guideline: ESC 2025 Pericardio
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: tratamiento
 
 ### Por qué
