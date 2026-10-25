@@ -465,23 +465,23 @@ ESC 2018: las escalas complementan, no sustituyen, la evaluación clínica.
 
 @@@ sin-024
 difficulty: 5
-clue: En un joven con síncope durante la natación, sospechar este síndrome genético del QT.
-answer: ¿Qué es el QT largo tipo 1 (KCNQ1)?
-accept: qt largo tipo 1 | lqt1 | kcnq1 | sindrome de qt largo tipo 1 | qt largo
-reject: brugada | qt largo tipo 3
-guideline: ESC 2022 Arritmias ventriculares
-tags: canalopatías, síncope
+clue: En mayores de 40 años con síncope inexplicado, una pausa ≥3 s o caída de la PAS ≥50 mmHg reproduciendo síntomas durante el masaje carotídeo define este síndrome.
+answer: ¿Qué es el síndrome del seno carotídeo?
+accept: sindrome del seno carotideo | hipersensibilidad del seno carotideo | seno carotideo | carotid sinus syndrome
+reject: robo de la subclavia | estenosis carotidea
+guideline: ESC 2018 Síncope
+tags: síncope reflejo
 
 ### Por qué
-LQT1: eventos con ejercicio, sobre todo natación. LQT2: estímulos auditivos (alarma) o posparto. LQT3: en reposo o sueño. Betabloqueantes (nadolol) son muy eficaces en LQT1.
+La hipersensibilidad sin síntomas es frecuente en ancianos y no es diagnóstica; el síndrome requiere reproducir el síncope. El masaje se hace en decúbito y de pie, 10 segundos de cada lado, con monitorización. En la forma cardioinhibidora, el marcapasos bicameral reduce recurrencias.
 
 ### Perlas de revisión
-- T de base ancha en LQT1.
-- T bífidas en LQT2.
-- Segmento ST largo con T tardía en LQT3.
+- Evitar con soplo carotídeo, ictus o AIT recientes.
+- Desencadenantes: afeitarse, girar el cuello, corbata apretada.
+- Forma vasodepresora: no responde al marcapasos.
 
 ### Lo que dicen las guías
-ESC 2022: betabloqueantes en todos los pacientes con QT largo (I).
+ESC 2018: marcapasos en síndrome del seno carotídeo cardioinhibidor recurrente (IIa).
 
 @@@ sin-025
 difficulty: 2
