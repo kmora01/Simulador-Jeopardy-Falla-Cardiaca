@@ -3,23 +3,23 @@ subspecialty: Circulación pulmonar
 
 @@@ te2-001
 difficulty: 1
-clue: En la TEP de alto riesgo con shock y sin contraindicaciones, esta es la pauta clásica de fibrinólisis sistémica.
-answer: ¿Qué es la alteplasa 100 mg en 2 horas?
-accept: alteplasa 100 mg en 2 horas | alteplasa | rtpa 100 mg | 100 mg en 2 horas | fibrinolisis con alteplasa | alteplasa 100 mg
-reject: tenecteplasa en bolo | estreptoquinasa 250000 ui | heparina sola
+clue: Un paciente con sospecha de TEP está en shock y no se puede trasladar a la TC. Esta prueba a pie de cama, si muestra disfunción del VD, permite iniciar el tratamiento de reperfusión.
+answer: ¿Qué es el ecocardiograma a pie de cama?
+accept: ecocardiograma a pie de cama | ecocardiografia a la cabecera | ecocardiograma urgente | eco a pie de cama | ecocardiografia transtoracica urgente | pocus
+reject: angio-tc | gammagrafia | dimero d | arteriografia pulmonar
 guideline: ESC 2019 TEP
-tags: TEP, fibrinólisis
+tags: TEP, diagnóstico
 
 ### Por qué
-En la TEP de alto riesgo, la fibrinólisis reduce rápido la obstrucción y la sobrecarga del VD. La pauta clásica es alteplasa 100 mg en 2 horas. Existe una pauta acelerada de 0,6 mg/kg en 15 minutos (máximo 50 mg). La heparina no fraccionada se mantiene o se reinicia después.
+En la sospecha de TEP de alto riesgo, si la angio-TC no está disponible de inmediato o el paciente no se puede mover, el eco muestra si hay sobrecarga del VD. Si la hay y no existe otra causa del shock, se puede iniciar la fibrinólisis. Si el VD es normal, la TEP es muy improbable como causa del shock.
 
 ### Perlas de revisión
-- El mayor beneficio es en las primeras 48 horas, aunque sirve hasta 14 días.
-- El riesgo de hemorragia intracraneal es de un 2 %.
-- Si está contraindicada, se usan la embolectomía quirúrgica o el tratamiento percutáneo.
+- Un VD normal descarta la TEP como causa del shock.
+- Puede mostrar trombos en cavidades derechas.
+- La ecografía venosa a pie de cama también ayuda.
 
 ### Lo que dicen las guías
-ESC 2019 TEP: en la TEP de alto riesgo se recomienda la fibrinólisis sistémica (I).
+ESC 2019 TEP: en la sospecha de TEP de alto riesgo, la ecocardiografía a pie de cama con disfunción del VD permite iniciar la reperfusión si la angio-TC no es posible.
 
 @@@ te2-002
 difficulty: 1
