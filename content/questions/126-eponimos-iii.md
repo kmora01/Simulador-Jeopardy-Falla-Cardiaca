@@ -123,23 +123,23 @@ Exploración: los derrames grandes pueden comprimir el pulmón izquierdo.
 
 @@@ ep3-007
 difficulty: 2
-clue: En la radiografía, una vena curva que baja junto al corazón derecho hacia la cava inferior, con un pulmón derecho pequeño, sugiere este síndrome.
-answer: ¿Qué es el síndrome de la cimitarra?
-accept: sindrome de la cimitarra | cimitarra | scimitar | sindrome del sable turco | drenaje venoso pulmonar anomalo a la vci
-reject: secuestro pulmonar | dextrocardia | vena cava superior izquierda
-guideline: ESC 2020 CC adulto
-tags: congénitas, radiografía
+clue: En la radiografía de una embolia pulmonar grande, la arteria pulmonar central aparece dilatada y corta de forma brusca. Este signo lleva el nombre de un radiólogo austriaco.
+answer: ¿Qué es el signo de Fleischner?
+accept: signo de fleischner | fleischner | signo de la arteria pulmonar prominente
+reject: signo de westermark | joroba de hampton | signo de palla
+guideline: ESC 2019 TEP
+tags: embolia pulmonar, radiografía
 
 ### Por qué
-En el síndrome de la cimitarra, las venas del pulmón derecho drenan en la vena cava inferior en lugar de la aurícula izquierda. La vena anómala parece un sable turco en la radiografía. Se asocia a un pulmón derecho pequeño, el corazón desplazado a la derecha y, a veces, arterias que nacen de la aorta. Produce un cortocircuito izquierda-derecha.
+Felix Fleischner describió que un trombo grande dilata la arteria pulmonar proximal, que luego se corta de golpe. Es poco frecuente y poco sensible. Otros signos de la radiografía son el de Westermark (zona del pulmón con menos vasos) y la joroba de Hampton (opacidad en cuña por infarto). La radiografía suele ser normal o inespecífica.
 
 ### Perlas de revisión
-- El pulmón derecho es pequeño.
-- Es un cortocircuito izquierda-derecha.
-- La vena parece un sable turco.
+- El signo de Westermark muestra menos vasos.
+- La joroba de Hampton es un infarto.
+- Es poco sensible.
 
 ### Lo que dicen las guías
-ESC 2020 CC adulto: los drenajes venosos anómalos con sobrecarga del VD se corrigen con cirugía.
+ESC 2019 TEP: la radiografía sirve sobre todo para descartar otras causas.
 
 @@@ ep3-008
 difficulty: 2
@@ -303,23 +303,23 @@ Fisiología: la memoria cardíaca es una causa benigna de ondas T invertidas.
 
 @@@ ep3-016
 difficulty: 3
-clue: Esta escala de probabilidad clínica de embolia pulmonar, revisada y sin datos subjetivos, lleva el nombre de una ciudad suiza.
-answer: ¿Qué es la escala de Ginebra revisada?
-accept: escala de ginebra | ginebra revisada | geneva score | escala de ginebra revisada | revised geneva
-reject: escala de wells | pesi | hestia
-guideline: ESC 2019 TEP
-tags: embolia pulmonar, escalas
+clue: En un derrame pericárdico grande, la matidez a la percusión en el quinto espacio intercostal derecho, junto al esternón, recibe este nombre.
+answer: ¿Qué es el signo de Rotch?
+accept: signo de rotch | rotch | matidez de rotch
+reject: signo de ewart | signo de pins | signo de kussmaul
+guideline: Exploración
+tags: derrame pericárdico, exploración
 
 ### Por qué
-La escala de Ginebra revisada usa la edad, la trombosis o embolia previa, la cirugía o fractura reciente, el cáncer, el dolor en una pierna, la hemoptisis, la frecuencia y el edema de la pierna. A diferencia de la de Wells, no incluye el juicio del médico. Se combina con el dímero D para decidir la imagen.
+Thomas Rotch, pediatra de Boston, describió que el derrame grande se extiende hacia la derecha del esternón. En condiciones normales, esa zona suena hueca por el pulmón. Con un derrame grande, suena mate. Hoy el ecocardiograma ha sustituido a estos signos, pero ayudan a sospechar el derrame en la exploración.
 
 ### Perlas de revisión
-- No incluye el juicio del médico.
-- Se combina con el dímero D.
-- Incluye la frecuencia cardíaca.
+- Normalmente esa zona suena hueca.
+- El ecocardiograma lo confirma.
+- Rotch era pediatra.
 
 ### Lo que dicen las guías
-ESC 2019 TEP: se recomienda estimar la probabilidad clínica con una escala validada.
+Exploración: la percusión puede sugerir un derrame pericárdico grande.
 
 @@@ ep3-017
 difficulty: 4
