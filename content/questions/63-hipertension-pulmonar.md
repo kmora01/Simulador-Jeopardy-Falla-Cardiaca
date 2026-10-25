@@ -143,23 +143,23 @@ ESC/ERS 2022: interrogar sobre fármacos y tóxicos en toda HAP.
 
 @@@ hp-008
 difficulty: 2
-clue: Modelo de estratificación de riesgo de 4 estratos en el seguimiento de la HAP, basado en clase funcional, prueba de marcha y NT-proBNP.
-answer: ¿Qué es COMPERA 2.0?
-accept: compera 2.0 | compera | compera 2
-reject: reveal 2.0 | sphere
+clue: Escala estadounidense de riesgo de HAP con 13 variables, cuya versión abreviada Lite 2 usa 6 variables no invasivas.
+answer: ¿Qué es REVEAL 2.0?
+accept: reveal 2.0 | reveal | reveal lite 2 | reveal 2
+reject: compera 2.0 | sphere
 guideline: ESC/ERS 2022 HP
 tags: pronóstico
 
 ### Por qué
-Los 4 estratos (bajo, intermedio-bajo, intermedio-alto, alto) discriminan mejor que la estrategia de 3 estratos. El objetivo del tratamiento es alcanzar el riesgo bajo. REVEAL 2.0 y su versión Lite son alternativas.
+REVEAL 2.0 incluye la etiología, el sexo, la edad, la función renal, la clase funcional, la PA, la FC, la prueba de marcha, el NT-proBNP, las hospitalizaciones, el derrame pericárdico, la DLCO y la hemodinámica. Clasifica a los pacientes en riesgo bajo, intermedio y alto. REVEAL Lite 2 es práctica en la consulta.
 
 ### Perlas de revisión
-- Objetivo: riesgo bajo.
-- NT-proBNP <300 ng/L.
-- Clase funcional I–II.
+- 13 variables.
+- Lite 2: 6 variables.
+- Alternativa a COMPERA.
 
 ### Lo que dicen las guías
-ESC/ERS 2022: estratificación de 4 estratos en el seguimiento (I).
+ESC/ERS 2022: estratificación con escalas validadas.
 
 @@@ hp-009
 difficulty: 2
