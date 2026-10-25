@@ -323,23 +323,23 @@ ESC/EACTS 2025: cirugía en IA grave con DTSVI >50 mm o FEVI ≤50 % (I).
 
 @@@ ea-017
 difficulty: 4
-clue: Prueba de imagen imprescindible antes de un TAVI para medir el anillo, la altura de las coronarias y los accesos vasculares.
-answer: ¿Qué es la angio-TC sincronizada con el ECG?
-accept: angio tc | angiotc | tc cardiaca | tomografia computarizada | tc sincronizada | tac | angio-tc
-reject: ete | resonancia
-guideline: ESC/EACTS 2025 Valvulopatías
-tags: TAVI, planificación
+clue: Complicación catastrófica del TAVI con prótesis balón-expandible, favorecida por calcio voluminoso en el tracto de salida y sobredimensionado, que causa hemopericardio.
+answer: ¿Qué es la rotura del anillo aórtico?
+accept: rotura del anillo | rotura del anillo aortico | annular rupture | rotura anular | ruptura del anillo
+reject: fuga paravalvular | disección
+guideline: Intervencionismo estructural
+tags: TAVI, complicaciones
 
 ### Por qué
-La TC mide el perímetro y el área del anillo en sístole para elegir el tamaño de la prótesis. También valora la altura de los ostia coronarios, la anatomía de los senos, el calcio y el diámetro de iliofemorales y aorta.
+Ocurre en <1 % de los TAVI, pero con mortalidad alta. Factores: calcio en el TSVI, sobredimensionado >20 % del área, posdilatación agresiva. Se manifiesta con taponamiento súbito y requiere pericardiocentesis y a menudo cirugía.
 
 ### Perlas de revisión
-- Altura coronaria <10 mm: riesgo de obstrucción.
-- Calcio en el TSVI: riesgo de rotura del anillo.
-- Proyecciones de implante coplanares.
+- Planificar el tamaño con TC.
+- Las autoexpandibles tienen menos riesgo.
+- Otras causas de taponamiento: perforación del VD por el cable de marcapasos.
 
 ### Lo que dicen las guías
-ESC/EACTS 2025: TC como prueba de elección para la planificación del TAVI (I).
+VARC-3: complicación mayor del procedimiento.
 
 @@@ ea-018
 difficulty: 4
