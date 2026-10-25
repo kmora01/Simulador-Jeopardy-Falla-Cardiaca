@@ -485,7 +485,7 @@ ESC 2024 HTA: la denervación renal puede considerarse en centros con experienci
 difficulty: 5
 final: true
 finalCategory: Cierre de orejuela
-clue: En este ensayo de 2014, el cierre de la orejuela izquierda con Watchman fue no inferior a la warfarina para el ictus tardío, aunque no cumplió todos sus objetivos de seguridad y eficacia iniciales.
+clue: En este ensayo de 2014, el cierre de la orejuela izquierda con Watchman fue no inferior a la warfarina para el ictus tardío, aunque no cumplió su objetivo combinado de eficacia.
 answer: ¿Qué es PREVAIL?
 accept: prevail
 reject: protect af | laaos iii | option
