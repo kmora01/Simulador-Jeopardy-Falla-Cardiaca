@@ -243,23 +243,23 @@ ESC 2022: ablación de extrasístoles desencadenantes en FV idiopática recurren
 
 @@@ ms-013
 difficulty: 3
-clue: Escala de riesgo HCM Risk-SCD estima a 5 años; cuando el riesgo es ≥ este porcentaje se recomienda (IIa) el DAI.
-answer: ¿Qué es 6 %?
-accept: 6 | 6% | 6 por ciento | seis por ciento
-reject: 4 | 10
-guideline: ESC 2023 Miocardiopatías
-tags: MCH, DAI
+clue: Ritmo inicial más frecuente hoy en la parada cardíaca extrahospitalaria, con peor pronóstico que la FV.
+answer: ¿Qué son los ritmos no desfibrilables (asistolia o AESP)?
+accept: asistolia | aesp | ritmos no desfibrilables | asistolia o aesp | actividad electrica sin pulso
+reject: fibrilacion ventricular | tv sin pulso
+guideline: ERC 2025 Resucitación
+tags: epidemiología, RCP
 
 ### Por qué
-HCM Risk-SCD: <4 % no suele indicarse DAI; 4–6 % puede considerarse; ≥6 % debe considerarse. Variables: edad, grosor máximo, AI, gradiente, TVNS, síncope inexplicado, antecedentes familiares.
+La proporción de FV inicial ha caído al 20–25 % por el envejecimiento, la menor cardiopatía isquémica aguda y el retraso en la llegada del DEA. La asistolia y la AESP tienen supervivencias <5 %. Buscar y tratar las causas reversibles (4H y 4T).
 
 ### Perlas de revisión
-- Modificadores: realce tardío extenso (>15 %), FEVI <50 %, aneurisma apical.
-- La AHA usa factores de riesgo mayores.
-- El DAI es la única intervención que previene la muerte súbita.
+- Adrenalina precoz en ritmos no desfibrilables.
+- Ecografía en la RCP para buscar causas.
+- La FV inicial predice mejor supervivencia.
 
 ### Lo que dicen las guías
-ESC 2023: DAI con riesgo a 5 años ≥6 % (IIa).
+ERC 2025: adrenalina lo antes posible en ritmos no desfibrilables (I).
 
 @@@ ms-014
 difficulty: 3
