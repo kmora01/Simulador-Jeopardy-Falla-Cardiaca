@@ -443,7 +443,7 @@ ISHLT 2023: antes de implantar un DAVI se recomienda evaluar el riesgo de fallo 
 
 @@@ hd2-023
 difficulty: 5
-clue: Este valor, que resulta de restar la presión telediastólica del VI a la presión diastólica aórtica, determina el flujo del VI durante la diástole y cae en el shock y en la RCP.
+clue: Este valor, que resulta de restar la presión telediastólica del VI a la presión diastólica aórtica, determina el flujo del VI durante la diástole y cae en el shock.
 answer: ¿Qué es la presión de perfusión coronaria?
 accept: presion de perfusion coronaria | ppc | coronary perfusion pressure | perfusion coronaria
 reject: presion arterial media | presion de pulso | reserva de flujo coronario
@@ -451,7 +451,7 @@ guideline: Fisiología
 tags: fisiología coronaria, shock
 
 ### Por qué
-El VI recibe la mayor parte de su flujo en la diástole, cuando el músculo se relaja. La presión que impulsa ese flujo es la diastólica aórtica menos la presión del VI. Por eso la hipotensión diastólica, la taquicardia (menos diástole) y la presión de llenado alta reducen la perfusión. En la RCP, una presión de perfusión coronaria de más de 15 mmHg se asocia a más recuperación de la circulación.
+El VI recibe la mayor parte de su flujo en la diástole, cuando el músculo se relaja. La presión que impulsa ese flujo es la diastólica aórtica menos la presión del VI. Por eso la hipotensión diastólica, la taquicardia (menos diástole) y la presión de llenado alta reducen la perfusión. El subendocardio es la zona más sensible a su caída.
 
 ### Perlas de revisión
 - La taquicardia acorta la diástole.
