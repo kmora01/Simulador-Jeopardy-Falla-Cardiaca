@@ -143,23 +143,23 @@ ESC 2022: test con bloqueadores de sodio en sospecha de Brugada (IIa).
 
 @@@ ms-008
 difficulty: 2
-clue: Anomalía congénita coronaria de alto riesgo de muerte súbita en jóvenes deportistas: la coronaria izquierda nace del seno derecho y discurre entre aorta y pulmonar.
-answer: ¿Qué es el origen anómalo de la coronaria izquierda con trayecto interarterial?
-accept: origen anomalo de la coronaria izquierda | trayecto interarterial | anomalia coronaria interarterial | origen anomalo coronario | aaoca
-reject: puente miocardico | alcapa
-guideline: ESC 2020 Deporte
-tags: deporte, anomalías coronarias
+clue: Muerte súbita inexplicada en una persona joven con autopsia estructural y toxicológica normales.
+answer: ¿Qué es el síndrome de muerte súbita arrítmica (SADS)?
+accept: sads | sindrome de muerte subita arritmica | muerte subita arritmica | sudden arrhythmic death syndrome | muerte subita con autopsia negativa
+reject: commotio cordis | miocardiopatia hipertrofica
+guideline: ESC 2022 Arritmias ventriculares
+tags: muerte súbita, genética
 
 ### Por qué
-El trayecto entre los grandes vasos, el ostium en hendidura y el segmento intramural causan isquemia durante el esfuerzo. Es la segunda causa estructural de muerte súbita en atletas jóvenes. Se diagnostica con TC coronaria o RM y se corrige quirúrgicamente (unroofing).
+Se atribuye sobre todo a canalopatías (QT largo, Brugada, TVPC) y a veces a miocardiopatías incipientes. La autopsia molecular y el estudio de familiares de primer grado identifican la causa en hasta el 30–40 % de los casos.
 
 ### Perlas de revisión
-- Síntomas de esfuerzo: dolor torácico o síncope.
-- El origen anómalo de la derecha desde el seno izquierdo es más frecuente y menos letal.
-- La ergometría normal no excluye el riesgo.
+- Conservar tejido para estudio genético.
+- La autopsia debe hacerla un patólogo experto.
+- Cribado familiar con ECG, eco, ergometría y test de ajmalina.
 
 ### Lo que dicen las guías
-ESC 2020: cirugía en origen anómalo de la coronaria izquierda interarterial (I).
+ESC 2022: autopsia y estudio genético post mortem en muerte súbita juvenil inexplicada (I).
 
 @@@ ms-009
 difficulty: 2
