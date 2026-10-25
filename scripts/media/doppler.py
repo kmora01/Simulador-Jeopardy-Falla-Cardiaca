@@ -352,7 +352,42 @@ def hemo_set():
                  labels=[(beats[1] + 0.22, 5, "x"), (beats[1] + 0.52, 4, "y")])
 
 
+def doppler_set2():
+    """Lote 2 con generador propio para no alterar las imágenes del lote 1."""
+    global RNG
+    RNG = np.random.default_rng(71)
+    S = 3.0
+    spectral("estenosis-pulmonar-cw", periodic(lambda x: -bump(x, 0.08, 0.24, 0.42, 4.3, 1.0, 1.3), 0.85, S),
+             -5.5, 1, S, 0.85, "Doppler continuo", "CW · válvula pulmonar (paraesternal eje corto)",
+             ("Vmáx 4,3 m/s",))
+    spectral("tsvi-vti-bajo", periodic(lambda x: -bump(x, 0.07, 0.16, 0.33, 0.55), 0.62, S),
+             -1.2, 0.5, S, 0.62, "Doppler pulsado", "PW · tracto de salida del VI (apical 5C)",
+             ("ITV 9 cm", "FC 97 lpm"), mode="pw")
+    spectral("pulmonar-muesca", periodic(lambda x: -(bump(x, 0.06, 0.12, 0.2, 0.75, 0.8, 1.0)
+                                                    + bump(x, 0.2, 0.27, 0.36, 0.5)), 0.85, S),
+             -1.2, 0.5, S, 0.85, "Doppler pulsado", "PW · tracto de salida del VD",
+             ("Tiempo de aceleración 60 ms",), mode="pw")
+    spectral("ea-bajo-gradiente", periodic(lambda x: -bump(x, 0.08, 0.2, 0.37, 3.3, 1.0, 1.3), 0.85, S),
+             -5, 1, S, 0.85, "Doppler continuo", "CW · válvula aórtica (apical 5C)",
+             ("Vmáx 3,3 m/s · Gradiente medio 26 mmHg", "AVA 0,8 cm² · FEVI 30 % · VS indexado 28 ml/m²"))
+    spectral("it-masiva", periodic(lambda x: -bump(x, 0.05, 0.1, 0.4, 2.1, 0.7, 1.6), 0.85, S),
+             -3.5, 1, S, 0.85, "Doppler continuo", "CW · válvula tricúspide",
+             ("Señal densa, triangular y de pico precoz",))
+    spectral("coartacion-cw",
+             periodic(lambda x: -(bump(x, 0.07, 0.2, 0.36, 3.6) + decel(x, 0.36, 0.37, 0.84, 1.3, 1.2)), 0.85, S),
+             -4.5, 1, S, 0.85, "Doppler continuo", "CW · aorta descendente (supraesternal)",
+             ("Vmáx 3,6 m/s · flujo anterógrado diastólico",))
+    spectral("tisular-s-vd",
+             periodic(lambda x: bump(x, 0.08, 0.16, 0.32, 0.065) - bump(x, 0.44, 0.49, 0.58, 0.07)
+                      - bump(x, 0.69, 0.74, 0.82, 0.09), 0.85, S),
+             -0.14, 0.12, S, 0.85, "Doppler tisular", "DTI · anillo tricuspídeo lateral", ("S' 6,5 cm/s",), mode="pw")
+
+
 if __name__ == "__main__":
-    doppler_set()
-    hemo_set()
+    import sys
+    if sys.argv[1:] == ["lote2"]:
+        doppler_set2()
+    else:
+        doppler_set()
+        hemo_set()
     print("ok")

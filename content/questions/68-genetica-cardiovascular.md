@@ -127,7 +127,7 @@ clue: Gen de la calsecuestrina cuya forma recesiva causa la taquicardia ventricu
 answer: ¿Qué es CASQ2?
 accept: casq2 | calsecuestrina 2 | calsecuestrina
 reject: ryr2 | kcnj2
-guideline: ESC 2022 AV
+guideline: ESC 2022 Arritmias ventriculares
 tags: canalopatías
 
 ### Por qué
@@ -427,7 +427,7 @@ clue: Proteína de unión al calcio codificada por tres genes cuyas variantes de
 answer: ¿Qué son las calmodulinopatías?
 accept: calmodulinopatias | calmodulina | calm1 | calm2 | calm3 | calm
 reject: calsecuestrina | ryr2
-guideline: ESC 2022 AV
+guideline: ESC 2022 Arritmias ventriculares
 tags: canalopatías
 
 ### Por qué
@@ -447,7 +447,7 @@ clue: Síndrome recesivo por pérdida de una proteína del retículo sarcoplásm
 answer: ¿Qué es el síndrome de knockout de triadina (TRDN)?
 accept: triadina | trdn | sindrome de knockout de triadina | triadin knockout
 reject: calsecuestrina | calmodulina
-guideline: ESC 2022 AV
+guideline: ESC 2022 Arritmias ventriculares
 tags: canalopatías
 
 ### Por qué

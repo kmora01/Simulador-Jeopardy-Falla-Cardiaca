@@ -584,6 +584,103 @@ def _mech():
     return c.build()
 
 
+# ---------------------------------------------------------------- lote 2: dispositivos y calcificaciones
+
+@rx("balon-contrapulsacion")
+def _iabp():
+    c = Chest(26, ctr=1.15, lv=8)
+    c.metal += 0.9 * ellipse(368, 268, 4, 7, 0.6)          # marcador radiopaco de la punta
+    c.lead([(368, 274), (364, 400), (352, 560), (344, 720)], 1.6, 0.35)
+    c.extra += 0.12 * line([(368, 280), (364, 420)], 14, 3)   # balón (densidad tenue)
+    return c.build()
+
+
+@rx("swan-ganz")
+def _sg():
+    c = Chest(27)
+    c.lead([(262, 40), (290, 110), (300, 200), (298, 300), (294, 380), (312, 440), (350, 452), (372, 420),
+            (360, 330), (330, 300), (290, 300), (238, 318), (196, 336)], 2.4, 0.8)
+    return c.build()
+
+
+@rx("electrodo-desplazado")
+def _disl():
+    c = Chest(28)
+    c.device_box(470, 150, 64, 50, 18)
+    c.lead([(452, 164), (404, 158), (346, 170), (308, 200), (300, 270), (294, 340), (288, 372)])
+    return c.build()
+
+
+@rx("impella")
+def _imp():
+    c = Chest(29, ctr=1.2, lv=10)
+    c.lead([(346, 720), (352, 520), (366, 360), (378, 262), (362, 228), (338, 238), (334, 300), (354, 360),
+            (400, 430)], 3.2, 0.85)
+    c.metal += 0.6 * line([(350, 330), (376, 392)], 7, 0.8)     # motor/cánula a través de la válvula
+    c.lead([(400, 430), (418, 448), (414, 466), (398, 462), (396, 446)], 2.2, 0.8)   # pigtail
+    return c.build()
+
+
+@rx("calcificacion-anillo-mitral")
+def _mac():
+    c = Chest(30, ctr=1.1, la=12)
+    pts = [(350 + 30 * math.cos(a), 410 + 16 * math.sin(a)) for a in np.linspace(0.3, 2 * math.pi - 0.9, 26)]
+    c.extra += 0.75 * line(pts, 7, 1.2)
+    return c.build()
+
+
+@rx("aorta-porcelana")
+def _porc():
+    c = Chest(31, knob=10)
+    c.extra += 0.55 * line([(318, 330), (310, 280), (316, 232), (340, 214), (372, 222), (380, 248), (378, 300)],
+                           3.2, 0.9)
+    return c.build()
+
+
+@rx("bypass-coronario")
+def _cabg():
+    c = Chest(32, ctr=1.1)
+    c.sternotomy()
+    for y in (230, 262, 300, 338, 372, 404):
+        c.metal += 0.8 * line([(352 + (y - 230) * 0.12, y), (360 + (y - 230) * 0.12, y + 3)], 2.6, 0.4, smooth=False)
+    for x, y in ((330, 286), (342, 296), (296, 352)):
+        c.metal += 0.8 * line([(x, y), (x + 7, y + 2)], 2.6, 0.4, smooth=False)
+    return c.build()
+
+
+@rx("holter-implantable")
+def _ilr():
+    c = Chest(33)
+    c.device_box(400, 330, 46, 9, 4)
+    return c.build()
+
+
+@rx("dai-subcutaneo")
+def _sicd():
+    c = Chest(34)
+    c.device_box(566, 430, 54, 70, 22)
+    c.lead([(548, 440), (470, 480), (380, 492), (336, 490)], 2.6, 0.85)
+    c.lead([(336, 490), (338, 400), (338, 330), (336, 280)], 6, 0.9)    # bobina paraesternal izquierda
+    c.lead([(336, 280), (336, 262)], 2.6, 0.85)
+    return c.build()
+
+
+@rx("marcapasos-sin-cables")
+def _micra():
+    c = Chest(35)
+    c.metal += 0.95 * line([(332, 436), (352, 452)], 11, 0.8)
+    c.lead([(352, 452), (360, 458)], 1.5, 0.7)
+    return c.build()
+
+
+@rx("mitraclip")
+def _clip():
+    c = Chest(36, ctr=1.25, la=18, lv=12)
+    c.metal += 0.9 * line([(358, 396), (366, 414)], 7, 0.6)
+    c.metal += 0.5 * line([(352, 398), (360, 400), (366, 394)], 2, 0.5)
+    return c.build()
+
+
 def write_all(names=None):
     os.makedirs(ROOT, exist_ok=True)
     for name, fn in CAT.items():

@@ -8,7 +8,7 @@ clue: En esta tira, cada latido sinusal va seguido de un complejo ancho y premat
 answer: ¿Qué es el bigeminismo ventricular?
 accept: bigeminismo ventricular | bigeminismo | extrasistolia ventricular bigeminada | extrasistoles ventriculares bigeminadas | ventricular bigeminy
 reject: trigeminismo | taquicardia ventricular | extrasistoles auriculares
-guideline: ESC 2022 AV
+guideline: ESC 2022 Arritmias ventriculares
 tags: extrasístoles, ECG
 
 ### Por qué
@@ -20,7 +20,7 @@ El bigeminismo es la alternancia fija de un latido normal y una extrasístole. L
 - El oxímetro o el tensiómetro pueden contar la mitad de la frecuencia real, porque la extrasístole precoz apenas genera pulso.
 
 ### Lo que dicen las guías
-ESC 2022 AV: ante extrasístoles ventriculares frecuentes se recomienda Holter de 24 h para cuantificar la carga y estudio de imagen para descartar cardiopatía estructural.
+ESC 2022 Arritmias ventriculares: ante extrasístoles ventriculares frecuentes se recomienda Holter de 24 h para cuantificar la carga y estudio de imagen para descartar cardiopatía estructural.
 
 @@@ ecg4-002
 difficulty: 1
@@ -197,7 +197,7 @@ clue: En V1–V2: r' de despegue alto, ST elevado que desciende en forma de "sil
 answer: ¿Qué es el patrón de Brugada tipo 2?
 accept: patron de brugada tipo 2 | brugada tipo 2 | patron en silla de montar | saddleback | brugada type 2 | patron brugada tipo 2
 reject: brugada tipo 1 | bloqueo de rama derecha | repolarizacion precoz
-guideline: ESC 2022 AV
+guideline: ESC 2022 Arritmias ventriculares
 tags: Brugada, canalopatías
 
 ### Por qué
@@ -209,7 +209,7 @@ El tipo 1 tiene un ST "en cúpula" (coved) ≥2 mm seguido de una T negativa, y 
 - Se debe evitar la lista de fármacos de brugadadrugs.org.
 
 ### Lo que dicen las guías
-ESC 2022 AV: el síndrome de Brugada se diagnostica con un patrón tipo 1 espontáneo, o inducido por fármacos en presencia de criterios clínicos adicionales.
+ESC 2022 Arritmias ventriculares: el síndrome de Brugada se diagnostica con un patrón tipo 1 espontáneo, o inducido por fármacos en presencia de criterios clínicos adicionales.
 
 @@@ ecg4-011
 difficulty: 2
@@ -281,7 +281,7 @@ clue: Una mujer de 45 años, 2 días después de una tiroidectomía total, refie
 answer: ¿Qué es el hipoparatiroidismo posquirúrgico?
 accept: hipoparatiroidismo posquirurgico | hipoparatiroidismo | hipoparatiroidismo postoperatorio | lesion de paratiroides | postsurgical hypoparathyroidism
 reject: hipomagnesemia | sindrome del hueso hambriento | hipopotasemia
-guideline: ESC 2022 AV
+guideline: ESC 2022 Arritmias ventriculares
 tags: electrolitos, hipocalcemia
 
 ### Por qué
@@ -293,7 +293,7 @@ La lesión o la desvascularización de las paratiroides durante la tiroidectomí
 - La hipomagnesemia impide la secreción de PTH y debe corregirse a la vez.
 
 ### Lo que dicen las guías
-ESC 2022 AV: las causas adquiridas de QT largo, incluida la hipocalcemia, deben corregirse antes de atribuir el QT a una canalopatía.
+ESC 2022 Arritmias ventriculares: las causas adquiridas de QT largo, incluida la hipocalcemia, deben corregirse antes de atribuir el QT a una canalopatía.
 
 @@@ ecg4-015
 difficulty: 3
@@ -302,7 +302,7 @@ clue: Para buscar un patrón tipo 1 oculto ante este trazado, se repite el ECG c
 answer: ¿Qué son el segundo y tercer espacios intercostales (precordiales altas)?
 accept: segundo y tercer espacio intercostal | precordiales altas | derivaciones precordiales altas | segundo espacio intercostal | tercer espacio intercostal | high precordial leads
 reject: cuarto espacio intercostal | v7 v9 | derivaciones derechas
-guideline: ESC 2022 AV
+guideline: ESC 2022 Arritmias ventriculares
 tags: Brugada, técnica ECG
 
 ### Por qué
@@ -314,7 +314,7 @@ El sustrato del Brugada está en el tracto de salida del VD, que queda por encim
 - Si sigue siendo dudoso, se hace la prueba con un bloqueador de sodio en un entorno monitorizado.
 
 ### Lo que dicen las guías
-ESC 2022 AV: se recomienda el registro de V1–V2 en el 2.º, 3.er y 4.º espacios intercostales para el diagnóstico de síndrome de Brugada.
+ESC 2022 Arritmias ventriculares: se recomienda el registro de V1–V2 en el 2.º, 3.er y 4.º espacios intercostales para el diagnóstico de síndrome de Brugada.
 
 @@@ ecg4-016
 difficulty: 3
@@ -344,7 +344,7 @@ clue: Varón de 24 años sin cardiopatía con esta taquicardia regular a 165 lpm
 answer: ¿Qué es el fascículo posterior izquierdo?
 accept: fasciculo posterior izquierdo | fasciculo posteroinferior | fasciculo posteroinferior izquierdo | left posterior fascicle | red de purkinje posterior
 reject: fasciculo anterior izquierdo | tracto de salida del vd | rama derecha
-guideline: ESC 2022 AV
+guideline: ESC 2022 Arritmias ventriculares
 tags: TV idiopática, ECG
 
 ### Por qué
@@ -356,7 +356,7 @@ La TV fascicular idiopática es una reentrada que usa tejido de Purkinje del VI.
 - Responde a verapamilo IV y la ablación es curativa en >90 %.
 
 ### Lo que dicen las guías
-ESC 2022 AV: en la TV fascicular sintomática se recomienda la ablación como primera línea en centros con experiencia (clase I).
+ESC 2022 Arritmias ventriculares: en la TV fascicular sintomática se recomienda la ablación como primera línea en centros con experiencia (clase I).
 
 @@@ ecg4-018
 difficulty: 4
@@ -365,7 +365,7 @@ clue: Holter con este patrón durante la mayor parte del día (carga del 22 %) y
 answer: ¿Qué es la miocardiopatía inducida por extrasístoles ventriculares?
 accept: miocardiopatia inducida por extrasistoles | miocardiopatia inducida por extrasistoles ventriculares | miocardiopatia por extrasistoles | miocardiopatia inducida por ev | pvc induced cardiomyopathy
 reject: miocardiopatia dilatada idiopatica | taquimiocardiopatia por fa | miocarditis
-guideline: ESC 2022 AV
+guideline: ESC 2022 Arritmias ventriculares
 tags: extrasístoles, miocardiopatía
 
 ### Por qué
@@ -377,7 +377,7 @@ Una carga elevada de extrasístoles produce disincronía y contracciones inefica
 - El origen más frecuente es el tracto de salida del VD (BRI con eje inferior).
 
 ### Lo que dicen las guías
-ESC 2022 AV: en la disfunción del VI atribuida a extrasístoles frecuentes se recomienda ablación o fármacos antiarrítmicos (amiodarona) para recuperar la FEVI.
+ESC 2022 Arritmias ventriculares: en la disfunción del VI atribuida a extrasístoles frecuentes se recomienda ablación o fármacos antiarrítmicos (amiodarona) para recuperar la FEVI.
 
 @@@ ecg4-019
 difficulty: 4
@@ -386,7 +386,7 @@ clue: Este QTc de 310 ms con T alta y picuda en un joven recuperado de una FV co
 answer: ¿Qué es el síndrome de QT corto tipo 1 (SQT1)?
 accept: sindrome de qt corto tipo 1 | sqt1 | qt corto tipo 1 | short qt syndrome type 1 | sqts1
 reject: qt largo tipo 2 | lqt2 | sindrome de brugada
-guideline: ESC 2022 AV
+guideline: ESC 2022 Arritmias ventriculares
 tags: canalopatías, QT corto
 
 ### Por qué
@@ -398,7 +398,7 @@ KCNH2 codifica el canal de la corriente IKr. Si pierde función, el QT se alarga
 - Hay que descartar causas adquiridas: hipercalcemia, hiperpotasemia, digoxina, acidosis e hipertermia.
 
 ### Lo que dicen las guías
-ESC 2022 AV: se diagnostica con QTc ≤320 ms, o ≤360 ms con mutación, historia familiar o parada cardiaca. El DAI está indicado en supervivientes de parada cardiaca (clase I).
+ESC 2022 Arritmias ventriculares: se diagnostica con QTc ≤320 ms, o ≤360 ms con mutación, historia familiar o parada cardiaca. El DAI está indicado en supervivientes de parada cardiaca (clase I).
 
 @@@ ecg4-020
 difficulty: 4
@@ -491,7 +491,7 @@ clue: En el estudio electrofisiológico de esta taquicardia, la ablación se gu�
 answer: ¿Qué es el potencial de Purkinje?
 accept: potencial de purkinje | potencial purkinje | potencial p | potencial de purkinje presistolico | purkinje potential
 reject: potencial de his | potencial de rama derecha | electrograma fragmentado
-guideline: ESC 2022 AV
+guideline: ESC 2022 Arritmias ventriculares
 tags: TV idiopática, ablación
 
 ### Por qué
@@ -503,7 +503,7 @@ En la TV fascicular, el circuito incluye un tejido de conducción lenta sensible
 - La recurrencia tras una ablación exitosa es <10 %.
 
 ### Lo que dicen las guías
-ESC 2022 AV: la ablación de la TV idiopática del VI es clase I cuando es sintomática y el tratamiento farmacológico falla o no se desea.
+ESC 2022 Arritmias ventriculares: la ablación de la TV idiopática del VI es clase I cuando es sintomática y el tratamiento farmacológico falla o no se desea.
 
 @@@ ecg4-025
 difficulty: 5
@@ -514,7 +514,7 @@ clue: Una mujer de 52 años tiene este ECG con ST prolongado y tetania 24 horas 
 answer: ¿Qué es el síndrome del hueso hambriento?
 accept: sindrome del hueso hambriento | hueso hambriento | hungry bone syndrome | sindrome de hueso hambriento
 reject: hipoparatiroidismo posquirurgico | hipomagnesemia | pseudohipoparatiroidismo
-guideline: ESC 2022 AV
+guideline: ESC 2022 Arritmias ventriculares
 tags: electrolitos, hipocalcemia
 
 ### Por qué
@@ -526,4 +526,4 @@ Tras extirpar un adenoma que mantenía la PTH muy alta, el hueso desmineralizado
 - Puede requerir calcio IV durante días y calcitriol. El magnesio también debe reponerse.
 
 ### Lo que dicen las guías
-ESC 2022 AV: la hipocalcemia es una causa reversible de QT largo. Se corrige antes de suspender fármacos o valorar canalopatías, y se monitoriza el QT hasta normalizarse.
+ESC 2022 Arritmias ventriculares: la hipocalcemia es una causa reversible de QT largo. Se corrige antes de suspender fármacos o valorar canalopatías, y se monitoriza el QT hasta normalizarse.

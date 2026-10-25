@@ -108,7 +108,7 @@ La torsade de pointes es una TV polimórfica que "gira alrededor de la línea de
 - Lista de fármacos: CredibleMeds.
 
 ### Lo que dicen las guías
-ESC 2022 AV: magnesio IV, corrección de potasio, retirada de fármacos culpables y estimulación/isoproterenol en la torsade adquirida.
+ESC 2022 Arritmias ventriculares: magnesio IV, corrección de potasio, retirada de fármacos culpables y estimulación/isoproterenol en la torsade adquirida.
 
 ### Trampas frecuentes
 - La amiodarona prolonga el QT: no es la elección en torsade.
@@ -355,7 +355,7 @@ La conducción retrógrada ventrículo-auricular está ausente o es parcial en ~
 - Verapamilo IV en TV puede causar colapso hemodinámico.
 
 ### Lo que dicen las guías
-ESC 2022 AV: cardioversión eléctrica en TV inestable; en TV estable, procainamida (IIa) o amiodarona; el diagnóstico se apoya en algoritmos del ECG.
+ESC 2022 Arritmias ventriculares: cardioversión eléctrica en TV inestable; en TV estable, procainamida (IIa) o amiodarona; el diagnóstico se apoya en algoritmos del ECG.
 
 ### Trampas frecuentes
 - La estabilidad hemodinámica no sugiere TSV: muchas TV son bien toleradas.
@@ -677,7 +677,7 @@ La relación QT-RR no es una raíz cuadrada exacta. Alternativas: **Fridericia**
 - QT corto: ≤360 ms (síndrome de QT corto con ≤320 ms o ≤360 con otros criterios).
 
 ### Lo que dicen las guías
-ESC 2022 AV: diagnóstico de QT largo con QTc ≥480 ms, o puntuación de Schwartz >3; o QTc ≥460 ms con síncope inexplicado.
+ESC 2022 Arritmias ventriculares: diagnóstico de QT largo con QTc ≥480 ms, o puntuación de Schwartz >3; o QTc ≥460 ms con síncope inexplicado.
 
 ### Trampas frecuentes
 - En taquicardia sinusal, un "QTc largo" por Bazett puede ser artefacto de la fórmula.

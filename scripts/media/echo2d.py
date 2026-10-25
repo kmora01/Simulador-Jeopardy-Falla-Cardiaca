@@ -532,6 +532,53 @@ def _mcc():
                notes=("Acinesia de pared libre del VD con ápex conservado",))
 
 
+# ---------------------------------------------------------------- lote 2
+
+@eco("hvi-concentrica")
+def _lvh():
+    return plax(40, sept=15, post=15, lvid=42, notes=("Septo 15 mm · pared posterior 15 mm",))
+
+
+@eco("raiz-aortica-dilatada")
+def _root():
+    return plax(41, root=52, la=34, notes=("Senos de Valsalva 52 mm",))
+
+
+@eco("aneurisma-apical")
+def _aneu():
+    e = a4c(42, lv_w=58, balloon=0.45, notes=("Telesístole · ápex adelgazado y discinético",))
+    return e
+
+
+@eco("hipertrofia-lipomatosa-sia")
+def _lipo():
+    e = a4c(43)
+    lx, ly = e.geo["la_c"]
+    rx_, ry = e.geo["ra_c"]
+    mx = (lx + rx_) / 2 + 4
+    e.add(gaussian_filter(ell_mask(mx, ly - 28, 13, 22), 1.3), 0.7)
+    e.add(gaussian_filter(ell_mask(mx, ly + 34, 14, 24), 1.3), 0.7)
+    return e
+
+
+@eco("mch-apical-eco")
+def _apical():
+    e = a4c(44, lv_w=54, notes=("Telediástole",))
+    ax, ay = e.geo["apex"]
+    e.add(gaussian_filter(ell_mask(ax + 4, ay + 46, 34, 44), 2.0), 0.5)
+    return e
+
+
+@eco("derrame-circunferencial-psax")
+def _effc():
+    return psax(45, effusion=30, notes=("Derrame circunferencial 2 cm",))
+
+
+@eco("hipertrofia-psax")
+def _hpsax():
+    return psax(46, lv_r=34, wall=28, notes=("Telediástole",))
+
+
 def write_mmodes():
     rr = 0.85
 
@@ -590,6 +637,12 @@ def write_strain():
                     "Strain longitudinal global: mapa polar", ("SLG -16 %",))
 
 
+def write_strain2():
+    strain_bullseye("strain-territorio-da",
+                    [-18, -17, -16, -9, -6, -5, -17, -18, -15, -7, -5, -4, -17, -16, -5, -4, -3],
+                    "Strain longitudinal global: mapa polar", ("SLG -13 %",))
+
+
 def write_all(names=None):
     os.makedirs(ROOT, exist_ok=True)
     for name, fn in CAT.items():
@@ -603,5 +656,8 @@ def write_all(names=None):
 
 if __name__ == "__main__":
     import sys
-    write_all(sys.argv[1:])
+    if sys.argv[1:] == ["strain2"]:
+        write_strain2()
+    else:
+        write_all(sys.argv[1:])
     print("ok")
