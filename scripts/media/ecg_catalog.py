@@ -506,6 +506,185 @@ def _():
     return e
 
 
+# ---------------------------------------------------------------------------------
+# Lote 2 (banco ampliado)
+
+@ecg("bigeminismo-ventricular", strip=("II", "V1"))
+def _():
+    e = mk(21); b = base_beat(); pvc = vt_beat(); pvc["t_ms"] = 320
+    rr = 60000 / 76
+    t = 330.0
+    while t < e.t[-1] + 200:
+        e.add_p(t - b["pr_ms"], b); e.add_beat(t, b)
+        e.add_beat(t + rr * 0.56, pvc, 0.85)
+        t += rr * 2
+    return e
+
+
+@ecg("ritmo-union")
+def _():
+    b = base_beat(); retro = base_beat()
+    retro["p"] = {k: -v * 0.8 if k in ("II", "III", "aVF") else v * 0.3 for k, v in retro["p"].items()}
+    retro["p"]["aVR"] = 0.1
+    e = mk(22)
+    t = 250.0
+    while t < e.t[-1] + 200:
+        e.add_beat(t, b); e.add_p(t + 70, retro, 0.9)
+        t += 60000 / 48
+    return e
+
+
+@ecg("p-pulmonale", strip=("II", "V1"))
+def _():
+    b = base_beat(); b["p_ms"] = 90
+    b["p_custom"] = {"II": [(45, 13, 0.42)], "III": [(45, 13, 0.36)], "aVF": [(45, 13, 0.4)],
+                     "V1": [(35, 13, 0.18), (70, 12, -0.03)]}
+    rvh(b)
+    e = mk(23); sinus(e, b, 96); return e
+
+
+@ecg("brugada-2")
+def _():
+    b = base_beat()
+    b["qrs"]["V1"] = [(25, 9, 0.2), (52, 10, -0.65), (96, 14, 0.38)]
+    b["qrs"]["V2"] = [(27, 9, 0.3), (54, 10, -0.9), (98, 14, 0.5)]
+    set_st(b, {"V1": 0.1, "V2": 0.14}, "flat")
+    set_t(b, {"V1": 0.22, "V2": 0.45})
+    e = mk(24); sinus(e, b, 68); return e
+
+
+@ecg("qt-corto")
+def _():
+    b = base_beat(); b["t_ms"] = 205; b["t_sigma"] = 32
+    b["t"] = {k: v * 1.7 for k, v in b["t"].items()}
+    e = mk(25); sinus(e, b, 64); return e
+
+
+@ecg("hipocalcemia")
+def _():
+    b = base_beat(); b["t_ms"] = 440; b["t_sigma"] = 42
+    e = mk(26); sinus(e, b, 66); return e
+
+
+@ecg("tv-fascicular")
+def _():
+    b = base_beat(); rbbb(b); lafb(b); b["qrs_ms"] = 125
+    b["qrs"]["V1"] = [(18, 7, 0.15), (40, 8, -0.2), (85, 15, 0.95)]
+    b["qrs"]["V6"] = [(30, 9, 0.4), (78, 16, -0.8)]
+    b["t_ms"] = 290
+    set_t(b, {"V1": -0.25, "V6": 0.25, "II": 0.2, "III": 0.25, "aVF": 0.22})
+    e = mk(27); regular(e, b, 165); return e
+
+
+@ecg("marcapasos-ddd")
+def _():
+    b = base_beat(); paced(b); b["pr_ms"] = 170
+    e = mk(28)
+    t = 360.0
+    while t < e.t[-1] + 200:
+        a = t - 170
+        for l in LEADS:
+            e.sig[l] += g(e.t, a - 4, 1.6, 0.9)
+            e.sig[l] += g(e.t, t - 6, 1.6, 1.4)
+        e.add_p(a, b, 0.7); e.add_beat(t, b)
+        t += 60000 / 70
+    return e
+
+
+@ecg("fallo-captura", strip=("II",))
+def _():
+    b = base_beat(); paced(b); e = mk(29)
+    rr = 60000 / 70
+    t = 250.0; k = 0
+    while t < e.t[-1] + 200:
+        e.sig["II"] += g(e.t, t - 6, 1.6, 1.4)
+        if k % 3 != 2:
+            e.add_beat(t, b)
+        t += rr; k += 1
+    return e
+
+
+@ecg("iam-posterior")
+def _():
+    b = base_beat()
+    b["qrs"]["V1"] = [(28, 10, 0.7), (55, 10, -0.3)]
+    b["qrs"]["V2"] = [(30, 10, 1.15), (58, 11, -0.5)]
+    b["qrs"]["V3"] = [(32, 10, 1.1), (58, 11, -0.6)]
+    set_st(b, {"V1": -0.2, "V2": -0.32, "V3": -0.28, "V4": -0.12}, "flat")
+    set_t(b, {"V1": 0.3, "V2": 0.45, "V3": 0.4})
+    e = mk(30); sinus(e, b, 78); return e
+
+
+@ecg("bajo-voltaje-pseudoinfarto")
+def _():
+    b = base_beat()
+    for l in ("I", "II", "III", "aVR", "aVL", "aVF"):
+        b["qrs"][l] = [(c, s, a * 0.32) for c, s, a in b["qrs"][l]]
+        b["t"][l] = b["t"][l] * 0.4
+    for l, a in (("V1", -0.55), ("V2", -0.7), ("V3", -0.6)):
+        b["qrs"][l] = [(45, 13, a)]
+    for l in ("V4", "V5", "V6"):
+        b["qrs"][l] = [(c, s, a * 0.45) for c, s, a in b["qrs"][l]]
+    b["t"] = {k: v * 0.5 for k, v in b["t"].items()}
+    b["pr_ms"] = 220
+    e = mk(31); sinus(e, b, 82); return e
+
+
+@ecg("extrasistoles-auriculares", strip=("II",))
+def _():
+    b = base_beat(); pac = base_beat(); pac["p"] = {k: v * -0.7 for k, v in pac["p"].items()}
+    e = mk(32)
+    rr = 60000 / 75
+    t = 330.0; k = 0
+    while t < e.t[-1] + 200:
+        if k % 4 == 3:
+            tp = t - rr * 0.38
+            e.add_p(tp - 150, pac); e.add_beat(tp, b)
+            t = tp + rr * 1.05
+        else:
+            e.add_p(t - b["pr_ms"], b); e.add_beat(t, b)
+            t += rr
+        k += 1
+    return e
+
+
+@ecg("paro-sinusal", strip=("II",))
+def _():
+    b = base_beat(); e = mk(33)
+    rr = 60000 / 72
+    for t in (330, 330 + rr, 330 + 2 * rr, 330 + 2 * rr + 3600, 330 + 3 * rr + 3600, 330 + 4 * rr + 3600,
+              330 + 5 * rr + 3600, 330 + 6 * rr + 3600):
+        e.add_p(t - b["pr_ms"], b); e.add_beat(t, b)
+    return e
+
+
+@ecg("iam-anterior-brd")
+def _():
+    b = base_beat(); rbbb(b)
+    set_st(b, {"V1": 0.25, "V2": 0.42, "V3": 0.45, "V4": 0.35, "V5": 0.12, "I": 0.1, "aVL": 0.12,
+               "III": -0.15, "aVF": -0.1}, "convex")
+    set_t(b, {"V1": 0.3, "V2": 0.65, "V3": 0.7, "V4": 0.55})
+    e = mk(34); sinus(e, b, 98); return e
+
+
+@ecg("fluter-variable", strip=("II", "V1"))
+def _():
+    e = mk(35); flutter(e, base_beat(), variable=True); return e
+
+
+@ecg("hbpi")
+def _():
+    b = base_beat()
+    b["qrs"]["I"] = [(18, 7, 0.15), (45, 11, -0.6)]
+    b["qrs"]["aVL"] = [(18, 7, 0.12), (45, 11, -0.55)]
+    b["qrs"]["II"] = [(15, 7, -0.08), (40, 10, 1.0), (66, 8, -0.1)]
+    b["qrs"]["III"] = [(15, 7, -0.14), (42, 11, 1.3)]
+    b["qrs"]["aVF"] = [(15, 7, -0.12), (41, 10, 1.2)]
+    b["qrs"]["aVR"] = [(25, 9, 0.1), (50, 12, -0.5)]
+    set_t(b, {"I": 0.1, "aVL": -0.05, "III": 0.3, "aVF": 0.3})
+    e = mk(36); sinus(e, b, 70); return e
+
+
 def write_all(names=None):
     os.makedirs(OUT, exist_ok=True)
     for name, (f, strip) in CAT.items():
