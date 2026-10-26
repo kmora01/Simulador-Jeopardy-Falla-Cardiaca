@@ -247,7 +247,7 @@ clue: Pendiente de la relación PAPm/gasto cardíaco durante el ejercicio que la
 answer: ¿Qué es >3 mmHg/L/min?
 accept: 3 mmhg l min | 3 | mayor de 3 | 3 mmhg/l/min | mas de 3
 reject: 20 mmhg | 30 mmhg
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HP, ejercicio
 
 ### Por qué

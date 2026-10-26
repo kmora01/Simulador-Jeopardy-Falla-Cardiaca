@@ -343,23 +343,23 @@ ESC 2024: considerar cierre de orejuela en contraindicación de anticoagulación
 
 @@@ fa-018
 difficulty: 4
-clue: En la FA con IC y FEVI reducida, la ablación de catéter se recomienda en clase I para reducir hospitalización y mortalidad en este tipo de pacientes.
-answer: ¿Qué es la miocardiopatía inducida por taquicardia (o FA con IC-FEr)?
-accept: miocardiopatia inducida por taquicardia | taquimiocardiopatia | ic con fevi reducida | taquicardiomiopatia | ic-fer
-reject: ic-fep | fa paroxistica
+clue: Tras restaurar el ritmo sinusal en una taquimiocardiopatía, la FEVI se normaliza en semanas o meses. Este fenómeno.
+answer: ¿Qué es el remodelado inverso (recuperación de la FEVI)?
+accept: remodelado inverso | remodelacion inversa | recuperacion de la fevi | reverse remodeling | normalizacion de la fevi
+reject: remodelado adverso | dilatacion progresiva | aturdimiento
 guideline: ESC 2024 FA
 tags: ablación, IC
 
 ### Por qué
-CASTLE-AF y CASTLE-HTx mostraron beneficio. En la sospecha de taquimiocardiopatía, el control del ritmo puede normalizar la FEVI. La RM sin fibrosis predice recuperación (CAMERA-MRI).
+En la taquimiocardiopatía, la FC alta mantenida agota el miocardio. Al controlar la FC o el ritmo, el VI se hace más pequeño y la FEVI sube en semanas o meses. Esto confirma el diagnóstico, que a menudo es retrospectivo. Si la arritmia vuelve, la FEVI puede caer muy rápido, así que se mantiene el seguimiento.
 
 ### Perlas de revisión
-- Recuperación de FEVI en semanas a meses.
-- Recurrencia rápida si recae la arritmia.
-- Considerar en IC terminal (CASTLE-HTx).
+- Confirma el diagnóstico.
+- Si vuelve la arritmia, cae rápido.
+- Se mantiene el seguimiento.
 
 ### Lo que dicen las guías
-ESC 2024: ablación en FA con IC-FEr y sospecha de taquimiocardiopatía (I).
+ESC 2024 FA: en la sospecha de taquimiocardiopatía se recomienda el control del ritmo.
 
 @@@ fa-019
 difficulty: 4
@@ -383,23 +383,23 @@ ESC 2024: anticoagulación ≥3 semanas o ETE si FA ≥24 h (I).
 
 @@@ fa-020
 difficulty: 4
-clue: Gen de una proteína sarcomérica gigante cuyas variantes truncantes se asocian a FA de inicio precoz y a miocardiopatía dilatada.
-answer: ¿Qué es TTN (titina)?
-accept: ttn | titina | titin
-reject: lmna | scn5a
+clue: En este ensayo de 2017, en la FA persistente con miocardiopatía dilatada "idiopática", la ablación mejoró más la FEVI que el control de la frecuencia, sobre todo si la RM no mostraba fibrosis.
+answer: ¿Qué es CAMERA-MRI?
+accept: camera-mri | camera mri | camera
+reject: castle-af | amica | af-chf
 guideline: ESC 2024 FA
-tags: genética
+tags: ablación, IC, RM
 
 ### Por qué
-Las variantes truncantes de TTN aparecen con más frecuencia en la FA de inicio antes de los 60 años y en la miocardiopatía dilatada. En la FA juvenil con antecedentes familiares se debe considerar el estudio genético y el seguimiento de la FEVI.
+CAMERA-MRI incluyó a pacientes con FA persistente y FEVI de 45 % o menos sin otra causa. La ablación mejoró la FEVI unos 18 puntos frente a unos 4 con el control de la frecuencia, y la normalizó en más de la mitad. Los pacientes sin realce tardío en la RM se recuperaron más. Esto apoya que la FA puede causar la disfunción.
 
 ### Perlas de revisión
-- LMNA: FA con bloqueo AV.
-- SCN5A: FA y Brugada.
-- Seguimiento ecocardiográfico.
+- Sin fibrosis hubo más recuperación.
+- La FEVI subió unos 18 puntos.
+- Era FA persistente.
 
 ### Lo que dicen las guías
-ESC 2024: considerar estudio genético en FA de inicio precoz con antecedentes familiares (IIb).
+ESC 2024 FA: se recomienda la ablación en la FA con IC y FEVI reducida si se sospecha una taquimiocardiopatía.
 
 @@@ fa-021
 difficulty: 5

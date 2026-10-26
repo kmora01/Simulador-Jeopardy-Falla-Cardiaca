@@ -367,7 +367,7 @@ clue: Un índice tobillo-brazo mayor de esta cifra indica arterias rígidas e in
 answer: ¿Qué es 1,40?
 accept: 1,40 | 1,4 | 1.4 | mayor de 1,40 | 1.40
 reject: 0,90 | 1,00 | 0,50
-guideline: ESC 2024 Arteriopatía periférica
+guideline: ESC 2024 Aorta y arterias periféricas
 tags: índice tobillo-brazo, arteriopatía
 
 ### Por qué

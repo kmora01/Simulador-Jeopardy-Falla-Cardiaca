@@ -449,7 +449,7 @@ clue: Antiarrítmico de clase III que, además de prolongar el potencial de acci
 answer: ¿Qué es el sotalol?
 accept: sotalol | d l sotalol | sotalex
 reject: dofetilida | amiodarona
-guideline: ESC 2022 Arritmias Ventriculares
+guideline: ESC 2022 Arritmias ventriculares
 tags: clase III, QT
 
 ### Por qué

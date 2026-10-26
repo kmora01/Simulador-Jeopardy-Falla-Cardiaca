@@ -187,7 +187,7 @@ clue: Hendidura en el velo anterior mitral asociada al defecto del canal AV.
 answer: ¿Qué es el cleft mitral?
 accept: cleft | cleft mitral | hendidura mitral | cleft del velo anterior
 reject: perforacion | prolapso
-guideline: ESC 2020 Congénitas adulto
+guideline: ESC 2020 CC adulto
 tags: congénitas
 
 ### Por qué
@@ -469,7 +469,7 @@ clue: Reparación quirúrgica de la anomalía de Ebstein en la que se movilizan 
 answer: ¿Qué es el procedimiento del cono (da Silva)?
 accept: cono | procedimiento del cono | reparacion en cono | da silva | cone repair | cone procedure
 reject: glenn | fontan
-guideline: ESC 2020 Congénitas adulto
+guideline: ESC 2020 CC adulto
 tags: Ebstein
 
 ### Por qué

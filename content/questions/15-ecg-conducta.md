@@ -29,7 +29,7 @@ clue: Ciclista de 25 años asintomático con este ritmo sinusal a 42 lpm. Esto e
 answer: ¿Qué es ningún tratamiento (bradicardia sinusal fisiológica del deportista)?
 accept: nada | ningun tratamiento | tranquilizar | observacion | no requiere tratamiento | bradicardia fisiologica | bradicardia del deportista | no tratar
 reject: marcapasos | atropina
-guideline: ESC 2020 Cardiología del Deporte
+guideline: ESC 2020 Deporte
 tags: bradicardia, deportista
 
 ### Por qué
@@ -176,7 +176,7 @@ clue: Episodios repetidos de esta arritmia en una paciente con QT largo por halo
 answer: ¿Qué es aumentar la frecuencia cardíaca (estimulación temporal o isoproterenol)?
 accept: estimulacion temporal | marcapasos transitorio | isoproterenol | isoprenalina | aumentar la frecuencia | overdrive pacing | sobreestimulacion | marcapasos temporal
 reject: amiodarona | sotalol
-guideline: ESC 2022 Arritmias Ventriculares
+guideline: ESC 2022 Arritmias ventriculares
 tags: torsade, QT adquirido
 
 ### Por qué
@@ -218,7 +218,7 @@ clue: Este patrón aparece en un varón de 30 años con fiebre de 39 °C y neumo
 answer: ¿Qué es bajar la fiebre con antipiréticos (y monitorizar)?
 accept: antipireticos | bajar la fiebre | paracetamol | tratar la fiebre | antitermicos | control de la fiebre | monitorizacion y antipireticos
 reject: dai | quinidina | ablacion
-guideline: ESC 2022 Arritmias Ventriculares
+guideline: ESC 2022 Arritmias ventriculares
 tags: Brugada, fiebre
 
 ### Por qué
@@ -239,7 +239,7 @@ clue: Este ritmo en un paciente con TA 70/40 y obnubilación pero con pulso palp
 answer: ¿Qué es la cardioversión eléctrica sincronizada?
 accept: cardioversion electrica sincronizada | cardioversion sincronizada | cardioversion electrica | cve | synchronized cardioversion | cardioversion
 reject: desfibrilacion | amiodarona | adenosina
-guideline: ESC 2022 Arritmias Ventriculares
+guideline: ESC 2022 Arritmias ventriculares
 tags: TV, inestabilidad
 
 ### Por qué
@@ -281,7 +281,7 @@ clue: Este trazado en una mujer con dolor pleurítico y roce pericárdico. Junto
 answer: ¿Qué es la colchicina?
 accept: colchicina | colchicine
 reject: prednisona | corticoides | anakinra
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: pericarditis, colchicina
 
 ### Por qué
@@ -365,7 +365,7 @@ clue: QTc de 520 ms en una paciente con LQT1 genotipado, ya en tratamiento. Beta
 answer: ¿Qué es el nadolol (o propranolol)?
 accept: nadolol | propranolol | betabloqueante no selectivo
 reject: metoprolol | bisoprolol | atenolol
-guideline: ESC 2022 Arritmias Ventriculares
+guideline: ESC 2022 Arritmias ventriculares
 tags: QT largo, betabloqueante
 
 ### Por qué
@@ -428,7 +428,7 @@ clue: Este trazado en una paciente con PA 80/50, ingurgitación yugular y pulso 
 answer: ¿Qué es la expansión de volumen (bolo de líquidos IV)?
 accept: volumen | expansion de volumen | sueroterapia | bolo de liquidos | fluidos | carga de volumen | volume expansion | suero salino
 reject: diureticos | nitratos | ventilacion mecanica
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: taponamiento, volumen
 
 ### Por qué

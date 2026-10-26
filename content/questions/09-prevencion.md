@@ -8,7 +8,7 @@ answer: ¿Qué es 55 mg/dL?
 accept: 55 | 55 mg dl | 55 mg/dl | menos de 55 | 1,4 mmol/l | 1.4 mmol | 1 4 mmol l
 reject: 70 | 100 | 40
 source: ESC Textbook of Cardiovascular Medicine, cap. dislipidemia
-guideline: ESC 2019 Dislipidemias (actualización 2025)
+guideline: ESC 2025 Dislipidemias
 tags: LDL, objetivos
 
 ### Por qué
@@ -35,7 +35,7 @@ answer: ¿Qué es la ezetimiba?
 accept: ezetimiba | ezetimibe | zetia | ezetrol
 reject: colestiramina | ácido bempedoico
 source: ESC Textbook of Cardiovascular Medicine, cap. dislipidemia
-guideline: ESC 2019 Dislipidemias (actualización 2025)
+guideline: ESC 2025 Dislipidemias
 tags: lípidos, farmacología
 
 ### Por qué
@@ -170,7 +170,7 @@ answer: ¿Qué es el inclisirán?
 accept: inclisiran | inclisiran sodico | leqvio
 reject: evolocumab | alirocumab
 source: Literatura (ORION-10/11)
-guideline: ESC 2019/2025 Dislipidemias
+guideline: ESC 2025 Dislipidemias
 tags: lípidos, siRNA
 
 ### Por qué
@@ -224,7 +224,7 @@ answer: ¿Qué es la hipercolesterolemia familiar?
 accept: hipercolesterolemia familiar | hf heterocigota | hipercolesterolemia familiar heterocigota | familial hypercholesterolemia | hcf | fh
 reject: disbetalipoproteinemia | hiperlipidemia familiar combinada
 source: ESC Textbook of Cardiovascular Medicine, cap. dislipidemia
-guideline: ESC 2019/2025 Dislipidemias
+guideline: ESC 2025 Dislipidemias
 tags: genética, lípidos
 
 ### Por qué
@@ -439,7 +439,7 @@ answer: ¿Qué es el evinacumab?
 accept: evinacumab | evkeeza
 reject: lomitapida | mipomersen | evolocumab
 source: Literatura (ELIPSE HoFH, NEJM 2020)
-guideline: ESC 2019/2025 Dislipidemias
+guideline: ESC 2025 Dislipidemias
 tags: lípidos, HF homocigota
 
 ### Por qué
@@ -466,7 +466,7 @@ answer: ¿Qué es el olezarsen (o plozasirán)?
 accept: olezarsen | plozasiran | volanesorsen | inhibidor de apoc3 | anti apoc3 | antisentido apoc3
 reject: icosapento de etilo | fenofibrato
 source: Literatura (BALANCE, PALISADE, CORE, NEJM 2024–2025)
-guideline: ESC 2025 Dislipidemias (actualización)
+guideline: ESC 2025 Dislipidemias
 tags: triglicéridos, novedades
 
 ### Por qué
@@ -574,7 +574,7 @@ answer: ¿Qué es la sitosterolemia?
 accept: sitosterolemia | fitosterolemia | phytosterolemia | sitosterolemia familiar
 reject: hipercolesterolemia familiar | xantomatosis cerebrotendinosa
 source: ESC Textbook of Cardiovascular Medicine, cap. dislipidemia
-guideline: ESC 2019/2025 Dislipidemias
+guideline: ESC 2025 Dislipidemias
 tags: lípidos, genética
 
 ### Por qué

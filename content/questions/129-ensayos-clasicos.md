@@ -447,7 +447,7 @@ clue: En este ensayo de 2017, el ticagrelor no fue superior al clopidogrel en lo
 answer: ¿Qué es EUCLID?
 accept: euclid
 reject: compass | voyager pad | caprie
-guideline: ESC 2024 Arteriopatía periférica
+guideline: ESC 2024 Aorta y arterias periféricas
 tags: ensayos, arteriopatía periférica
 
 ### Por qué

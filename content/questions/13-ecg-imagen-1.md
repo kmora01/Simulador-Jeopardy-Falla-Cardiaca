@@ -197,7 +197,7 @@ clue: Elevación difusa y cóncava del ST con descenso del PR en múltiples deri
 answer: ¿Qué es la pericarditis aguda?
 accept: pericarditis aguda | pericarditis | acute pericarditis | miopericarditis
 reject: iamcest | repolarizacion precoz
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: pericardio, ECG
 
 ### Por qué
@@ -407,7 +407,7 @@ clue: Taquicardia sinusal, complejos de bajo voltaje y amplitud del QRS que alte
 answer: ¿Qué es la alternancia eléctrica por derrame pericárdico con taponamiento?
 accept: alternancia electrica | taponamiento cardiaco | taponamiento | derrame pericardico | derrame pericardico con taponamiento | electrical alternans | cardiac tamponade
 reject: pericarditis constrictiva | hipotiroidismo
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: taponamiento, ECG
 
 ### Por qué

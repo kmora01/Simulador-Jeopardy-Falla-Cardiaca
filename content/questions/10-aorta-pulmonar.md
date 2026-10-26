@@ -36,7 +36,7 @@ answer: ¿Qué es el dímero D?
 accept: dimero d | dimero-d | d dimero | d-dimer | ddimer | d dimer
 reject: fibrinogeno | troponina
 source: ESC Textbook of Cardiovascular Medicine, cap. embolia pulmonar
-guideline: ESC 2019 Embolia pulmonar
+guideline: ESC 2019 TEP
 tags: EP, diagnóstico
 
 ### Por qué
@@ -118,7 +118,7 @@ answer: ¿Qué es 20 mmHg?
 accept: 20 | 20 mmhg | mayor de 20 | mas de 20 | 20 mm hg
 reject: 25 | 30 | 15
 source: ESC Textbook of Cardiovascular Medicine, cap. hipertensión pulmonar (actualizado)
-guideline: ESC/ERS 2022 Hipertensión pulmonar
+guideline: ESC/ERS 2022 HP
 tags: HP, definición
 
 ### Por qué
@@ -145,7 +145,7 @@ answer: ¿Qué es la escala sPESI?
 accept: spesi | pesi simplificado | pesi | escala spesi | simplified pesi | pulmonary embolism severity index simplificado
 reject: wells | ginebra | hestia
 source: ESC Textbook of Cardiovascular Medicine, cap. embolia pulmonar
-guideline: ESC 2019 Embolia pulmonar
+guideline: ESC 2019 TEP
 tags: EP, estratificación
 
 ### Por qué
@@ -226,7 +226,7 @@ answer: ¿Qué es la hipertensión pulmonar tromboembólica crónica (HPTEC)?
 accept: hptec | hipertension pulmonar tromboembolica cronica | cteph | hipertension pulmonar tromboembolica | chronic thromboembolic pulmonary hypertension
 reject: hipertension arterial pulmonar | embolia pulmonar aguda
 source: ESC Textbook of Cardiovascular Medicine, cap. hipertensión pulmonar
-guideline: ESC/ERS 2022 Hipertensión pulmonar
+guideline: ESC/ERS 2022 HP
 tags: HP, HPTEC
 
 ### Por qué
@@ -334,7 +334,7 @@ answer: ¿Qué es el riociguat?
 accept: riociguat | adempas
 reject: vericiguat | sildenafilo | bosentan
 source: ESC Textbook of Cardiovascular Medicine, cap. hipertensión pulmonar
-guideline: ESC/ERS 2022 Hipertensión pulmonar
+guideline: ESC/ERS 2022 HP
 tags: HP, farmacología
 
 ### Por qué
@@ -440,7 +440,7 @@ answer: ¿Qué es PEITHO?
 accept: peitho | peitho trial | ensayo peitho
 reject: peitho 3 | highlighter | hi peitho
 source: Literatura (PEITHO, NEJM 2014)
-guideline: ESC 2019 Embolia pulmonar
+guideline: ESC 2019 TEP
 tags: EP, trombólisis, ensayos
 
 ### Por qué
@@ -494,7 +494,7 @@ answer: ¿Qué es la esclerosis sistémica (esclerodermia)?
 accept: esclerosis sistemica | esclerodermia | scleroderma | systemic sclerosis | crest | esclerosis sistemica limitada
 reject: lupus | artritis reumatoide
 source: ESC Textbook of Cardiovascular Medicine, cap. hipertensión pulmonar
-guideline: ESC/ERS 2022 Hipertensión pulmonar
+guideline: ESC/ERS 2022 HP
 tags: HAP, reumatología
 
 ### Por qué
@@ -574,7 +574,7 @@ answer: ¿Qué es 2 unidades Wood?
 accept: 2 | 2 uw | 2 unidades wood | 2 wood units | 2 wu | dos unidades wood | 160 dinas
 reject: 3 | 5 | 1
 source: Literatura / guía ESC/ERS 2022 HP
-guideline: ESC/ERS 2022 Hipertensión pulmonar
+guideline: ESC/ERS 2022 HP
 tags: HP, hemodinámica
 
 ### Por qué
@@ -602,7 +602,7 @@ answer: ¿Qué es el signo de McConnell?
 accept: signo de mcconnell | mcconnell | mcconnell sign | signo de mc connell
 reject: signo 60/60 | signo de westermark
 source: ESC Textbook of Cardiovascular Medicine, cap. embolia pulmonar
-guideline: ESC 2019 Embolia pulmonar
+guideline: ESC 2019 TEP
 tags: EP, ecocardiografía
 
 ### Por qué

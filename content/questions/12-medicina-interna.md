@@ -628,7 +628,7 @@ answer: ¿Qué es la hipertensión portopulmonar?
 accept: hipertension portopulmonar | portopulmonar | portopulmonary hypertension | hipertension porto pulmonar | hppo
 reject: sindrome hepatopulmonar | sindrome hepatorrenal
 source: ESC Textbook of Cardiovascular Medicine, cap. hipertensión pulmonar
-guideline: ESC/ERS 2022 Hipertensión pulmonar
+guideline: ESC/ERS 2022 HP
 tags: HP, hígado
 
 ### Por qué

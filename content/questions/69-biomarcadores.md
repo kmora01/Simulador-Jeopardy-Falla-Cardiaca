@@ -87,7 +87,7 @@ clue: Umbral de lipoproteína(a) por encima del cual se considera que aumenta el
 answer: ¿Qué son 50 mg/dL (105 nmol/L)?
 accept: 50 | 50 mg/dl | 105 nmol/l | mayor de 50 | >50
 reject: 30 | 180
-guideline: ESC/EAS 2025 Dislipidemias
+guideline: ESC 2025 Dislipidemias
 tags: lípidos
 
 ### Por qué
@@ -467,7 +467,7 @@ clue: Recomendación de la Definición Universal para la troponina de alta sensi
 answer: ¿Qué son los umbrales específicos por sexo?
 accept: umbrales por sexo | umbrales especificos por sexo | percentil 99 por sexo | sexo
 reject: umbrales por edad | umbral unico
-guideline: 5.ª Definición Universal del IAM
+guideline: 5.ª Definición Universal del IAM (2026)
 tags: troponina
 
 ### Por qué

@@ -48,7 +48,7 @@ clue: Fórmula hemodinámica para calcular las resistencias vasculares pulmonare
 answer: ¿Qué es (PAPm − PCP) / gasto cardíaco?
 accept: papm menos pcp entre gasto cardiaco | gradiente transpulmonar entre gasto | papm pcp gc | presion media pulmonar menos enclavamiento dividido por gasto | gtp gc | rvp papm pcp gc
 reject: pam pvc gc
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: RVP, unidades Wood
 
 ### Por qué
@@ -110,7 +110,7 @@ clue: Presiones diastólicas de VI y VD igualadas (diferencia ≤5 mmHg) con mor
 answer: ¿Qué es el signo de la raíz cuadrada (dip and plateau), de constricción pericárdica o miocardiopatía restrictiva?
 accept: raiz cuadrada | dip and plateau | signo de la raiz cuadrada | pericarditis constrictiva | miocardiopatia restrictiva | square root sign | constriccion | restriccion
 reject: taponamiento | estenosis mitral
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: constricción, restricción
 
 ### Por qué
@@ -131,7 +131,7 @@ clue: Presión arterial invasiva con caída de la presión sistólica de 22 mmHg
 answer: ¿Qué es el pulso paradójico?
 accept: pulso paradojico | pulsus paradoxus | paradoxical pulse | pulso paradojico de kussmaul
 reject: pulso alternante | signo de kussmaul
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: taponamiento, pulso
 
 ### Por qué
@@ -234,7 +234,7 @@ clue: Presión sistólica del VI que cae en inspiración mientras la del VD aume
 answer: ¿Qué es la discordancia (interdependencia) ventricular, propia de la pericarditis constrictiva?
 accept: discordancia ventricular | interdependencia ventricular | discordancia respiratoria | pericarditis constrictiva | constriccion | ventricular interdependence | indice de area sistolica
 reject: miocardiopatia restrictiva | concordancia
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: constricción, interdependencia
 
 ### Por qué
@@ -295,7 +295,7 @@ clue: En la prueba de vasorreactividad pulmonar con óxido nítrico, una caída 
 answer: ¿Qué son los calcioantagonistas en dosis altas?
 accept: calcioantagonistas | calcioantagonistas en dosis altas | antagonistas del calcio | nifedipino | diltiazem | amlodipino | calcium channel blockers
 reject: bosentan | sildenafilo | epoprostenol
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HAP, vasorreactividad
 
 ### Por qué
@@ -316,7 +316,7 @@ clue: Presión auricular derecha elevada con descensos x e y profundos que dan u
 answer: ¿Qué es la pericarditis constrictiva?
 accept: pericarditis constrictiva | constriccion | constriccion pericardica | constrictive pericarditis | miocardiopatia restrictiva
 reject: taponamiento | estenosis tricuspidea
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: constricción, presión venosa
 
 ### Por qué
@@ -416,7 +416,7 @@ clue: Maniobra en el laboratorio de hemodinámica en la que se miden presiones a
 answer: ¿Qué es la prueba de sobrecarga rápida de volumen (fluid challenge)?
 accept: sobrecarga de volumen | prueba de volumen | fluid challenge | carga de volumen | prueba de sobrecarga de volumen | volume challenge | sobrecarga rapida de volumen
 reject: prueba de vasorreactividad | ejercicio
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HFpEF, hemodinámica
 
 ### Por qué

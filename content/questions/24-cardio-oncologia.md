@@ -187,7 +187,7 @@ clue: Inhibidor de tirosina cinasa de BCR-ABL para leucemia mieloide crónica as
 answer: ¿Qué es el dasatinib?
 accept: dasatinib | sprycel
 reject: imatinib | ponatinib
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HP, ITK
 
 ### Por qué

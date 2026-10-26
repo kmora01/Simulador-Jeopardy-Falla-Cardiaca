@@ -107,7 +107,7 @@ clue: Inversión del shunt a derecha-izquierda por hipertensión pulmonar irreve
 answer: ¿Qué es el síndrome de Eisenmenger?
 accept: sindrome de eisenmenger | eisenmenger | fisiologia de eisenmenger | eisenmenger syndrome
 reject: fallot | hipertension pulmonar idiopatica
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: Eisenmenger, hipertensión pulmonar
 
 ### Por qué
@@ -449,7 +449,7 @@ clue: Síndrome de heterotaxia asociado a poliesplenia, interrupción de la vena
 answer: ¿Qué es el isomerismo izquierdo?
 accept: isomerismo izquierdo | isomerismo auricular izquierdo | poliesplenia | sindrome de poliesplenia | left isomerism
 reject: isomerismo derecho | asplenia
-guideline: CC adulto
+guideline: ESC 2020 CC adulto
 tags: heterotaxia, isomerismo
 
 ### Por qué

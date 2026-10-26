@@ -267,7 +267,7 @@ clue: Estenosis aórtica por debajo de la válvula, con membrana fibrosa que pue
 answer: ¿Qué es la estenosis subaórtica membranosa?
 accept: estenosis subaortica | membrana subaortica | estenosis subaortica membranosa | subvalvular aortica | estenosis subvalvular
 reject: estenosis supravalvular | mch
-guideline: ESC 2020 Congénitas adulto
+guideline: ESC 2020 CC adulto
 tags: congénitas
 
 ### Por qué

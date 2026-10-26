@@ -87,7 +87,7 @@ clue: En la sigla ABI, la prueba que compara la PA del tobillo y del brazo, esta
 answer: ¿Qué es "Ankle-Brachial" (tobillo-brazo)?
 accept: ankle-brachial | tobillo-brazo | ankle brachial | ankle-brachial index | indice tobillo-brazo
 reject: arterial blood | aortic branch
-guideline: ESC 2024 Arteriopatía periférica
+guideline: ESC 2024 Aorta y arterias periféricas
 tags: siglas, arteriopatía
 
 ### Por qué

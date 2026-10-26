@@ -658,7 +658,7 @@ answer: ¿Qué es la Quinta Definición Universal del Infarto de Miocardio?
 accept: quinta definicion universal del infarto | 5a definicion universal del infarto | definicion universal del infarto | fifth universal definition of myocardial infarction | quinta definicion universal | 5th universal definition | udmi
 reject: cuarta definicion universal | definicion universal de insuficiencia cardiaca
 source: Documento de consenso 2026 (ESC/ACC/AHA/WHF)
-guideline: 5ª Definición Universal de IAM (2026)
+guideline: 5.ª Definición Universal del IAM (2026)
 tags: definiciones, novedad 2026
 
 ### Por qué

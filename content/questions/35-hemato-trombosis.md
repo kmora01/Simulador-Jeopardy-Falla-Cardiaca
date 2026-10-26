@@ -187,7 +187,7 @@ clue: Cirugía potencialmente curativa de la HP tromboembólica crónica, que se
 answer: ¿Qué es la endarterectomía pulmonar?
 accept: endarterectomia pulmonar | tromboendarterectomia pulmonar | pea | endarterectomia | tromboendarterectomia
 reject: embolectomia | trasplante pulmonar
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HPTEC, cirugía
 
 ### Por qué
@@ -207,7 +207,7 @@ clue: Prueba de imagen de elección para el cribado de HPTEC por su alta sensibi
 answer: ¿Qué es la gammagrafía de ventilación/perfusión?
 accept: gammagrafia de ventilacion perfusion | gammagrafia v q | v q | gammagrafia pulmonar | gammagrafia de perfusion | spect v q
 reject: angio tc | eco
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HPTEC, gammagrafía
 
 ### Por qué

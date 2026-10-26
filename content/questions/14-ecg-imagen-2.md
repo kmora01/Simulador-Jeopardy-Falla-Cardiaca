@@ -29,7 +29,7 @@ clue: Taquicardia regular de QRS ancho a 180 lpm en un paciente con infarto anti
 answer: ¿Qué es la taquicardia ventricular (monomorfa)?
 accept: taquicardia ventricular | tv | tv monomorfa | taquicardia ventricular monomorfa | tvms | ventricular tachycardia | vt
 reject: taquicardia supraventricular con aberrancia | fibrilacion ventricular
-guideline: ESC 2022 Arritmias Ventriculares
+guideline: ESC 2022 Arritmias ventriculares
 tags: TV, QRS ancho
 
 ### Por qué
@@ -71,7 +71,7 @@ clue: Taquicardia ventricular polimorfa cuyos QRS parecen girar alrededor de la 
 answer: ¿Qué es la torsade de pointes, tratada con sulfato de magnesio?
 accept: torsade de pointes | torsades de pointes | torsade | torsades | taquicardia helicoidal | sulfato de magnesio | magnesio
 reject: fibrilacion ventricular | tv monomorfa
-guideline: ESC 2022 Arritmias Ventriculares
+guideline: ESC 2022 Arritmias ventriculares
 tags: QT largo, torsade
 
 ### Por qué
@@ -113,7 +113,7 @@ clue: Ondas U prominentes, aplanamiento de la T y descenso del ST en un paciente
 answer: ¿Qué es la hipopotasemia?
 accept: hipopotasemia | hipokalemia | hipokaliemia | potasio bajo | hypokalemia
 reject: hiperpotasemia | hipocalcemia
-guideline: ESC 2022 Arritmias Ventriculares
+guideline: ESC 2022 Arritmias ventriculares
 tags: electrolitos, onda U
 
 ### Por qué
@@ -155,7 +155,7 @@ clue: Elevación cóncava del ST con muesca en el punto J en V3–V5 de un depor
 answer: ¿Qué es la repolarización precoz?
 accept: repolarizacion precoz | patron de repolarizacion precoz | early repolarization | repolarizacion temprana | onda j
 reject: pericarditis | iamcest | brugada
-guideline: ESC 2022 Arritmias Ventriculares
+guideline: ESC 2022 Arritmias ventriculares
 tags: deportista, onda J
 
 ### Por qué
@@ -218,7 +218,7 @@ clue: Elevación del ST "en aleta de tiburón" (coved) ≥2 mm seguida de T nega
 answer: ¿Qué es el síndrome de Brugada (gen SCN5A)?
 accept: sindrome de brugada | brugada | patron de brugada tipo 1 | scn5a | brugada tipo 1 | brugada syndrome
 reject: repolarizacion precoz | displasia arritmogenica
-guideline: ESC 2022 Arritmias Ventriculares
+guideline: ESC 2022 Arritmias ventriculares
 tags: canalopatía, Brugada
 
 ### Por qué
@@ -239,7 +239,7 @@ clue: QTc de 520 ms con T de base ancha en una joven que sufrió síncope al son
 answer: ¿Qué es el síndrome de QT largo tipo 2 (KCNH2)?
 accept: qt largo tipo 2 | lqt2 | sqtl2 | kcnh2 | herg | sindrome de qt largo tipo 2 | long qt type 2
 reject: qt largo tipo 1 | qt largo tipo 3
-guideline: ESC 2022 Arritmias Ventriculares
+guideline: ESC 2022 Arritmias ventriculares
 tags: QT largo, canalopatía
 
 ### Por qué
@@ -344,7 +344,7 @@ clue: Eje a la derecha, R dominante en V1 (R/S >1) con T negativas en V1–V3 y 
 answer: ¿Qué es la hipertrofia ventricular derecha?
 accept: hipertrofia ventricular derecha | hvd | crecimiento ventricular derecho | rvh | right ventricular hypertrophy | hipertrofia del ventriculo derecho
 reject: infarto posterior | bloqueo de rama derecha
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HVD, hipertensión pulmonar
 
 ### Por qué

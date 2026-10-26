@@ -7,7 +7,7 @@ clue: Dilatación e hipertrofia del VD secundaria a una enfermedad pulmonar cró
 answer: ¿Qué es el cor pulmonale?
 accept: cor pulmonale | corazon pulmonar | cor pulmonale cronico | cardiopatia pulmonar
 reject: tep | estenosis pulmonar
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: cor pulmonale, HP grupo 3
 
 ### Por qué
@@ -67,7 +67,7 @@ clue: Clasificación clínica de la HP en 5 grupos: el grupo 2, el más frecuent
 answer: ¿Qué es la enfermedad del corazón izquierdo?
 accept: enfermedad del corazon izquierdo | cardiopatia izquierda | ic izquierda | hp poscapilar | insuficiencia cardiaca izquierda | valvulopatia izquierda
 reject: hap | tep cronico
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HP, clasificación
 
 ### Por qué
@@ -87,7 +87,7 @@ clue: Fármaco inhibidor de la fosfodiesterasa 5 usado en la HAP, que contraindi
 answer: ¿Qué es el sildenafilo?
 accept: sildenafilo | sildenafil | tadalafilo | tadalafil | inhibidores de la fosfodiesterasa 5 | ipde5
 reject: bosentan | riociguat
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HAP, fármacos
 
 ### Por qué
@@ -107,7 +107,7 @@ clue: Prueba realizada en el cateterismo con óxido nítrico inhalado para ident
 answer: ¿Qué es la prueba de vasorreactividad aguda?
 accept: prueba de vasorreactividad | test vasodilatador | vasorreactividad | prueba vasodilatadora | test de vasorreactividad aguda
 reject: prueba de esfuerzo | test de 6 minutos
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HAP, vasorreactividad
 
 ### Por qué
@@ -127,7 +127,7 @@ clue: Prueba submáxima que mide la distancia recorrida en un pasillo, usada par
 answer: ¿Qué es la prueba de marcha de 6 minutos?
 accept: prueba de marcha de 6 minutos | test de 6 minutos | 6mwt | test de la marcha | prueba de 6 minutos marcha | caminata de 6 minutos
 reject: ergometria | ergoespirometria
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HAP, capacidad funcional
 
 ### Por qué
@@ -147,7 +147,7 @@ clue: Prostaciclina en infusión intravenosa continua, el tratamiento más poten
 answer: ¿Qué es el epoprostenol?
 accept: epoprostenol | flolan | prostaciclina intravenosa | prostaciclina iv | treprostinil
 reject: iloprost inhalado | selexipag
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HAP, prostanoides
 
 ### Por qué
@@ -167,7 +167,7 @@ clue: Agonista oral del receptor de prostaciclina (IP) que redujo los eventos en
 answer: ¿Qué es el selexipag?
 accept: selexipag | uptravi
 reject: macitentan | iloprost
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HAP, vía de la prostaciclina
 
 ### Por qué
@@ -187,7 +187,7 @@ clue: Antagonista dual del receptor de endotelina que demostró reducir la morbi
 answer: ¿Qué es el macitentán?
 accept: macitentan | macitentán | opsumit | antagonistas de la endotelina | era
 reject: bosentan | ambrisentan
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HAP, endotelina
 
 ### Por qué
@@ -283,23 +283,23 @@ ESC 2021: servoventilación contraindicada en IC-FEr con apnea central (III).
 
 @@@ neu-015
 difficulty: 3
-clue: Taquicardia irregular con al menos tres morfologías de onda P distintas, asociada a EPOC descompensada e hipoxemia.
-answer: ¿Qué es la taquicardia auricular multifocal?
-accept: taquicardia auricular multifocal | tam | multifocal atrial tachycardia | mat | taquicardia multifocal
-reject: fibrilacion auricular | flutter
-guideline: ESC 2019 TSV
-tags: arritmias, EPOC
+clue: Un paciente con EPOC e hipoxemia crónica tiene un hematocrito del 58 %. Esta alteración aumenta la viscosidad de la sangre y el riesgo de trombosis.
+answer: ¿Qué es la eritrocitosis secundaria (poliglobulia)?
+accept: eritrocitosis secundaria | poliglobulia | policitemia secundaria | eritrocitosis | poliglobulia secundaria
+reject: policitemia vera | anemia | trombocitosis
+guideline: ESC/ERS 2022 HP
+tags: EPOC, hipoxemia
 
 ### Por qué
-La hipoxia, la acidosis, la hipopotasemia y los β-agonistas aumentan el automatismo auricular. El tratamiento es corregir la causa; los antagonistas del calcio pueden ayudar.
+La hipoxemia crónica estimula la producción de eritropoyetina en el riñón y sube los glóbulos rojos. Esto mejora el transporte de oxígeno, pero aumenta la viscosidad, la carga del VD y el riesgo de trombosis. El tratamiento principal es la oxigenoterapia crónica. La flebotomía se reserva para los síntomas de hiperviscosidad.
 
 ### Perlas de revisión
-- No responde a la cardioversión.
-- Magnesio puede ayudar.
-- Confundida con FA.
+- La oxigenoterapia es el tratamiento.
+- La flebotomía es para la hiperviscosidad.
+- La estimula la eritropoyetina.
 
 ### Lo que dicen las guías
-ESC 2019 TSV: tratar la enfermedad subyacente; considerar verapamilo o betabloqueantes (IIa).
+ESC/ERS 2022 HP: en la HP por enfermedad pulmonar se recomienda corregir la hipoxemia.
 
 @@@ neu-016
 difficulty: 4
@@ -307,7 +307,7 @@ clue: Prostanoide inhalado que mejoró la capacidad de ejercicio en la HP asocia
 answer: ¿Qué es el treprostinil inhalado?
 accept: treprostinil inhalado | treprostinil | tyvaso | treprostinilo
 reject: epoprostenol | iloprost
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HP grupo 3, intersticial
 
 ### Por qué
@@ -347,7 +347,7 @@ clue: Gen cuyas mutaciones son la causa más frecuente de HAP hereditaria, de la
 answer: ¿Qué es BMPR2?
 accept: bmpr2 | receptor tipo 2 de proteina morfogenetica osea | bmpr 2 | bone morphogenetic protein receptor type 2
 reject: eng | acvrl1
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HAP hereditaria, genética
 
 ### Por qué
@@ -367,7 +367,7 @@ clue: Forma de HP grupo 1 con afectación de vénulas pulmonares, en la que los 
 answer: ¿Qué es la enfermedad venooclusiva pulmonar?
 accept: enfermedad venooclusiva pulmonar | evop | pvod | venooclusiva | hemangiomatosis capilar pulmonar
 reject: hptec | estenosis de venas pulmonares
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: EVOP, HAP
 
 ### Por qué
@@ -387,7 +387,7 @@ clue: Escala de 4 estratos de riesgo para el seguimiento de la HAP que usa clase
 answer: ¿Qué es la estratificación de 4 estratos (COMPERA 2.0)?
 accept: compera | compera 2 0 | 4 estratos | cuatro estratos | modelo de 4 estratos | reveal
 reject: wells | pesi
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HAP, estratificación
 
 ### Por qué
@@ -407,7 +407,7 @@ clue: Algoritmo de cribado de la HAP en la esclerosis sistémica que combina DLC
 answer: ¿Qué es el algoritmo DETECT?
 accept: detect | algoritmo detect | detect algorithm
 reject: compera | reveal
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: esclerodermia, cribado
 
 ### Por qué
@@ -429,7 +429,7 @@ clue: Epidemia de HAP en Europa en los años 60 asociada a un anorexígeno, que 
 answer: ¿Qué es el aminorex?
 accept: aminorex | anorexigenos | fenfluramina | dexfenfluramina | benfluorex
 reject: anfetaminas | sibutramina
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: historia, HAP por fármacos
 
 ### Por qué
@@ -449,7 +449,7 @@ clue: Agente usado en el cateterismo para la prueba de vasorreactividad, un gas 
 answer: ¿Qué es el óxido nítrico inhalado?
 accept: oxido nitrico inhalado | oxido nitrico | no | ino | nitric oxide
 reject: oxigeno | adenosina
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HP, vasorreactividad
 
 ### Por qué
@@ -489,7 +489,7 @@ clue: Maniobra del cateterismo derecho en la que se infunden 500 mL de salino en
 answer: ¿Qué es la prueba de sobrecarga de volumen?
 accept: sobrecarga de volumen | prueba de sobrecarga de volumen | fluid challenge | carga de volumen | sobrecarga salina rapida | infusion de volumen
 reject: prueba vasodilatadora | ejercicio
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HP, IC-FEp
 
 ### Por qué

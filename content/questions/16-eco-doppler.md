@@ -197,7 +197,7 @@ clue: Velocidad máxima de insuficiencia tricuspídea de 3,9 m/s con VCI dilatad
 answer: ¿Qué es aproximadamente 76 mmHg (61 + 15)?
 accept: 76 | 76 mmhg | 75 | 75 mmhg | 76 mm hg | aproximadamente 76 mmhg | hipertension pulmonar
 reject: 36 | 61
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: PSAP, Bernoulli
 
 ### Por qué
@@ -239,7 +239,7 @@ clue: Doppler transmitral con variación respiratoria de la onda E del 38 % en u
 answer: ¿Qué es el taponamiento cardíaco?
 accept: taponamiento cardiaco | taponamiento | tamponade | cardiac tamponade | fisiologia de taponamiento
 reject: pericarditis constrictiva | miocardiopatia restrictiva
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: taponamiento, variación respiratoria
 
 ### Por qué
@@ -344,7 +344,7 @@ clue: En un paciente con IC derecha, pericardio engrosado y variación respirato
 answer: ¿Qué es el annulus reversus de la pericarditis constrictiva?
 accept: annulus reversus | pericarditis constrictiva | constriccion pericardica | constriccion | constrictive pericarditis | annulus paradoxus
 reject: miocardiopatia restrictiva | amiloidosis | taponamiento
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: constricción, Doppler tisular
 
 ### Por qué
@@ -407,7 +407,7 @@ clue: Modo M paraesternal con espacio libre de ecos anterior y posterior y la pa
 answer: ¿Qué es el colapso diastólico del ventrículo derecho (taponamiento)?
 accept: colapso diastolico del ventriculo derecho | colapso del vd | colapso diastolico del vd | taponamiento | taponamiento cardiaco | rv diastolic collapse
 reject: pericarditis constrictiva | movimiento septal paradojico
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: taponamiento, modo M
 
 ### Por qué
@@ -493,7 +493,7 @@ clue: Este patrón de variación respiratoria también aparece en la constricci�
 answer: ¿Qué son las venas hepáticas?
 accept: venas hepaticas | flujo venoso hepatico | vena hepatica | hepatic veins | suprahepaticas | venas suprahepaticas
 reject: venas pulmonares | vena cava superior
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: constricción, venas hepáticas
 
 ### Por qué

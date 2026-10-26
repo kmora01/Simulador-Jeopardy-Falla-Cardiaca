@@ -92,7 +92,7 @@ clue: Silueta cardíaca a la derecha con el ápex hacia la derecha y cámara gá
 answer: ¿Qué es la dextrocardia con situs inversus?
 accept: dextrocardia | situs inversus | situs inversus totalis | dextrocardia con situs inversus | dextrocardia en espejo
 reject: dextroposicion | neumotorax
-guideline: ESC 2020 Cardiopatías Congénitas del Adulto
+guideline: ESC 2020 CC adulto
 tags: dextrocardia, situs
 
 ### Por qué
@@ -113,7 +113,7 @@ clue: Silueta cardíaca globular, simétrica y muy agrandada, con campos pulmona
 answer: ¿Qué es el corazón en "botella de agua" por derrame pericárdico?
 accept: botella de agua | corazon en botella de agua | derrame pericardico | water bottle | derrame pericardico grande | cantimplora
 reject: miocardiopatia dilatada | edema pulmonar
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: derrame pericárdico, radiografía
 
 ### Por qué
@@ -155,7 +155,7 @@ clue: Arco pulmonar muy prominente, hilios voluminosos y vasos periféricos que 
 answer: ¿Qué es la hipertensión arterial pulmonar?
 accept: hipertension pulmonar | hipertension arterial pulmonar | hap | hp | pulmonary hypertension | pulmonary arterial hypertension
 reject: estenosis mitral | sarcoidosis
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: HP, radiografía
 
 ### Por qué
@@ -218,7 +218,7 @@ clue: Ápex elevado y redondeado, arco pulmonar cóncavo, campos pulmonares olig
 answer: ¿Qué es el corazón en bota (coeur en sabot) de la tetralogía de Fallot?
 accept: corazon en bota | coeur en sabot | tetralogia de fallot | fallot | boot shaped heart | tetralogy of fallot
 reject: transposicion de grandes arterias | ebstein
-guideline: ESC 2020 Cardiopatías Congénitas del Adulto
+guideline: ESC 2020 CC adulto
 tags: Fallot, radiografía
 
 ### Por qué
@@ -239,7 +239,7 @@ clue: Escotaduras en el borde inferior de varios arcos costales posteriores y un
 answer: ¿Qué es el signo de Roesler (muescas costales de la coartación de aorta)?
 accept: signo de roesler | roesler | muescas costales | coartacion de aorta | coartacion aortica | rib notching | coarctation
 reject: signo de westermark | signo de hampton
-guideline: ESC 2020 Cardiopatías Congénitas del Adulto
+guideline: ESC 2020 CC adulto
 tags: coartación, radiografía
 
 ### Por qué
@@ -260,7 +260,7 @@ clue: Silueta cardíaca ovalada con pedículo vascular estrecho y plétora pulmo
 answer: ¿Qué es el "huevo en una cuerda" de la transposición de las grandes arterias?
 accept: huevo en una cuerda | egg on a string | transposicion de grandes arterias | transposicion de las grandes arterias | tga | dextrotransposicion | d tga
 reject: tetralogia de fallot | drenaje venoso anomalo total
-guideline: ESC 2020 Cardiopatías Congénitas del Adulto
+guideline: ESC 2020 CC adulto
 tags: TGA, radiografía
 
 ### Por qué
@@ -344,7 +344,7 @@ clue: Mediastino superior ensanchado sobre una silueta cardíaca redonda, con pl
 answer: ¿Qué es el "muñeco de nieve" del drenaje venoso pulmonar anómalo total supracardíaco?
 accept: muneco de nieve | snowman | figura en 8 | drenaje venoso pulmonar anomalo total | dvpat | tapvr | drenaje venoso anomalo total | drenaje venoso pulmonar anomalo total supracardiaco
 reject: transposicion de grandes arterias | timo
-guideline: ESC 2020 Cardiopatías Congénitas del Adulto
+guideline: ESC 2020 CC adulto
 tags: DVPAT, radiografía
 
 ### Por qué
@@ -365,7 +365,7 @@ clue: Una sombra tubular curva que desciende paralela al borde cardíaco derecho
 answer: ¿Qué es el síndrome de la cimitarra?
 accept: sindrome de la cimitarra | cimitarra | scimitar | scimitar syndrome | drenaje venoso pulmonar anomalo parcial | sindrome venolobar congenito
 reject: neumotorax | atelectasia
-guideline: ESC 2020 Cardiopatías Congénitas del Adulto
+guideline: ESC 2020 CC adulto
 tags: cimitarra, DVPAP
 
 ### Por qué
@@ -386,7 +386,7 @@ clue: Calcificación curvilínea que rodea el contorno cardíaco en un paciente 
 answer: ¿Qué es la pericarditis constrictiva, clásicamente tuberculosa?
 accept: pericarditis constrictiva | constriccion pericardica | pericarditis constrictiva tuberculosa | tuberculosis | constrictive pericarditis | calcificacion pericardica
 reject: miocardiopatia restrictiva | aneurisma ventricular
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: constricción, calcificación
 
 ### Por qué
@@ -407,7 +407,7 @@ clue: Dispositivo infraclavicular izquierdo con un electrodo ventricular que mue
 answer: ¿Qué son los coils (bobinas) de desfibrilación de un DAI?
 accept: coils | bobinas de desfibrilacion | coil de desfibrilacion | bobinas | dai | desfibrilador automatico implantable | icd | shocking coils | coils de choque
 reject: electrodo de seno coronario | electrodo auricular
-guideline: ESC 2022 Arritmias Ventriculares
+guideline: ESC 2022 Arritmias ventriculares
 tags: DAI, dispositivos
 
 ### Por qué

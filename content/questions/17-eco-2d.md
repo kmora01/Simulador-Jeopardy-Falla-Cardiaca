@@ -8,7 +8,7 @@ clue: Espacio libre de ecos que rodea todo el corazón en la vista apical, con l
 answer: ¿Qué es el derrame pericárdico con taponamiento?
 accept: derrame pericardico | taponamiento | taponamiento cardiaco | derrame pericardico con taponamiento | pericardial effusion | cardiac tamponade | derrame pericardico grave
 reject: derrame pleural | pericarditis constrictiva
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: derrame, taponamiento
 
 ### Por qué
@@ -176,7 +176,7 @@ clue: En la vista paraesternal de eje largo, este espacio libre de ecos situado 
 answer: ¿Qué es un derrame pericárdico?
 accept: derrame pericardico | derrame | pericardial effusion | liquido pericardico
 reject: derrame pleural | ascitis
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: derrame, PLAX
 
 ### Por qué
@@ -218,7 +218,7 @@ clue: En el eje corto, el VI adopta forma de "D" por aplanamiento del septo en s
 answer: ¿Qué es la sobrecarga de presión del ventrículo derecho (hipertensión pulmonar)?
 accept: sobrecarga de presion del ventriculo derecho | sobrecarga de presion del vd | hipertension pulmonar | sobrecarga del vd | signo d | sobrecarga de presion | presion del vd elevada | pressure overload
 reject: sobrecarga de volumen | taponamiento
-guideline: ESC 2022 HP
+guideline: ESC/ERS 2022 HP
 tags: VD, signo D
 
 ### Por qué
@@ -281,7 +281,7 @@ clue: Defecto en la porción media del tabique interauricular con cavidades dere
 answer: ¿Qué es la comunicación interauricular tipo ostium secundum?
 accept: comunicacion interauricular | cia | cia ostium secundum | ostium secundum | defecto del tabique interauricular | atrial septal defect | asd
 reject: foramen oval permeable | comunicacion interventricular
-guideline: ESC 2020 Cardiopatías Congénitas del Adulto
+guideline: ESC 2020 CC adulto
 tags: CIA, congénitas
 
 ### Por qué
@@ -302,7 +302,7 @@ clue: Valva septal tricuspídea desplazada hacia el ápex con "atrialización" d
 answer: ¿Qué es la anomalía de Ebstein, asociada al litio?
 accept: anomalia de ebstein | ebstein | enfermedad de ebstein | ebstein anomaly | litio
 reject: displasia arritmogenica | atresia tricuspidea
-guideline: ESC 2020 Cardiopatías Congénitas del Adulto
+guideline: ESC 2020 CC adulto
 tags: Ebstein, congénitas
 
 ### Por qué
@@ -407,7 +407,7 @@ clue: Ante este derrame con taponamiento, es la vía de acceso más utilizada pa
 answer: ¿Qué es el abordaje apical (o paraesternal) guiado por ecocardiografía?
 accept: apical | abordaje apical | paraesternal | abordaje paraesternal | apical o paraesternal | ecoguiada apical | via apical
 reject: subxifoideo | quirurgico
-guideline: ESC 2025 Miocarditis y Pericarditis
+guideline: ESC 2025 Miocarditis y pericarditis
 tags: pericardiocentesis, técnica
 
 ### Por qué
@@ -472,7 +472,7 @@ clue: Esta CIA del adulto lleva años sin tratar; el paciente ahora tiene cianos
 answer: ¿Qué es el síndrome de Eisenmenger?
 accept: sindrome de eisenmenger | eisenmenger | fisiologia de eisenmenger | eisenmenger syndrome
 reject: ebstein | lutembacher
-guideline: ESC 2020 Cardiopatías Congénitas del Adulto
+guideline: ESC 2020 CC adulto
 tags: Eisenmenger, HAP
 
 ### Por qué
@@ -489,23 +489,23 @@ ESC 2020: bosentán en Eisenmenger sintomático (I); evitar el cierre del defect
 @@@ eco2-024
 difficulty: 5
 image: img/eco/miocardiopatia-dilatada.webp
-clue: En este paciente con miocardiopatía dilatada, FEVI 38 %, el estudio genético detecta una mutación en este gen de la envoltura nuclear, que justifica valorar un DAI pese a FEVI >35 %.
-answer: ¿Qué es la lamina A/C (gen LMNA)?
-accept: lmna | lamina a c | lamina | laminopatia | lamin a c
-reject: titina | ttn | myh7
+clue: Este paciente con este eco bebe unos 100 g de alcohol al día desde hace 10 años. Además del tratamiento de la IC, esta medida puede normalizar su FEVI.
+answer: ¿Qué es la abstinencia completa de alcohol?
+accept: abstinencia completa de alcohol | abstinencia de alcohol | dejar el alcohol | abstinencia | suspender el alcohol
+reject: reducir el alcohol | trasplante | dai
 guideline: ESC 2023 Miocardiopatías
-tags: MCD genética, LMNA
+tags: MCD, alcohol
 
 ### Por qué
-Las variantes de LMNA producen MCD con trastornos de conducción precoces y alto riesgo de arritmias ventriculares y muerte súbita, independientemente de la FEVI. Existe una calculadora específica de riesgo (LMNA-risk VTA).
+La miocardiopatía alcohólica aparece con un consumo alto durante años, por encima de unos 80 g al día. Si el paciente deja el alcohol por completo, la FEVI puede mejorar mucho e incluso normalizarse en meses. Reducir el consumo también ayuda, pero menos. Antes de decidir un DAI en estos pacientes, se espera a ver la respuesta al tratamiento y a la abstinencia.
 
 ### Perlas de revisión
-- Banderas: BAV o FA en jóvenes con antecedentes familiares de MS o miocardiopatía.
-- FLNC, DSP, RBM20 y PLN también son genotipos de alto riesgo arrítmico.
-- TTN truncante: la causa genética más frecuente de MCD, generalmente con mejor respuesta al tratamiento.
+- Aparece con más de 80 g al día.
+- La FEVI puede normalizarse.
+- Se espera antes del DAI.
 
 ### Lo que dicen las guías
-ESC 2023: DAI en MCD con LMNA si el riesgo estimado a 5 años es ≥10 % y hay TVNS, FEVI <50 % o BAV (IIa).
+ESC 2023 Miocardiopatías: en la miocardiopatía por alcohol se recomienda la abstinencia.
 
 @@@ eco2-025
 difficulty: 3

@@ -229,7 +229,7 @@ answer: ¿Qué es REDUCE-IT?
 accept: reduce it | reduce-it | reduceit
 reject: strength | vital | omemi
 source: Literatura (REDUCE-IT, NEJM 2019)
-guideline: ESC 2019/2025 Dislipidemias
+guideline: ESC 2025 Dislipidemias
 tags: lípidos, triglicéridos, ensayos
 
 ### Por qué

@@ -167,7 +167,7 @@ clue: Gen que determina más del 90 % de la concentración de lipoproteína(a), 
 answer: ¿Qué es el gen LPA?
 accept: lpa | gen lpa | apolipoproteina a | apo(a)
 reject: apob | ldlr
-guideline: ESC/EAS 2025 Dislipidemias
+guideline: ESC 2025 Dislipidemias
 tags: lípidos
 
 ### Por qué
