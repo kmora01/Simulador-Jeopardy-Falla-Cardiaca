@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/build-bank.mjs && vite",
-    "build": "node scripts/build-bank.mjs && vite build",
+    "dev": "node scripts/build-bank.mjs && node scripts/build-summaries.mjs && vite",
+    "build": "node scripts/build-bank.mjs && node scripts/build-summaries.mjs && vite build",
     "preview": "vite preview",
     "bank": "node scripts/build-bank.mjs",
     "bank:check": "node scripts/build-bank.mjs --check",
@@ -18,6 +18,7 @@
     "dexie-react-hooks": "^4.4.0",
     "framer-motion": "^14.6.0",
     "fuse.js": "^7.5.0",
+    "pdfjs-dist": "^4.10.38",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-markdown": "^10.1.0",
