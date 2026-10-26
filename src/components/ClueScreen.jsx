@@ -72,16 +72,16 @@ export default function ClueScreen({ question, header, stake, strict, seconds, t
 
       {question.image && (
         <motion.div className="flex justify-center px-4 pb-3" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }}>
-          <ClinicalImage src={question.image} maxH="max-h-[46vh]" />
+          <ClinicalImage src={question.image} maxH="max-h-[34vh] sm:max-h-[46vh]" />
         </motion.div>
       )}
 
-      <div className="px-4 sm:px-8 pb-6 sm:pb-10">
+      <div className="px-4 sm:px-8 pb-6 sm:pb-10" style={{ paddingBottom: 'max(1.5rem, env(safe-area-inset-bottom))' }}>
         <div className="mx-auto max-w-3xl flex flex-col gap-4">
           <Timer seconds={anki ? 0 : seconds} running={running && !anki} onExpire={onExpire} />
           {!anki ? (
             <>
-              <form onSubmit={submit} className="flex gap-2">
+              <form onSubmit={submit} className="flex flex-col sm:flex-row gap-2">
                 <input
                   ref={inputRef}
                   className="input bg-black/30 text-lg sm:text-xl py-4"
@@ -91,7 +91,7 @@ export default function ClueScreen({ question, header, stake, strict, seconds, t
                   autoComplete="off"
                   spellCheck={false}
                 />
-                <button className="btn-gold px-6 text-lg" disabled={!given.trim()}>
+                <button className="btn-gold px-6 py-3 text-lg" disabled={!given.trim()}>
                   Responder
                 </button>
               </form>

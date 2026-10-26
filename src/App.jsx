@@ -87,7 +87,7 @@ export default function App() {
     <AppCtx.Provider value={ctx}>
       <div className="min-h-screen flex flex-col">
         {screen !== 'game' && <TopBar onLogout={doLogout} />}
-        <main className="flex-1">
+        <main className={`flex-1 ${screen !== 'game' ? 'pb-20 md:pb-0' : ''}`}>
           <AnimatePresence mode="wait">
             <motion.div
               key={screen === 'game' ? `game-${gameRequest?.key}` : screen}
