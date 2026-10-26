@@ -451,7 +451,7 @@ guideline: Anatomía
 tags: anatomía coronaria
 
 ### Por qué
-Maurice Kugel la describió en 1927. Nace de la circunfleja o de la CD proximal y puede aportar colaterales en oclusiones de la CD. El círculo de Vieussens es otra colateral, entre el cono pulmonar y la DA.
+Maurice Kugel la describió en 1927. Nace de la circunfleja o de la CD proximal y puede aportar colaterales en oclusiones de la CD. El círculo de Vieussens es otra colateral, entre el cono pulmonar y la DA. Conocer la arteria de Kugel ayuda a entender por qué algunos infartos de la CD no causan bloqueo AV, y por qué su lesión durante una ICP o una cirugía puede causar isquemia auricular o arritmias.
 
 ### Perlas de revisión
 - Colateral auricular.
@@ -463,7 +463,7 @@ Concepto anatómico.
 
 @@@ epo-024
 difficulty: 5
-clue: Anillo de colaterales entre la rama del cono de la coronaria derecha y la descendente anterior, descrito por un anatomista francés del siglo XVII.
+clue: Anillo de colaterales entre la rama del cono de la coronaria derecha y la descendente anterior, descrito por un anatomista francés a comienzos del siglo XVIII.
 answer: ¿Qué es el círculo de Vieussens?
 accept: circulo de vieussens | vieussens | anillo de vieussens
 reject: arteria de kugel | poligono de willis
@@ -471,7 +471,7 @@ guideline: Anatomía
 tags: anatomía coronaria
 
 ### Por qué
-Raymond Vieussens lo describió en 1706. Se hace visible en la angiografía cuando hay obstrucción proximal de la DA o de la CD. También describió las venas de Vieussens y otras estructuras.
+Raymond Vieussens lo describió en 1706. Se hace visible en la angiografía cuando hay obstrucción proximal de la DA o de la CD. También describió las venas de Vieussens y otras estructuras. Es una de las colaterales más importantes cuando se ocluye la DA, porque lleva sangre desde la CD a través de la rama del cono. Si la rama del cono nace por separado de la aorta, puede pasar desapercibida en la coronariografía si no se canula.
 
 ### Perlas de revisión
 - Cono-DA.
@@ -493,7 +493,7 @@ guideline: Fisiología
 tags: interdependencia ventricular
 
 ### Por qué
-Hippolyte Bernheim lo describió en 1910. Hoy se reconoce que la interdependencia ventricular opera en ambas direcciones. El "efecto Bernheim inverso" (desplazamiento del septo hacia el VI) aparece en la sobrecarga del VD, como en la HP o la TEP.
+Hippolyte Bernheim lo describió en 1910. Hoy se reconoce que la interdependencia ventricular opera en ambas direcciones. El "efecto Bernheim inverso" (desplazamiento del septo hacia el VI) aparece en la sobrecarga del VD, como en la HP o la TEP. En ese caso, el septo aplanado da al VI la forma de una D en el eje corto del eco, reduce su llenado y baja el gasto. Por eso dar mucho volumen a un VD dilatado puede empeorar la situación en vez de mejorarla.
 
 ### Perlas de revisión
 - Interdependencia ventricular.
