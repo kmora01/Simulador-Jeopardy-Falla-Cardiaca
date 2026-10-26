@@ -1,6 +1,6 @@
 # Cardio Jeopardy! — Simulador de entrenamiento
 
-Simulador tipo *Jeopardy!* de Cardiología y Medicina Interna para preparar competencias de fellows.
+Simulador tipo *Jeopardy!* de Cardiología (3500 pistas) para preparar competencias de fellows.
 Uso personal de entrenamiento.
 
 **Sitio:** https://kmora01.github.io/Simulador-Jeopardy-Falla-Cardiaca/
@@ -16,6 +16,10 @@ Uso personal de entrenamiento.
 - **Estadísticas**: fortalezas y debilidades por categoría, radar, barras, mapa de calor de estudio diario, acierto por dificultad, historial de partidas.
 - **Repaso SRS** (SM-2) de los conceptos fallados y **explorador del banco** con búsqueda y filtros.
 - Exportar e importar el progreso (Ajustes) para pasarlo a otro navegador o equipo.
+- **Versión para celular e instalable (PWA)**: tablero por categorías con los 5 valores en fila, navegación inferior, y opción "Agregar a pantalla de inicio" en iPhone/Android.
+- **Pestaña Estudio**:
+  - **Resúmenes propios** por tema (`content/summaries/`), organizados en unidades, con autoevaluación usando pistas del banco y marca de "estudiado" por usuario. Son textos originales; no copian los libros.
+  - **Mis libros**: lector de PDF **local** (pdf.js). El PDF se elige desde el dispositivo y se abre solo en ese navegador (se guarda en IndexedDB o como permiso de archivo); **nunca se sube al sitio**. Usa los marcadores del PDF como lista de capítulos, recuerda la página y permite marcar capítulos estudiados.
 
 ## Seguridad del inicio de sesión (importante)
 
@@ -30,6 +34,10 @@ node scripts/hash-password.mjs kevin.mora 'NuevaContraseña'
 ```
 
 El progreso de cada usuario vive en el navegador donde juega (IndexedDB). Si cambias de equipo, usa Exportar/Importar en Ajustes.
+
+## Resúmenes
+
+Cada archivo de `content/summaries/` tiene una cabecera (`unit`, `title`, `books`, `categories` separadas por `;`), una línea `---` y el cuerpo en Markdown. `categories` debe usar nombres exactos de categorías del banco: de ahí sale la autoevaluación. `npm run build` los compila a `public/summaries.json`.
 
 ## Banco de preguntas
 
