@@ -158,6 +158,17 @@ export default function Home() {
             </div>
           </Card>
           <Card>
+            <div className="flex items-center justify-between gap-3">
+              <div>
+                <div className="text-sm text-white/60">Ensayos clínicos</div>
+                <div className="text-sm text-white/80 mt-1">Población, intervención y resultado de los grandes ensayos.</div>
+              </div>
+              <button className="btn-blue shrink-0" onClick={() => go('trials')}>
+                Jugar
+              </button>
+            </div>
+          </Card>
+          <Card>
             <div className="text-sm text-white/60">Racha de estudio</div>
             <div className="flex items-end gap-6 mt-1">
               <div>
