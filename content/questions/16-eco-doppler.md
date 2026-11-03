@@ -24,7 +24,7 @@ ASE/EACVI 2016: algoritmo con 4 variables (e', E/e' >14, IT >2,8 m/s, volumen AI
 
 @@@ eco1-002
 difficulty: 1
-image: img/eco/estenosis-aortica-cw.webp
+image: img/real/eco/estenosis-aortica-cw.jpg
 clue: Doppler continuo a través de la válvula aórtica con velocidad máxima de 4,8 m/s y gradiente medio de 56 mmHg: esta valvulopatía y su gravedad.
 answer: ¿Qué es la estenosis aórtica grave?
 accept: estenosis aortica grave | estenosis aortica severa | estenosis aortica | ea grave | ea severa | severe aortic stenosis | aortic stenosis
@@ -45,7 +45,7 @@ ESC/EACTS 2025: intervención en EA grave sintomática (I) y en asintomática co
 
 @@@ eco1-003
 difficulty: 1
-image: img/eco/mitral-relajacion-alterada.webp
+image: img/real/eco/mitral-relajacion-alterada.jpg
 clue: Onda E menor que la A con tiempo de desaceleración prolongado en un hipertenso de 68 años: este grado de disfunción diastólica.
 answer: ¿Qué es la alteración de la relajación (disfunción diastólica grado I)?
 accept: alteracion de la relajacion | relajacion alterada | disfuncion diastolica grado 1 | grado i | relajacion prolongada | impaired relaxation | disfuncion diastolica grado i
@@ -108,7 +108,7 @@ ASE: FEVI por método biplano de discos (Simpson) en vistas apicales de 4 y 2 c�
 
 @@@ eco1-006
 difficulty: 2
-image: img/eco/mitral-restrictivo.webp
+image: img/real/eco/mitral-restrictivo.jpg
 clue: Onda E alta (1,25 m/s), A muy pequeña y tiempo de desaceleración de 110 ms en un paciente con IC: este patrón y su significado pronóstico.
 answer: ¿Qué es el patrón restrictivo (grado III), de mal pronóstico?
 accept: patron restrictivo | llenado restrictivo | disfuncion diastolica grado 3 | grado iii | restrictivo | restrictive filling | disfuncion diastolica grado iii
@@ -129,7 +129,7 @@ ASE/EACVI 2016: el patrón restrictivo se asocia a mayor mortalidad en IC e infa
 
 @@@ eco1-007
 difficulty: 2
-image: img/eco/insuficiencia-aortica-pht.webp
+image: img/real/eco/insuficiencia-aortica-pht.jpg
 clue: Señal diastólica de insuficiencia aórtica con tiempo de hemipresión de 190 ms: este grado de regurgitación.
 answer: ¿Qué es la insuficiencia aórtica grave?
 accept: insuficiencia aortica grave | insuficiencia aortica severa | ia grave | ia severa | insuficiencia aortica | severe aortic regurgitation | regurgitacion aortica grave
@@ -150,7 +150,7 @@ ESC/EACTS 2025: cirugía en IA grave sintomática (I) o asintomática con FEVI �
 
 @@@ eco1-008
 difficulty: 2
-image: img/eco/aorta-holodiastolico.webp
+image: img/real/eco/aorta-holodiastolico.jpg
 clue: Doppler pulsado en la aorta descendente desde la ventana supraesternal con flujo inverso durante toda la diástole: este hallazgo indica esto.
 answer: ¿Qué es la insuficiencia aórtica grave?
 accept: insuficiencia aortica grave | insuficiencia aortica severa | ia grave | flujo holodiastolico inverso | regurgitacion aortica grave | insuficiencia aortica
@@ -234,7 +234,7 @@ ESC 2023: inhibidores de la miosina cardíaca (mavacamten) en MCHO sintomática 
 
 @@@ eco1-012
 difficulty: 3
-image: img/eco/variacion-respiratoria.webp
+image: img/real/eco/variacion-respiratoria.jpg
 clue: Doppler transmitral con variación respiratoria de la onda E del 38 % en un paciente con derrame pericárdico: este diagnóstico hemodinámico.
 answer: ¿Qué es el taponamiento cardíaco?
 accept: taponamiento cardiaco | taponamiento | tamponade | cardiac tamponade | fisiologia de taponamiento
@@ -423,7 +423,7 @@ ESC 2025: pericardiocentesis urgente con compromiso hemodinámico (I).
 
 @@@ eco1-021
 difficulty: 5
-image: img/eco/estenosis-aortica-cw.webp
+image: img/real/eco/estenosis-aortica-cw.jpg
 clue: Este Doppler en una paciente asintomática con FEVI 62 % y Vmáx que ha aumentado 0,4 m/s en un año. Esta velocidad máxima define la EA "muy grave" con indicación de intervención aun sin síntomas.
 answer: ¿Qué es una velocidad máxima ≥5 m/s?
 accept: 5 m s | 5 | 5 metros por segundo | mayor de 5 m s | 5 0 m s | vmax 5
@@ -488,7 +488,7 @@ ESC 2023: considerar inhibidores de miosina en MCHO sintomática pese a betabloq
 
 @@@ eco1-024
 difficulty: 5
-image: img/eco/variacion-respiratoria.webp
+image: img/real/eco/variacion-respiratoria.jpg
 clue: Este patrón de variación respiratoria también aparece en la constricción. A diferencia del taponamiento, en la constricción este flujo venoso muestra inversión diastólica espiratoria.
 answer: ¿Qué son las venas hepáticas?
 accept: venas hepaticas | flujo venoso hepatico | vena hepatica | hepatic veins | suprahepaticas | venas suprahepaticas

@@ -24,7 +24,7 @@ ESC 2025: pericardiocentesis urgente en taponamiento (I) y diagnóstica en sospe
 
 @@@ eco2-002
 difficulty: 1
-image: img/eco/miocardiopatia-dilatada.webp
+image: img/real/eco/miocardiopatia-dilatada.jpg
 clue: Ventrículo izquierdo esférico y muy dilatado con paredes adelgazadas e hipocinesia global en un paciente de 45 años sin enfermedad coronaria: este diagnóstico.
 answer: ¿Qué es la miocardiopatía dilatada?
 accept: miocardiopatia dilatada | mcd | miocardiopatia dilatada idiopatica | dilated cardiomyopathy | dcm | miocardiopatia dilatada no isquemica
@@ -66,7 +66,7 @@ ASE: modelo de 17 segmentos para la evaluación de la contractilidad regional.
 
 @@@ eco2-004
 difficulty: 1
-image: img/eco/trombo-apical.webp
+image: img/real/eco/trombo-apical.jpg
 clue: Masa ecogénica adherida al ápex de un VI con acinesia apical tras un infarto anterior: este hallazgo y su tratamiento.
 answer: ¿Qué es un trombo intraventricular izquierdo, tratado con anticoagulación?
 accept: trombo apical | trombo intraventricular | trombo en el ventriculo izquierdo | trombo mural | anticoagulacion | lv thrombus | trombo del vi
@@ -276,7 +276,7 @@ Consenso: resección quirúrgica de todo mixoma cardíaco diagnosticado.
 
 @@@ eco2-014
 difficulty: 3
-image: img/eco/comunicacion-interauricular.webp
+image: img/real/eco/comunicacion-interauricular.jpg
 clue: Defecto en la porción media del tabique interauricular con cavidades derechas dilatadas en una mujer de 40 años con desdoblamiento fijo del segundo ruido: este defecto.
 answer: ¿Qué es la comunicación interauricular tipo ostium secundum?
 accept: comunicacion interauricular | cia | cia ostium secundum | ostium secundum | defecto del tabique interauricular | atrial septal defect | asd
@@ -339,7 +339,7 @@ ESC 2023: algoritmo no invasivo de ATTR con gammagrafía + exclusión de proteí
 
 @@@ eco2-017
 difficulty: 4
-image: img/eco/no-compactacion.webp
+image: img/real/eco/no-compactacion.jpg
 clue: Ventrículo izquierdo con trabéculas prominentes y recesos profundos en el ápex y la pared lateral, con capa no compactada mucho más gruesa que la compactada: este fenotipo.
 answer: ¿Qué es la hipertrabeculación del VI (antes llamada "miocardiopatía no compactada")?
 accept: no compactacion | miocardiopatia no compactada | ventriculo izquierdo no compactado | hipertrabeculacion | hipertrabeculacion del ventriculo izquierdo | lvnc | non compaction
@@ -467,7 +467,7 @@ Recomendación de expertos: cribado ecocardiográfico de familiares y seguimient
 difficulty: 5
 final: true
 finalCategory: CARDIOPATÍAS CONGÉNITAS
-image: img/eco/comunicacion-interauricular.webp
+image: img/real/eco/comunicacion-interauricular.jpg
 clue: Esta CIA del adulto lleva años sin tratar; el paciente ahora tiene cianosis, eritrocitosis y resistencias pulmonares de 10 UW. Este epónimo nombra la inversión del cortocircuito.
 answer: ¿Qué es el síndrome de Eisenmenger?
 accept: sindrome de eisenmenger | eisenmenger | fisiologia de eisenmenger | eisenmenger syndrome
@@ -488,7 +488,7 @@ ESC 2020: bosentán en Eisenmenger sintomático (I); evitar el cierre del defect
 
 @@@ eco2-024
 difficulty: 5
-image: img/eco/miocardiopatia-dilatada.webp
+image: img/real/eco/miocardiopatia-dilatada.jpg
 clue: Este paciente con este eco bebe unos 100 g de alcohol al día desde hace 10 años. Además del tratamiento de la IC, esta medida puede normalizar su FEVI.
 answer: ¿Qué es la abstinencia completa de alcohol?
 accept: abstinencia completa de alcohol | abstinencia de alcohol | dejar el alcohol | abstinencia | suspender el alcohol

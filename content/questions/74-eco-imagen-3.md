@@ -24,7 +24,7 @@ ESC 2024 HTA: el ecocardiograma está indicado en hipertensos con ECG anormal o 
 
 @@@ eco3-002
 difficulty: 1
-image: img/eco/raiz-aortica-dilatada.webp
+image: img/real/eco/raiz-aortica-dilatada.jpg
 clue: En este paraesternal eje largo, los senos de Valsalva miden 52 mm y la unión sinotubular pierde su "cintura". Este hallazgo.
 answer: ¿Qué es la dilatación de la raíz aórtica?
 accept: dilatacion de la raiz aortica | aneurisma de la raiz aortica | ectasia anuloaortica | dilatacion de raiz aortica | aortic root dilation | aneurisma de senos de valsalva
@@ -45,7 +45,7 @@ ESC 2024 Aorta: en Marfan se recomienda cirugía de la raíz con diámetro ≥50
 
 @@@ eco3-003
 difficulty: 1
-image: img/eco/estenosis-pulmonar-cw.webp
+image: img/real/eco/estenosis-pulmonar-cw.jpg
 clue: Joven asintomático con soplo sistólico en el 2.º espacio intercostal izquierdo. El Doppler continuo a través de la válvula pulmonar muestra este registro con Vmáx de 4,3 m/s. Diagnóstico.
 answer: ¿Qué es la estenosis pulmonar valvular grave?
 accept: estenosis pulmonar valvular grave | estenosis pulmonar grave | estenosis pulmonar | estenosis valvular pulmonar | pulmonary stenosis
@@ -87,7 +87,7 @@ ESC 2025 Miocarditis y pericarditis: los derrames graves de causa no aclarada o 
 
 @@@ eco3-005
 difficulty: 1
-image: img/eco/it-masiva.webp
+image: img/real/eco/it-masiva.jpg
 clue: Doppler continuo de la válvula tricúspide: señal densa, de pico precoz y morfología triangular, con Vmáx de solo 2,1 m/s. Esta valvulopatía y su grado.
 answer: ¿Qué es la insuficiencia tricuspídea masiva (o torrencial)?
 accept: insuficiencia tricuspidea masiva | insuficiencia tricuspidea torrencial | insuficiencia tricuspidea grave | it masiva | it torrencial | it grave | massive tricuspid regurgitation
@@ -297,7 +297,7 @@ ESC 2020 CC adulto: todo paciente con coartación necesita imagen de toda la aor
 
 @@@ eco3-015
 difficulty: 3
-image: img/eco/raiz-aortica-dilatada.webp
+image: img/real/eco/raiz-aortica-dilatada.jpg
 clue: En un paciente alto y delgado sin antecedentes familiares, los criterios de Ghent revisados usan esta medida de la raíz ajustada a superficie corporal (≥2) para el diagnóstico de Marfan.
 answer: ¿Qué es el Z-score de la raíz aórtica?
 accept: z score de la raiz aortica | z score | puntuacion z | z score aortico | z-score | aortic root z score
@@ -318,7 +318,7 @@ ESC 2024 Aorta: en sospecha de aortopatía hereditaria se recomienda valoración
 
 @@@ eco3-016
 difficulty: 3
-image: img/eco/hipertrofia-psax.webp
+image: img/real/eco/hipertrofia-psax.jpg
 clue: Eje corto con paredes engrosadas y cavidad pequeña. En el método lineal, la masa del VI indexada se considera aumentada por encima de este valor en varones.
 answer: ¿Qué es 115 g/m²?
 accept: 115 g/m2 | 115 | 115 gramos por metro cuadrado | mas de 115 g/m2 | 115 g/m²
@@ -381,7 +381,7 @@ ESC/EACTS 2025 Valvulopatías: el VS indexado obtenido en el TSVI define el bajo
 
 @@@ eco3-019
 difficulty: 4
-image: img/eco/it-masiva.webp
+image: img/real/eco/it-masiva.jpg
 clue: En este paciente, el Doppler pulsado de las venas suprahepáticas muestra este hallazgo, específico de insuficiencia tricuspídea grave.
 answer: ¿Qué es la inversión sistólica del flujo en las venas hepáticas?
 accept: inversion sistolica del flujo en las venas hepaticas | flujo sistolico invertido en venas hepaticas | inversion sistolica de venas suprahepaticas | systolic flow reversal hepatic veins | inversion de la onda s hepatica
@@ -402,7 +402,7 @@ ESC/EACTS 2025 Valvulopatías: la gravedad de la IT se gradúa con un enfoque in
 
 @@@ eco3-020
 difficulty: 4
-image: img/eco/estenosis-pulmonar-cw.webp
+image: img/real/eco/estenosis-pulmonar-cw.jpg
 clue: Para esta estenosis pulmonar valvular grave con válvula en cúpula, móvil y no displásica, este es el tratamiento de elección.
 answer: ¿Qué es la valvuloplastia pulmonar percutánea con balón?
 accept: valvuloplastia pulmonar con balon | valvuloplastia con balon | valvuloplastia pulmonar percutanea | valvuloplastia pulmonar | balloon pulmonary valvuloplasty
@@ -512,7 +512,7 @@ ESC 2020 CC adulto: la reparación está indicada en pacientes con HTA y gradien
 difficulty: 5
 final: true
 finalCategory: GENÉTICA Y AORTA
-image: img/eco/raiz-aortica-dilatada.webp
+image: img/real/eco/raiz-aortica-dilatada.jpg
 clue: Según los criterios de Ghent revisados, en un joven sin antecedentes familiares, esta raíz dilatada (Z ≥2) más este hallazgo ocular bastan para diagnosticar Marfan, sin prueba genética ni puntuación sistémica.
 answer: ¿Qué es la ectopia lentis (subluxación del cristalino)?
 accept: ectopia lentis | subluxacion del cristalino | luxacion del cristalino | ectopia del cristalino | lens dislocation
