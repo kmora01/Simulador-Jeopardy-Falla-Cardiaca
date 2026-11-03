@@ -213,7 +213,7 @@ ESC 2021 Estimulación: el marcapasos sin cables debe considerarse cuando no hay
 
 @@@ rx2-011
 difficulty: 2
-image: img/rx/mitraclip.webp
+image: img/real/rx/mitraclip.jpg
 clue: Un paciente con IC y FEVI del 30 % lleva este clip mitral. COAPT benefició sobre todo a pacientes con un orificio regurgitante grande respecto a un VI poco dilatado. Así se llama ese tipo de insuficiencia mitral.
 answer: ¿Qué es la insuficiencia mitral desproporcionada?
 accept: insuficiencia mitral desproporcionada | im desproporcionada | disproportionate mitral regurgitation | insuficiencia mitral desproporcionada al vi
@@ -297,7 +297,7 @@ ESC/EACTS 2025 Valvulopatías: la valvulopatía calcificada en ERC avanzada impl
 
 @@@ rx2-015
 difficulty: 3
-image: img/rx/dai-subcutaneo.webp
+image: img/real/rx/dai-subcutaneo.jpg
 clue: Este desfibrilador tiene la carcasa en la línea axilar media y un cable paraesternal fuera del corazón. Es especialmente adecuado para pacientes con este perfil de necesidades de estimulación.
 answer: ¿Qué son los pacientes sin necesidad de estimulación antibradicardia ni antitaquicardia?
 accept: sin necesidad de estimulacion | pacientes sin necesidad de estimulacion | sin indicacion de marcapasos | que no necesitan estimulacion | sin necesidad de atp ni marcapasos
@@ -402,7 +402,7 @@ ESC/EACTS 2025 Valvulopatías: entre los factores que favorecen TAVI sobre cirug
 
 @@@ rx2-020
 difficulty: 4
-image: img/rx/dai-subcutaneo.webp
+image: img/real/rx/dai-subcutaneo.jpg
 clue: Antes de implantar este dispositivo se hace este estudio con electrodos de superficie colocados como los del DAI. Comprueba si la relación QRS/T permite detectar bien sin contar dos veces cada latido.
 answer: ¿Qué es el cribado de vectores ECG (screening de superficie)?
 accept: cribado de vectores ecg | screening de superficie | cribado ecg de superficie | screening ecg | cribado electrocardiografico preimplante | vector screening | cribado de detección
@@ -423,7 +423,7 @@ ESC 2022 Arritmias ventriculares: la selección del DAI subcutáneo requiere una
 
 @@@ rx2-021
 difficulty: 4
-image: img/rx/mitraclip.webp
+image: img/real/rx/mitraclip.jpg
 clue: Tras colocar el clip de esta radiografía, si el gradiente medio transmitral supera este valor en el ecocardiograma intraoperatorio, se valora no añadir otro clip por riesgo de estenosis mitral iatrogénica.
 answer: ¿Qué son 5 mmHg?
 accept: 5 mmhg | 5 | cinco mmhg | mas de 5 mmhg | gradiente medio de 5 mmhg

@@ -24,7 +24,7 @@ ESC 2021 IC: la radiografía de tórax ayuda a excluir causas pulmonares y a det
 
 @@@ rx-002
 difficulty: 1
-image: img/rx/edema-pulmonar.webp
+image: img/real/rx/edema-pulmonar.jpg
 clue: Opacidades alveolares perihiliares bilaterales "en alas de mariposa", cardiomegalia y derrames pleurales en un paciente con ortopnea: este diagnóstico.
 answer: ¿Qué es el edema agudo de pulmón cardiogénico?
 accept: edema agudo de pulmon | edema pulmonar | edema pulmonar cardiogenico | eap | edema agudo de pulmon cardiogenico | pulmonary edema | insuficiencia cardiaca aguda
@@ -45,7 +45,7 @@ ESC 2021/2023: diuréticos de asa IV en IC aguda congestiva (I); VMNI en distré
 
 @@@ rx-003
 difficulty: 1
-image: img/rx/marcapasos-bicameral.webp
+image: img/real/rx/marcapasos-bicameral.jpg
 clue: Generador infraclavicular izquierdo con dos electrodos, uno en la orejuela derecha y otro en el ápex del VD: este dispositivo.
 answer: ¿Qué es un marcapasos bicameral (DDD)?
 accept: marcapasos bicameral | marcapasos ddd | marcapasos de doble camara | ddd | marcapasos | dual chamber pacemaker | marcapasos doble camara
@@ -66,7 +66,7 @@ ESC 2021: radiografía tras el implante para descartar neumotórax y verificar l
 
 @@@ rx-004
 difficulty: 1
-image: img/rx/derrame-pleural-derecho.webp
+image: img/real/rx/derrame-pleural-derecho.jpg
 clue: Opacidad homogénea en la base derecha con borramiento del seno costofrénico y borde superior cóncavo que asciende hacia la pared lateral: este signo y el hallazgo.
 answer: ¿Qué es el signo del menisco de un derrame pleural?
 accept: derrame pleural | menisco | signo del menisco | derrame pleural derecho | pleural effusion | liquido pleural
@@ -87,7 +87,7 @@ BTS: toracocentesis diagnóstica en derrame unilateral o atípico en IC.
 
 @@@ rx-005
 difficulty: 1
-image: img/rx/dextrocardia.webp
+image: img/real/rx/dextrocardia.jpg
 clue: Silueta cardíaca a la derecha con el ápex hacia la derecha y cámara gástrica también en el lado derecho: este hallazgo.
 answer: ¿Qué es la dextrocardia con situs inversus?
 accept: dextrocardia | situs inversus | situs inversus totalis | dextrocardia con situs inversus | dextrocardia en espejo
@@ -108,7 +108,7 @@ ESC 2020: estudio de imagen multimodal en anomalías de situs para descartar car
 
 @@@ rx-006
 difficulty: 2
-image: img/rx/botella-de-agua.webp
+image: img/real/rx/botella-de-agua.png
 clue: Silueta cardíaca globular, simétrica y muy agrandada, con campos pulmonares sin congestión, en un paciente con hipotensión: este signo y su causa.
 answer: ¿Qué es el corazón en "botella de agua" por derrame pericárdico?
 accept: botella de agua | corazon en botella de agua | derrame pericardico | water bottle | derrame pericardico grande | cantimplora
@@ -129,7 +129,7 @@ ESC 2025: ecocardiograma ante sospecha de derrame; pericardiocentesis si taponam
 
 @@@ rx-007
 difficulty: 2
-image: img/rx/redistribucion-kerley.webp
+image: img/real/rx/redistribucion-kerley.jpg
 clue: Vasos de los lóbulos superiores tan gruesos como los inferiores y finas líneas horizontales en la periferia de las bases: estas líneas y su significado.
 answer: ¿Qué son las líneas B de Kerley por edema intersticial?
 accept: lineas b de kerley | kerley | lineas de kerley | edema intersticial | kerley b | redistribucion vascular | cefalizacion
@@ -171,7 +171,7 @@ ESC 2022 HP: gammagrafía de ventilación/perfusión en el estudio inicial para 
 
 @@@ rx-009
 difficulty: 2
-image: img/rx/neumotorax.webp
+image: img/real/rx/neumotorax.png
 clue: Línea pleural visceral fina en el hemitórax izquierdo sin trama vascular por fuera de ella, horas después del implante de un dispositivo por vía subclavia: esta complicación.
 answer: ¿Qué es el neumotórax?
 accept: neumotorax | neumotorax iatrogenico | pneumothorax | neumotorax izquierdo
@@ -192,7 +192,7 @@ ESC 2021: preferir acceso por vena cefálica o axilar para reducir neumotórax (
 
 @@@ rx-010
 difficulty: 2
-image: img/rx/mediastino-ensanchado.webp
+image: img/real/rx/mediastino-ensanchado.jpg
 clue: Ensanchamiento del mediastino superior y botón aórtico prominente en un hipertenso con dolor torácico interescapular brusco: el diagnóstico que debes descartar de inmediato y la prueba.
 answer: ¿Qué es la disección aórtica, confirmada con angio-TC?
 accept: diseccion aortica | diseccion de aorta | sindrome aortico agudo | angiotac | tc con contraste | angio tc | aortic dissection
@@ -213,7 +213,7 @@ ESC 2024 Aorta: angio-TC como técnica de imagen de primera línea en sospecha d
 
 @@@ rx-011
 difficulty: 3
-image: img/rx/corazon-en-bota.webp
+image: img/real/rx/corazon-en-bota.jpg
 clue: Ápex elevado y redondeado, arco pulmonar cóncavo, campos pulmonares oligohémicos y arco aórtico a la derecha en un niño cianótico: este signo y la cardiopatía.
 answer: ¿Qué es el corazón en bota (coeur en sabot) de la tetralogía de Fallot?
 accept: corazon en bota | coeur en sabot | tetralogia de fallot | fallot | boot shaped heart | tetralogy of fallot
@@ -297,7 +297,7 @@ ESC/EACTS 2025: anticoagulación con AVK en FA y EM moderada-grave (I).
 
 @@@ rx-015
 difficulty: 3
-image: img/rx/tres-electrodos-trc.webp
+image: img/real/rx/tres-electrodos-trc.png
 clue: Generador con electrodos en la aurícula derecha, en el ápex del VD y un tercero que sigue el surco AV hacia la pared lateral del VI: este dispositivo y la vena por la que pasa el tercero.
 answer: ¿Qué es un resincronizador cardíaco (TRC) con electrodo en el seno coronario?
 accept: trc | terapia de resincronizacion cardiaca | resincronizador | seno coronario | crt | cardiac resynchronization therapy | resincronizacion | trc p | trc d
@@ -360,7 +360,7 @@ Cardiopatías congénitas: el DVPAT obstruido es una emergencia quirúrgica neon
 
 @@@ rx-018
 difficulty: 4
-image: img/rx/cimitarra.webp
+image: img/real/rx/cimitarra.jpg
 clue: Una sombra tubular curva que desciende paralela al borde cardíaco derecho hacia el diafragma, con pulmón derecho hipoplásico: este síndrome.
 answer: ¿Qué es el síndrome de la cimitarra?
 accept: sindrome de la cimitarra | cimitarra | scimitar | scimitar syndrome | drenaje venoso pulmonar anomalo parcial | sindrome venolobar congenito
@@ -402,7 +402,7 @@ ESC 2025: pericardiectomía en constricción crónica permanente (I); prueba de 
 
 @@@ rx-020
 difficulty: 4
-image: img/rx/dai.webp
+image: img/real/rx/dai.jpg
 clue: Dispositivo infraclavicular izquierdo con un electrodo ventricular que muestra dos segmentos gruesos radiopacos en la VCS y en el VD: estos segmentos y su función.
 answer: ¿Qué son los coils (bobinas) de desfibrilación de un DAI?
 accept: coils | bobinas de desfibrilacion | coil de desfibrilacion | bobinas | dai | desfibrilador automatico implantable | icd | shocking coils | coils de choque
@@ -509,7 +509,7 @@ ESC 2023 SCA: reparación quirúrgica urgente de las complicaciones mecánicas, 
 
 @@@ rx-025
 difficulty: 2
-image: img/rx/normal.webp
+image: img/real/rx/normal.jpg
 clue: En esta radiografía PA, el borde cardíaco derecho lo forma principalmente esta cavidad.
 answer: ¿Qué es la aurícula derecha?
 accept: auricula derecha | ad | right atrium | auricula derecha y vena cava superior
