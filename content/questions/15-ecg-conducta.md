@@ -3,7 +3,7 @@ subspecialty: Electrofisiología
 
 @@@ ecg3-001
 difficulty: 1
-image: img/ecg/normal.svg
+image: img/real/ecg/normal.jpg
 clue: Ritmo sinusal a 72 lpm, PR 160 ms, QRS 90 ms, eje +60° y QTc 410 ms. Para su informe, este trazado se describe así.
 answer: ¿Qué es un electrocardiograma normal?
 accept: ecg normal | electrocardiograma normal | normal | ritmo sinusal normal | trazado normal | normal ecg
@@ -24,7 +24,7 @@ La lectura estructurada reduce errores; un ECG normal no excluye SCA si la clín
 
 @@@ ecg3-002
 difficulty: 1
-image: img/ecg/bradicardia-sinusal.svg
+image: img/real/ecg/bradicardia-sinusal.jpg
 clue: Ciclista de 25 años asintomático con este ritmo sinusal a 42 lpm. Esto es lo que necesita.
 answer: ¿Qué es ningún tratamiento (bradicardia sinusal fisiológica del deportista)?
 accept: nada | ningun tratamiento | tranquilizar | observacion | no requiere tratamiento | bradicardia fisiologica | bradicardia del deportista | no tratar
@@ -45,7 +45,7 @@ ESC 2020 Deporte: la bradicardia sinusal asintomática en atletas no requiere es
 
 @@@ ecg3-003
 difficulty: 1
-image: img/ecg/taquicardia-sinusal.svg
+image: img/real/ecg/taquicardia-sinusal.jpg
 clue: Ritmo sinusal a 125 lpm en un paciente febril, con sangrado digestivo y hemoglobina de 7 g/dL. El tratamiento de esta taquicardia es este.
 answer: ¿Qué es tratar la causa (no la frecuencia)?
 accept: tratar la causa | corregir la causa | transfusion | reposicion de volumen | tratar la causa subyacente | tratar el sangrado | volumen
@@ -66,7 +66,7 @@ ESC 2019 TSV: identificar y tratar causas reversibles antes de cualquier tratami
 
 @@@ ecg3-004
 difficulty: 1
-image: img/ecg/fa-rapida.svg
+image: img/real/ecg/fa-rapida.jpg
 clue: FA de 3 días de evolución, frecuencia 140 lpm, paciente estable y sin anticoagulación previa. Antes de una cardioversión electiva, necesitas esto (o una ecografía transesofágica).
 answer: ¿Qué es la anticoagulación durante al menos 3 semanas?
 accept: anticoagulacion 3 semanas | anticoagulacion | anticoagular 3 semanas | 3 semanas de anticoagulacion | ecografia transesofagica | ete | anticoagulacion previa
@@ -87,7 +87,7 @@ ESC 2024 FA: anticoagulación ≥3 semanas o imagen para excluir trombo antes de
 
 @@@ ecg3-005
 difficulty: 1
-image: img/ecg/iamcest-anterior.svg
+image: img/real/ecg/iamcest-anterior.jpg
 clue: Este trazado en un paciente con dolor de 1 hora en un hospital sin hemodinámica, a 3 horas del centro de ICP más cercano. Esta es la estrategia de reperfusión.
 answer: ¿Qué es la fibrinólisis (estrategia farmacoinvasiva)?
 accept: fibrinolisis | trombolisis | estrategia farmacoinvasiva | tenecteplasa | tnk | fibrinoliticos | farmacoinvasiva
@@ -129,7 +129,7 @@ ESC 2021: estimulación en FA con bradicardia sintomática o BAV de alto grado (
 
 @@@ ecg3-007
 difficulty: 2
-image: img/ecg/trnav.svg
+image: img/real/ecg/trnav.jpg
 clue: Esta taquicardia regular de QRS estrecho no cede con la maniobra de Valsalva modificada. El siguiente fármaco, administrado en bolo rápido seguido de suero.
 answer: ¿Qué es la adenosina?
 accept: adenosina | adenosine | adenocor | atp
@@ -150,7 +150,7 @@ ESC 2019 TSV: maniobras vagales (I) y luego adenosina (I) en TSV estable.
 
 @@@ ecg3-008
 difficulty: 2
-image: img/ecg/hiperpotasemia.svg
+image: img/real/ecg/hiperpotasemia.jpg
 clue: K⁺ de 7,8 mmol/L y este trazado. Fármaco que debes administrar primero, aunque no disminuya el potasio.
 answer: ¿Qué es el gluconato de calcio intravenoso?
 accept: gluconato de calcio | calcio intravenoso | calcio | cloruro de calcio | calcium gluconate | calcio iv
@@ -171,7 +171,7 @@ Consensos de nefrología y emergencias: calcio IV inmediato ante hiperpotasemia 
 
 @@@ ecg3-009
 difficulty: 2
-image: img/ecg/torsades.svg
+image: img/real/ecg/torsades.png
 clue: Episodios repetidos de esta arritmia en una paciente con QT largo por haloperidol y azitromicina. Además del magnesio, esta maniobra de frecuencia ayuda a suprimirlos.
 answer: ¿Qué es aumentar la frecuencia cardíaca (estimulación temporal o isoproterenol)?
 accept: estimulacion temporal | marcapasos transitorio | isoproterenol | isoprenalina | aumentar la frecuencia | overdrive pacing | sobreestimulacion | marcapasos temporal
@@ -192,7 +192,7 @@ ESC 2022: estimulación temporal o isoproterenol en torsade recurrente dependien
 
 @@@ ecg3-010
 difficulty: 2
-image: img/ecg/wpw.svg
+image: img/real/ecg/wpw.png
 clue: Piloto de aerolínea asintomático con este patrón en un ECG de rutina. La prueba recomendada para estratificar su riesgo.
 answer: ¿Qué es el estudio electrofisiológico?
 accept: estudio electrofisiologico | eef | estudio electrofisiologico invasivo | electrophysiology study | eps
@@ -213,7 +213,7 @@ ESC 2019 TSV: EEF en preexcitación asintomática de profesiones de alto riesgo 
 
 @@@ ecg3-011
 difficulty: 3
-image: img/ecg/brugada-1.svg
+image: img/real/ecg/brugada-1.png
 clue: Este patrón aparece en un varón de 30 años con fiebre de 39 °C y neumonía, sin antecedentes. Lo primero que debes hacer.
 answer: ¿Qué es bajar la fiebre con antipiréticos (y monitorizar)?
 accept: antipireticos | bajar la fiebre | paracetamol | tratar la fiebre | antitermicos | control de la fiebre | monitorizacion y antipireticos
@@ -234,7 +234,7 @@ ESC 2022: tratar la fiebre de forma inmediata en pacientes con Brugada (I).
 
 @@@ ecg3-012
 difficulty: 3
-image: img/ecg/tv-monomorfica.svg
+image: img/real/ecg/tv-monomorfica.png
 clue: Este ritmo en un paciente con TA 70/40 y obnubilación pero con pulso palpable. Tratamiento inmediato.
 answer: ¿Qué es la cardioversión eléctrica sincronizada?
 accept: cardioversion electrica sincronizada | cardioversion sincronizada | cardioversion electrica | cve | synchronized cardioversion | cardioversion
@@ -255,7 +255,7 @@ ESC 2022: cardioversión eléctrica sincronizada en TV sostenida con inestabilid
 
 @@@ ecg3-013
 difficulty: 3
-image: img/ecg/bav-completo.svg
+image: img/real/ecg/bav-completo.jpg
 clue: Este ritmo con frecuencia de 30 lpm, hipotensión y mala perfusión; la atropina no tuvo efecto. Medida inmediata mientras se coloca un electrodo transvenoso.
 answer: ¿Qué es la estimulación transcutánea (o infusión de isoproterenol/adrenalina)?
 accept: marcapasos transcutaneo | estimulacion transcutanea | marcapasos externo | isoproterenol | adrenalina | transcutaneous pacing | dopamina
@@ -276,7 +276,7 @@ ESC 2021: estimulación temporal transvenosa solo cuando sea imprescindible, por
 
 @@@ ecg3-014
 difficulty: 3
-image: img/ecg/pericarditis.svg
+image: img/real/ecg/pericarditis.jpg
 clue: Este trazado en una mujer con dolor pleurítico y roce pericárdico. Junto con el AINE, este fármaco reduce las recurrencias a la mitad.
 answer: ¿Qué es la colchicina?
 accept: colchicina | colchicine
@@ -297,7 +297,7 @@ ESC 2025: colchicina + AINE/aspirina en primera línea en la pericarditis aguda 
 
 @@@ ecg3-015
 difficulty: 3
-image: img/ecg/fluter-2a1.svg
+image: img/real/ecg/fluter-2a1.jpg
 clue: Este flúter típico ya tuvo dos recurrencias tras cardioversión. Tratamiento que ofrece la curación en la gran mayoría de los casos.
 answer: ¿Qué es la ablación del istmo cavotricuspídeo?
 accept: ablacion del istmo cavotricuspideo | ablacion | ablacion con cateter | ablacion del istmo | cti ablation | ablacion del ict
@@ -318,7 +318,7 @@ ESC 2019 TSV: ablación recomendada tras un primer episodio sintomático de flú
 
 @@@ ecg3-016
 difficulty: 4
-image: img/ecg/aneurisma-vi.svg
+image: img/real/ecg/aneurisma-vi.jpg
 clue: Elevación persistente del ST con ondas Q en V1–V4 seis semanas después de un infarto anterior tardíamente reperfundido: esta complicación.
 answer: ¿Qué es el aneurisma ventricular izquierdo?
 accept: aneurisma ventricular | aneurisma del ventriculo izquierdo | aneurisma vi | aneurisma apical | left ventricular aneurysm | aneurisma ventricular izquierdo
@@ -360,7 +360,7 @@ ESC 2019 TSV: ibutilida o procainamida IV en FA preexcitada estable (IIa); cardi
 
 @@@ ecg3-018
 difficulty: 4
-image: img/ecg/qt-largo.svg
+image: img/real/ecg/qt-largo.png
 clue: QTc de 520 ms en una paciente con LQT1 genotipado, ya en tratamiento. Betabloqueante preferido en este síndrome por su mayor eficacia frente al metoprolol.
 answer: ¿Qué es el nadolol (o propranolol)?
 accept: nadolol | propranolol | betabloqueante no selectivo
@@ -381,7 +381,7 @@ ESC 2022: betabloqueantes, idealmente no selectivos (nadolol o propranolol), en 
 
 @@@ ecg3-019
 difficulty: 4
-image: img/ecg/wellens-b.svg
+image: img/real/ecg/wellens-b.jpg
 clue: Este trazado en un paciente ya sin dolor y con troponina mínimamente elevada. La prueba que está contraindicada.
 answer: ¿Qué es la prueba de esfuerzo (o de estrés)?
 accept: prueba de esfuerzo | ergometria | prueba de estres | ecocardiograma de estres | stress test | prueba de esfuerzo electrocardiografica
@@ -402,7 +402,7 @@ ESC 2023 SCA: estrategia invasiva precoz en SCASEST de alto riesgo (I).
 
 @@@ ecg3-020
 difficulty: 4
-image: img/ecg/digoxina.svg
+image: img/real/ecg/digoxina.png
 clue: Este paciente con digoxina presenta ahora vómitos, visión amarilla, K⁺ 6,2 y TV bidireccional. Tratamiento específico.
 answer: ¿Qué son los anticuerpos (fragmentos Fab) antidigoxina?
 accept: fragmentos fab antidigoxina | anticuerpos antidigoxina | digifab | fab antidigoxina | digibind | inmunoterapia antidigoxina
@@ -423,7 +423,7 @@ Consensos de toxicología: Fab antidigoxina en arritmias potencialmente mortales
 
 @@@ ecg3-021
 difficulty: 5
-image: img/ecg/bajo-voltaje-alternancia.svg
+image: img/real/ecg/bajo-voltaje-alternancia.jpg
 clue: Este trazado en una paciente con PA 80/50, ingurgitación yugular y pulso paradójico. Mientras se prepara la pericardiocentesis, esta intervención hemodinámica puede ayudar transitoriamente.
 answer: ¿Qué es la expansión de volumen (bolo de líquidos IV)?
 accept: volumen | expansion de volumen | sueroterapia | bolo de liquidos | fluidos | carga de volumen | volume expansion | suero salino
@@ -444,7 +444,7 @@ ESC 2025: drenaje urgente del taponamiento (I); medidas de soporte como puente.
 
 @@@ ecg3-022
 difficulty: 5
-image: img/ecg/displasia-vd.svg
+image: img/real/ecg/displasia-vd.png
 clue: Este trazado en un futbolista de 19 años con TV sostenida, confirmado por RM con criterios de miocardiopatía arritmogénica. Además del DAI, esta recomendación de estilo de vida es clase I.
 answer: ¿Qué es evitar el ejercicio de alta intensidad y competitivo?
 accept: restriccion deportiva | evitar el deporte competitivo | evitar el ejercicio intenso | suspender el deporte de competicion | restriccion del ejercicio | no deporte de competicion
@@ -467,7 +467,7 @@ ESC 2023: evitar el ejercicio de alta intensidad en MAVD (I).
 difficulty: 5
 final: true
 finalCategory: ARRITMIAS
-image: img/ecg/tam.svg
+image: img/real/ecg/tam.png
 clue: Esta arritmia en un paciente con EPOC grave. Este tratamiento eléctrico, muy eficaz en el flúter y la FA, es inútil aquí porque el mecanismo no es una reentrada.
 answer: ¿Qué es la cardioversión eléctrica?
 accept: cardioversion electrica | cardioversion | cve | choque electrico | electrical cardioversion
@@ -488,7 +488,7 @@ ESC 2019 TSV: tratamiento de la enfermedad de base en la TAM; la cardioversión 
 
 @@@ ecg3-024
 difficulty: 5
-image: img/ecg/hvi-sobrecarga.svg
+image: img/real/ecg/hvi-sobrecarga.jpg
 clue: Este ECG en un hipertenso de 70 años. Para cuantificar el daño orgánico, esta prueba de imagen es la más útil, y su hallazgo también podría corresponder a amiloidosis si el voltaje no acompaña.
 answer: ¿Qué es el ecocardiograma transtorácico?
 accept: ecocardiograma | ecocardiografia | ecocardiograma transtoracico | ett | ecocardiografia transtoracica | echocardiography
@@ -509,7 +509,7 @@ ESC 2024 HTA: ecocardiograma en hipertensos con alteraciones ECG o sospecha de d
 
 @@@ ecg3-025
 difficulty: 5
-image: img/ecg/hipotermia.svg
+image: img/real/ecg/hipotermia.jpg
 clue: Este trazado en un excursionista con temperatura central de 26 °C que entra en FV. Técnica de recalentamiento preferida.
 answer: ¿Qué es el soporte vital extracorpóreo (ECMO o bypass cardiopulmonar)?
 accept: ecmo | ecmo venoarterial | circulacion extracorporea | bypass cardiopulmonar | soporte vital extracorporeo | ecls | ecpr | recalentamiento extracorporeo

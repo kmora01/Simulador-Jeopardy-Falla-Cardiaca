@@ -3,7 +3,7 @@ subspecialty: Electrofisiología
 
 @@@ ecg2-001
 difficulty: 1
-image: img/ecg/hiperpotasemia.svg
+image: img/real/ecg/hiperpotasemia.jpg
 clue: Ondas T altas, estrechas y "picudas" en precordiales, con P aplanadas y QRS que empieza a ensancharse en un paciente en diálisis: este trastorno electrolítico.
 answer: ¿Qué es la hiperpotasemia?
 accept: hiperpotasemia | hiperkalemia | potasio alto | hiperkaliemia | hyperkalemia
@@ -24,7 +24,7 @@ ESC IC: los quelantes de potasio permiten mantener IECA/ARNI y ARM en pacientes 
 
 @@@ ecg2-002
 difficulty: 1
-image: img/ecg/tv-monomorfica.svg
+image: img/real/ecg/tv-monomorfica.png
 clue: Taquicardia regular de QRS ancho a 180 lpm en un paciente con infarto antiguo: hasta demostrar lo contrario, es esto.
 answer: ¿Qué es la taquicardia ventricular (monomorfa)?
 accept: taquicardia ventricular | tv | tv monomorfa | taquicardia ventricular monomorfa | tvms | ventricular tachycardia | vt
@@ -45,7 +45,7 @@ ESC 2022: en TV hemodinámicamente tolerada sin cardiopatía conocida, procainam
 
 @@@ ecg2-003
 difficulty: 1
-image: img/ecg/fv.svg
+image: img/real/ecg/fv.jpg
 clue: Actividad eléctrica caótica, de amplitud y frecuencia variables, sin complejos QRS identificables en un paciente sin pulso: este ritmo y la intervención inmediata.
 answer: ¿Qué es la fibrilación ventricular, que requiere desfibrilación inmediata?
 accept: fibrilacion ventricular | fv | desfibrilacion | ventricular fibrillation | vf | desfibrilar
@@ -66,7 +66,7 @@ Guías de RCP 2025 (ERC/AHA): desfibrilación precoz y compresiones de calidad (
 
 @@@ ecg2-004
 difficulty: 1
-image: img/ecg/torsades.svg
+image: img/real/ecg/torsades.png
 clue: Taquicardia ventricular polimorfa cuyos QRS parecen girar alrededor de la línea de base, precedida de QT largo: este ritmo y el primer fármaco.
 answer: ¿Qué es la torsade de pointes, tratada con sulfato de magnesio?
 accept: torsade de pointes | torsades de pointes | torsade | torsades | taquicardia helicoidal | sulfato de magnesio | magnesio
@@ -108,7 +108,7 @@ ESC 2021: VVI(R) en FA permanente con bradicardia; DDD en enfermedad del nodo si
 
 @@@ ecg2-006
 difficulty: 2
-image: img/ecg/hipopotasemia.svg
+image: img/real/ecg/hipopotasemia.jpg
 clue: Ondas U prominentes, aplanamiento de la T y descenso del ST en un paciente que toma tiazidas: este trastorno.
 answer: ¿Qué es la hipopotasemia?
 accept: hipopotasemia | hipokalemia | hipokaliemia | potasio bajo | hypokalemia
@@ -129,7 +129,7 @@ ESC 2022: corregir hipopotasemia e hipomagnesemia en arritmias ventriculares y Q
 
 @@@ ecg2-007
 difficulty: 2
-image: img/ecg/hvi-sobrecarga.svg
+image: img/real/ecg/hvi-sobrecarga.jpg
 clue: S de V1 + R de V5 > 35 mm con descenso del ST y T asimétricamente negativa en V5–V6: este hallazgo.
 answer: ¿Qué es la hipertrofia ventricular izquierda con patrón de sobrecarga?
 accept: hipertrofia ventricular izquierda | hvi | hvi con sobrecarga | strain | patron de sobrecarga | lvh | left ventricular hypertrophy | hipertrofia del ventriculo izquierdo
@@ -150,7 +150,7 @@ ESC 2024 HTA: ECG en todo hipertenso; la HVI electrocardiográfica indica daño 
 
 @@@ ecg2-008
 difficulty: 2
-image: img/ecg/repolarizacion-precoz.svg
+image: img/real/ecg/repolarizacion-precoz.jpg
 clue: Elevación cóncava del ST con muesca en el punto J en V3–V5 de un deportista asintomático de 22 años, sin cambios del PR ni imagen especular: este patrón.
 answer: ¿Qué es la repolarización precoz?
 accept: repolarizacion precoz | patron de repolarizacion precoz | early repolarization | repolarizacion temprana | onda j
@@ -171,7 +171,7 @@ ESC 2022: el síndrome de repolarización precoz se diagnostica solo en sobreviv
 
 @@@ ecg2-009
 difficulty: 2
-image: img/ecg/fluter-4a1.svg
+image: img/real/ecg/fluter-4a1.jpg
 clue: Ondas F a 300/min con conducción variable 4:1 que revelan claramente el patrón en dientes de sierra: el circuito anatómico que se ablaciona.
 answer: ¿Qué es el istmo cavotricuspídeo?
 accept: istmo cavotricuspideo | istmo cavo tricuspideo | ict | cavotricuspid isthmus | cti | ablacion del istmo
@@ -192,7 +192,7 @@ ESC 2019 TSV: ablación del istmo cavotricuspídeo en flúter típico recurrente
 
 @@@ ecg2-010
 difficulty: 2
-image: img/ecg/tam.svg
+image: img/real/ecg/tam.png
 clue: Taquicardia irregular con al menos tres morfologías distintas de onda P y PR variables en un paciente con EPOC descompensada: esta arritmia.
 answer: ¿Qué es la taquicardia auricular multifocal?
 accept: taquicardia auricular multifocal | tam | multifocal atrial tachycardia | mat | taquicardia multifocal
@@ -213,7 +213,7 @@ ESC 2019 TSV: tratar la causa subyacente como primera medida en la TAM (I).
 
 @@@ ecg2-011
 difficulty: 3
-image: img/ecg/brugada-1.svg
+image: img/real/ecg/brugada-1.png
 clue: Elevación del ST "en aleta de tiburón" (coved) ≥2 mm seguida de T negativa en V1–V2 en un varón con síncope nocturno: este síndrome y el gen implicado con mayor frecuencia.
 answer: ¿Qué es el síndrome de Brugada (gen SCN5A)?
 accept: sindrome de brugada | brugada | patron de brugada tipo 1 | scn5a | brugada tipo 1 | brugada syndrome
@@ -234,7 +234,7 @@ ESC 2022: diagnóstico con patrón tipo 1 espontáneo (I); el inducido requiere 
 
 @@@ ecg2-012
 difficulty: 3
-image: img/ecg/qt-largo.svg
+image: img/real/ecg/qt-largo.png
 clue: QTc de 520 ms con T de base ancha en una joven que sufrió síncope al sonar el despertador: el subtipo genético más asociado a este desencadenante.
 answer: ¿Qué es el síndrome de QT largo tipo 2 (KCNH2)?
 accept: qt largo tipo 2 | lqt2 | sqtl2 | kcnh2 | herg | sindrome de qt largo tipo 2 | long qt type 2
@@ -255,7 +255,7 @@ ESC 2022: diagnóstico con QTc ≥480 ms repetido o puntuación de Schwartz >3 (
 
 @@@ ecg2-013
 difficulty: 3
-image: img/ecg/digoxina.svg
+image: img/real/ecg/digoxina.png
 clue: Descenso del ST "en cubeta" o "bigote de Salvador Dalí", QT corto y FA con respuesta lenta: este fármaco.
 answer: ¿Qué es la digoxina (efecto digitálico)?
 accept: digoxina | efecto digitalico | digital | digitalicos | cubeta digitalica | digoxin
@@ -276,7 +276,7 @@ ESC 2024 FA: la digoxina es opción de control de frecuencia (I), con concentrac
 
 @@@ ecg2-014
 difficulty: 3
-image: img/ecg/tep.svg
+image: img/real/ecg/tep.jpg
 clue: Taquicardia sinusal, S profunda en I, Q y T negativa en III, y T negativas en V1–V3 en una paciente con disnea súbita: este patrón y su diagnóstico.
 answer: ¿Qué es el patrón S1Q3T3 de la tromboembolia pulmonar?
 accept: s1q3t3 | tromboembolia pulmonar | tep | embolia pulmonar | patron de mcginn white | mcginn white | pulmonary embolism | sobrecarga del ventriculo derecho
@@ -297,7 +297,7 @@ ESC 2019 TEP: trombólisis en TEP de alto riesgo (I); anticoagulación con ACOD 
 
 @@@ ecg2-015
 difficulty: 3
-image: img/ecg/takotsubo.svg
+image: img/real/ecg/takotsubo.jpg
 clue: Mujer posmenopáusica tras la muerte de su esposo: elevación del ST precordial sin imagen especular, sin depresión en V1 y luego T negativas profundas con QT largo. Este síndrome.
 answer: ¿Qué es el síndrome de Takotsubo?
 accept: takotsubo | sindrome de takotsubo | miocardiopatia de estres | sindrome del corazon roto | discinesia apical transitoria | broken heart syndrome
@@ -381,7 +381,7 @@ ESC 2023: RM cardíaca recomendada en sospecha de MCH para valorar segmentos no 
 
 @@@ ecg2-019
 difficulty: 4
-image: img/ecg/hipotermia.svg
+image: img/real/ecg/hipotermia.jpg
 clue: Bradicardia, temblor en la línea de base y una deflexión positiva al final del QRS en un paciente rescatado de la nieve: el nombre de esta onda.
 answer: ¿Qué es la onda de Osborn (onda J)?
 accept: onda de osborn | onda j | osborn | osborn wave | j wave | camel hump
@@ -402,7 +402,7 @@ ERC 2025: en paro por hipotermia, recalentamiento extracorpóreo (ECLS) preferid
 
 @@@ ecg2-020
 difficulty: 4
-image: img/ecg/displasia-vd.svg
+image: img/real/ecg/displasia-vd.png
 clue: T negativas de V1 a V3 y pequeñas deflexiones al final del QRS en V1 en un joven con extrasístoles de morfología de BRIHH: esta onda y la miocardiopatía.
 answer: ¿Qué es la onda épsilon de la miocardiopatía arritmogénica del ventrículo derecho?
 accept: onda epsilon | epsilon | miocardiopatia arritmogenica | displasia arritmogenica del ventriculo derecho | mavd | davd | arvc | miocardiopatia arritmogenica del ventriculo derecho | displasia arritmogenica
@@ -423,7 +423,7 @@ ESC 2023: diagnóstico con criterios de Padua/Task Force; restricción del ejerc
 
 @@@ ecg2-021
 difficulty: 5
-image: img/ecg/inversion-electrodos.svg
+image: img/real/ecg/inversion-electrodos.jpg
 clue: Onda P, QRS y T negativos en I, con aVR positivo y precordiales completamente normales: antes de pensar en dextrocardia, sospecha esto.
 answer: ¿Qué es la inversión de los electrodos de los brazos?
 accept: inversion de electrodos | inversion de los electrodos de los brazos | cables invertidos | electrodos invertidos | lead reversal | inversion brazo derecho brazo izquierdo | error de colocacion de electrodos
@@ -446,7 +446,7 @@ Recomendaciones técnicas AHA/ACCF/HRS: verificar la colocación de electrodos a
 difficulty: 5
 final: true
 finalCategory: ELECTROCARDIOGRAFÍA
-image: img/ecg/dextrocardia.svg
+image: img/real/ecg/dextrocardia.jpg
 clue: I invertida, aVR positiva y pérdida progresiva de la onda R de V1 a V6. Si además hay bronquiectasias y sinusitis crónica, este síndrome.
 answer: ¿Qué es el síndrome de Kartagener?
 accept: sindrome de kartagener | kartagener | discinesia ciliar primaria | primary ciliary dyskinesia | dextrocardia con situs inversus
@@ -467,7 +467,7 @@ Para registrar el ECG en dextrocardia: intercambiar electrodos de brazos y coloc
 
 @@@ ecg2-023
 difficulty: 5
-image: img/ecg/ritmo-idioventricular.svg
+image: img/real/ecg/ritmo-idioventricular.jpg
 clue: Ritmo regular de QRS ancho a 70 lpm que aparece minutos después de la ICP primaria en un IAM anterior, sin repercusión hemodinámica: este ritmo y su significado.
 answer: ¿Qué es el ritmo idioventricular acelerado, marcador de reperfusión?
 accept: ritmo idioventricular acelerado | riva | ritmo idioventricular | accelerated idioventricular rhythm | aivr | arritmia de reperfusion
@@ -509,7 +509,7 @@ ESC/EACTS 2025: comisurotomía mitral percutánea en EM clínicamente significat
 
 @@@ ecg2-025
 difficulty: 1
-image: img/ecg/iam-antiguo-inferior.svg
+image: img/real/ecg/iam-antiguo-inferior.jpg
 clue: Ondas Q patológicas (≥40 ms) en II, III y aVF con ST isoeléctrico y T negativas en un paciente asintomático: este hallazgo.
 answer: ¿Qué es un infarto inferior antiguo (necrosis inferior)?
 accept: infarto inferior antiguo | iam inferior antiguo | necrosis inferior | infarto antiguo | secuela de infarto inferior | old inferior mi | q patologicas inferiores | iam previo inferior

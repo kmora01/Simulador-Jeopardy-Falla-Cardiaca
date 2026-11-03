@@ -3,7 +3,7 @@ subspecialty: Electrofisiología
 
 @@@ ecg1-001
 difficulty: 1
-image: img/ecg/fa-rapida.svg
+image: img/real/ecg/fa-rapida.jpg
 clue: Ritmo irregularmente irregular, sin ondas P visibles y con ondulación fina de la línea de base: este es el diagnóstico del trazado.
 answer: ¿Qué es la fibrilación auricular?
 accept: fibrilacion auricular | fa | fibrilacion auricular con respuesta ventricular rapida | fa rapida | atrial fibrillation | af
@@ -24,7 +24,7 @@ ESC 2024 FA: anticoagulación según CHA₂DS₂-VA (se elimina el punto por sex
 
 @@@ ecg1-002
 difficulty: 1
-image: img/ecg/brihh.svg
+image: img/real/ecg/brihh.jpg
 clue: QRS ≥120 ms, R ancha y mellada en I, aVL, V5–V6, sin ondas q septales laterales y con QS profundo en V1: este bloqueo.
 answer: ¿Qué es el bloqueo de rama izquierda?
 accept: bloqueo de rama izquierda | brihh | bri | bloqueo completo de rama izquierda | left bundle branch block | lbbb
@@ -45,7 +45,7 @@ ESC 2021: TRC clase I en IC sintomática, FEVI ≤35 %, BRIHH y QRS ≥150 ms pe
 
 @@@ ecg1-003
 difficulty: 1
-image: img/ecg/brdhh.svg
+image: img/real/ecg/brdhh.jpg
 clue: rSR' en V1 ("orejas de conejo") con S ancha y empastada en I y V6: este trastorno de la conducción.
 answer: ¿Qué es el bloqueo de rama derecha?
 accept: bloqueo de rama derecha | brdhh | brd | bloqueo completo de rama derecha | right bundle branch block | rbbb
@@ -66,7 +66,7 @@ ESC 2023 SCA: el BRDHH con síntomas isquémicos persistentes justifica estrateg
 
 @@@ ecg1-004
 difficulty: 1
-image: img/ecg/iamcest-anterior.svg
+image: img/real/ecg/iamcest-anterior.jpg
 clue: Elevación del ST de V1 a V4 con imagen especular discreta en derivaciones inferiores: el diagnóstico y la arteria probable.
 answer: ¿Qué es un IAM con elevación del ST anterior por oclusión de la descendente anterior?
 accept: iamcest anterior | iam anterior | infarto anterior | iam con elevacion del st anterior | descendente anterior | oclusion de la descendente anterior | stemi anterior | anterior stemi | infarto agudo de miocardio anterior
@@ -87,7 +87,7 @@ ESC 2023 SCA: ICP primaria si es posible en ≤120 min; si no, fibrinólisis en 
 
 @@@ ecg1-005
 difficulty: 1
-image: img/ecg/iamcest-inferior.svg
+image: img/real/ecg/iamcest-inferior.jpg
 clue: Elevación del ST en II, III y aVF con descenso especular en aVL: este infarto.
 answer: ¿Qué es un IAM con elevación del ST inferior?
 accept: iamcest inferior | iam inferior | infarto inferior | infarto agudo de miocardio inferior | stemi inferior | inferior stemi | iam con elevacion del st inferior
@@ -108,7 +108,7 @@ ESC 2023 SCA: registrar derivaciones derechas (V3R–V4R) y posteriores (V7–V9
 
 @@@ ecg1-006
 difficulty: 2
-image: img/ecg/wpw.svg
+image: img/real/ecg/wpw.png
 clue: PR corto, onda delta que empasta el inicio del QRS y alteraciones secundarias de la repolarización en ritmo sinusal: este patrón.
 answer: ¿Qué es el patrón de Wolff-Parkinson-White (preexcitación)?
 accept: wolff parkinson white | wpw | preexcitacion | patron de wpw | sindrome de wolff parkinson white | via accesoria | preexcitacion ventricular | onda delta
@@ -129,7 +129,7 @@ ESC 2019 TSV: ablación de la vía accesoria como tratamiento de elección en el
 
 @@@ ecg1-007
 difficulty: 2
-image: img/ecg/fluter-2a1.svg
+image: img/real/ecg/fluter-2a1.jpg
 clue: Taquicardia regular a 150 lpm con ondas en "dientes de sierra" negativas en II, III y aVF: este diagnóstico.
 answer: ¿Qué es el flúter auricular típico con conducción 2:1?
 accept: fluter auricular | aleteo auricular | fluter | fluter tipico | fluter auricular 2 1 | atrial flutter | fluter auricular tipico | flutter
@@ -150,7 +150,7 @@ ESC 2024 FA y 2019 TSV: misma anticoagulación que en la FA; ablación del istmo
 
 @@@ ecg1-008
 difficulty: 2
-image: img/ecg/trnav.svg
+image: img/real/ecg/trnav.jpg
 clue: Taquicardia regular de QRS estrecho a 180 lpm sin ondas P visibles (ocultas en el QRS) en una mujer joven: este mecanismo más frecuente.
 answer: ¿Qué es la taquicardia por reentrada intranodal?
 accept: taquicardia por reentrada intranodal | trnav | trin | reentrada nodal | taquicardia intranodal | avnrt | taquicardia supraventricular paroxistica | tsvp
@@ -171,7 +171,7 @@ ESC 2019 TSV: ablación con catéter recomendada en TRNAV sintomática recurrent
 
 @@@ ecg1-009
 difficulty: 2
-image: img/ecg/wenckebach.svg
+image: img/real/ecg/wenckebach.jpg
 clue: Alargamiento progresivo del PR hasta que una onda P no conduce, con acortamiento de los RR previos: este bloqueo.
 answer: ¿Qué es el bloqueo AV de segundo grado Mobitz I (Wenckebach)?
 accept: wenckebach | mobitz i | mobitz 1 | bloqueo av de segundo grado mobitz i | bloqueo av de segundo grado tipo i | bloqueo de wenckebach | bav segundo grado tipo 1
@@ -192,7 +192,7 @@ ESC 2021: marcapasos en BAV 2.º grado tipo I solo si es sintomático o si el es
 
 @@@ ecg1-010
 difficulty: 2
-image: img/ecg/pericarditis.svg
+image: img/real/ecg/pericarditis.jpg
 clue: Elevación difusa y cóncava del ST con descenso del PR en múltiples derivaciones y PR elevado en aVR: este diagnóstico.
 answer: ¿Qué es la pericarditis aguda?
 accept: pericarditis aguda | pericarditis | acute pericarditis | miopericarditis
@@ -213,7 +213,7 @@ ESC 2025: colchicina asociada a AINE como primera línea; anti-IL-1 (anakinra, r
 
 @@@ ecg1-011
 difficulty: 3
-image: img/ecg/hbai.svg
+image: img/real/ecg/hbai.jpg
 clue: Eje QRS más allá de −45°, qR en aVL y rS en II, III y aVF con QRS <120 ms: este bloqueo fascicular.
 answer: ¿Qué es el hemibloqueo anterior izquierdo?
 accept: hemibloqueo anterior izquierdo | hbai | bloqueo fascicular anterior izquierdo | left anterior fascicular block | lafb | hemibloqueo anterior
@@ -234,7 +234,7 @@ ESC 2021: sin indicación de marcapasos en bloqueo fascicular aislado asintomát
 
 @@@ ecg1-012
 difficulty: 3
-image: img/ecg/mobitz-2.svg
+image: img/real/ecg/mobitz-2.jpg
 clue: PR constante y, de forma súbita, una onda P que no conduce, en un paciente con QRS ancho: este bloqueo y su manejo definitivo.
 answer: ¿Qué es el bloqueo AV de segundo grado Mobitz II, que requiere marcapasos?
 accept: mobitz ii | mobitz 2 | bloqueo av de segundo grado mobitz ii | bloqueo av de segundo grado tipo ii | bav segundo grado tipo 2 | marcapasos
@@ -255,7 +255,7 @@ ESC 2021: marcapasos indicado en BAV de segundo grado tipo II, alto grado o comp
 
 @@@ ecg1-013
 difficulty: 3
-image: img/ecg/bav-completo.svg
+image: img/real/ecg/bav-completo.jpg
 clue: Ondas P regulares que "marchan" independientes de un ritmo de escape ventricular lento y regular: este trastorno.
 answer: ¿Qué es el bloqueo AV completo (de tercer grado)?
 accept: bloqueo av completo | bav completo | bloqueo auriculoventricular completo | bloqueo de tercer grado | bav de tercer grado | disociacion av por bloqueo | complete heart block | third degree av block
@@ -276,7 +276,7 @@ ESC 2021: estimulación permanente en BAV completo (I); considerar estimulación
 
 @@@ ecg1-014
 difficulty: 3
-image: img/ecg/wellens-a.svg
+image: img/real/ecg/wellens-a.jpg
 clue: Paciente ya sin dolor torácico; el ECG muestra ondas T bifásicas (positiva-negativa) en V2–V3 sin ondas Q: este síndrome que anticipa una oclusión de la DA.
 answer: ¿Qué es el síndrome de Wellens (tipo A)?
 accept: sindrome de wellens | wellens | wellens tipo a | ondas de wellens | wellens a
@@ -318,7 +318,7 @@ ESC 2023 SCA: elevación del ST ≥0,5 mm en V7–V9 es criterio de IAMCEST post
 
 @@@ ecg1-016
 difficulty: 4
-image: img/ecg/de-winter.svg
+image: img/real/ecg/de-winter.jpg
 clue: Varón de 52 años con 40 minutos de opresión torácica; nadie activó el código infarto porque "no hay elevación del ST". Este es el nombre del patrón que muestra el trazado.
 answer: ¿Qué es el patrón de De Winter?
 accept: de winter | patron de de winter | ondas t de de winter | de winter t waves | dewinter
@@ -360,7 +360,7 @@ ESC 2023 SCA: el descenso del ST en ≥6 derivaciones con elevación en aVR/V1 e
 
 @@@ ecg1-018
 difficulty: 4
-image: img/ecg/sgarbossa.svg
+image: img/real/ecg/sgarbossa.jpg
 clue: En presencia de bloqueo de rama izquierda, la elevación del ST ≥1 mm concordante con un QRS positivo cumple este conjunto de criterios.
 answer: ¿Qué son los criterios de Sgarbossa?
 accept: criterios de sgarbossa | sgarbossa | sgarbossa modificados | criterios de smith | smith sgarbossa | sgarbossa criteria
@@ -402,7 +402,7 @@ ESC 2019 TSV: en FA preexcitada evitar fármacos bloqueantes del nodo AV; tratam
 
 @@@ ecg1-020
 difficulty: 4
-image: img/ecg/bajo-voltaje-alternancia.svg
+image: img/real/ecg/bajo-voltaje-alternancia.jpg
 clue: Taquicardia sinusal, complejos de bajo voltaje y amplitud del QRS que alterna latido a latido: este hallazgo y su causa más grave.
 answer: ¿Qué es la alternancia eléctrica por derrame pericárdico con taponamiento?
 accept: alternancia electrica | taponamiento cardiaco | taponamiento | derrame pericardico | derrame pericardico con taponamiento | electrical alternans | cardiac tamponade
@@ -425,7 +425,7 @@ ESC 2025: pericardiocentesis ecoguiada o drenaje quirúrgico urgente en el tapon
 difficulty: 5
 final: true
 finalCategory: ELECTROCARDIOGRAFÍA
-image: img/ecg/wellens-b.svg
+image: img/real/ecg/wellens-b.jpg
 clue: Ondas T negativas, profundas y simétricas en V1–V4 en un paciente que tuvo dolor anginoso horas antes y ahora está asintomático. Este epónimo describe el patrón.
 answer: ¿Qué es el síndrome de Wellens (tipo B)?
 accept: sindrome de wellens | wellens | wellens tipo b | ondas de wellens | wellens b
@@ -446,7 +446,7 @@ ESC 2023 SCA: estrategia invasiva precoz en SCASEST con cambios dinámicos del S
 
 @@@ ecg1-022
 difficulty: 5
-image: img/ecg/bifascicular.svg
+image: img/real/ecg/bifascicular.png
 clue: Bloqueo de rama derecha con eje en −60°. Si este paciente tiene síncope recurrente sin otra explicación, la prueba que ayuda a decidir el marcapasos mide este intervalo.
 answer: ¿Qué es el intervalo HV en el estudio electrofisiológico?
 accept: intervalo hv | hv | estudio electrofisiologico | eef | his ventricular | intervalo his ventriculo | hv interval
@@ -488,7 +488,7 @@ ESC 2023 SCA: la sospecha de oclusión con ECG no diagnóstico y síntomas persi
 
 @@@ ecg1-024
 difficulty: 2
-image: img/ecg/bav-2a1.svg
+image: img/real/ecg/bav-2a1.jpg
 clue: Una onda P conducida y otra no, de forma alternante y con PR constante en las conducidas: este bloqueo cuya localización no puede definirse en el ECG.
 answer: ¿Qué es el bloqueo AV 2:1?
 accept: bloqueo av 2 1 | bloqueo 2 1 | bav 2 1 | bloqueo auriculoventricular 2 1 | 2 1 av block | bloqueo av de segundo grado 2 1
@@ -509,7 +509,7 @@ ESC 2021: el BAV 2:1 con evidencia de bloqueo infranodal se trata como Mobitz II
 
 @@@ ecg1-025
 difficulty: 1
-image: img/ecg/bav-1.svg
+image: img/real/ecg/bav-1.jpg
 clue: Ritmo sinusal con intervalo PR fijo de 280 ms y todas las P conducidas: este hallazgo.
 answer: ¿Qué es el bloqueo AV de primer grado?
 accept: bloqueo av de primer grado | bav de primer grado | bav primer grado | bloqueo de primer grado | first degree av block | pr largo | pr prolongado

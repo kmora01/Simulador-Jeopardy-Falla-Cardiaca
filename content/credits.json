@@ -1,0 +1,442 @@
+[
+  {
+    "archivo": "img/real/ecg/aneurisma-vi.jpg",
+    "titulo": "File:LeftvAneurysmCrop.jpg",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:LeftvAneurysmCrop.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/bajo-voltaje-alternancia.jpg",
+    "titulo": "File:Electrical Alternans.JPG",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Electrical_Alternans.JPG"
+  },
+  {
+    "archivo": "img/real/ecg/bav-1.jpg",
+    "titulo": "File:FirstAVBlock.jpg",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:FirstAVBlock.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/bav-2a1.jpg",
+    "titulo": "File:E288 (CardioNetworks ECGpedia).jpg",
+    "autor": "Michael Rosengarten BEng, MD.McGill",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:E288_(CardioNetworks_ECGpedia).jpg"
+  },
+  {
+    "archivo": "img/real/ecg/bav-completo.jpg",
+    "titulo": "File:CompleteHeartBlock.jpg",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:CompleteHeartBlock.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/bifascicular.png",
+    "titulo": "File:Bifascicular block ECG.png",
+    "autor": "Steven Fruitsmaak",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Bifascicular_block_ECG.png"
+  },
+  {
+    "archivo": "img/real/ecg/bigeminismo-ventricular.jpg",
+    "titulo": "File:Ekg bigeminus bionerd.jpg",
+    "autor": "Bionerd",
+    "licencia": "CC BY 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ekg_bigeminus_bionerd.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/bradicardia-sinusal.jpg",
+    "titulo": "File:ECG Sinus Bradycardia 49 bpm.jpg",
+    "autor": "Ewingdo",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ECG_Sinus_Bradycardia_49_bpm.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/brdhh.jpg",
+    "titulo": "File:ECG NSR with RBBB 74 bpm.jpg",
+    "autor": "Ewingdo",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ECG_NSR_with_RBBB_74_bpm.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/brihh.jpg",
+    "titulo": "File:ECG-LBBB.jpg",
+    "autor": "Ciernik M",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ECG-LBBB.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/brugada-1.png",
+    "titulo": "File:Brugada syndrome type1 example3 (CardioNetworks ECGpedia).png",
+    "autor": "CardioNetworks: [ ]",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Brugada_syndrome_type1_example3_(CardioNetworks_ECGpedia).png"
+  },
+  {
+    "archivo": "img/real/ecg/brugada-2.png",
+    "titulo": "File:Brugada syndrome type2 example1 (CardioNetworks ECGpedia).png",
+    "autor": "CardioNetworks: [ ]",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Brugada_syndrome_type2_example1_(CardioNetworks_ECGpedia).png"
+  },
+  {
+    "archivo": "img/real/ecg/de-winter.jpg",
+    "titulo": "File:DeWinterECG.jpg",
+    "autor": "EM Vilela, MD",
+    "licencia": "CC BY 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:DeWinterECG.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/dextrocardia.jpg",
+    "titulo": "File:De-Dextrocardia (CardioNetworks ECGpedia).jpg",
+    "autor": "CardioNetworks: Googletrans",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:De-Dextrocardia_(CardioNetworks_ECGpedia).jpg"
+  },
+  {
+    "archivo": "img/real/ecg/digoxina.png",
+    "titulo": "File:Signal-averaged ECG with digoxin.png",
+    "autor": "Mikael Häggström",
+    "licencia": "CC0",
+    "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Signal-averaged_ECG_with_digoxin.png"
+  },
+  {
+    "archivo": "img/real/ecg/displasia-vd.png",
+    "titulo": "File:ARVD-Epsilon wave.png",
+    "autor": "The original uploader was Ksheka at English Wikipedia.",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ARVD-Epsilon_wave.png"
+  },
+  {
+    "archivo": "img/real/ecg/extrasistoles-auriculares.jpg",
+    "titulo": "File:E000746 (CardioNetworks ECGpedia).jpg",
+    "autor": "Michael Rosengarten BEng, MD.McGill",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:E000746_(CardioNetworks_ECGpedia).jpg"
+  },
+  {
+    "archivo": "img/real/ecg/fa-rapida.jpg",
+    "titulo": "File:ECG Atrial Fibrillation 98 bpm.jpg",
+    "autor": "Ewingdo",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ECG_Atrial_Fibrillation_98_bpm.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/fluter-2a1.jpg",
+    "titulo": "File:Aflut.jpg",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Aflut.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/fluter-4a1.jpg",
+    "titulo": "File:E24 (CardioNetworks ECGpedia).jpg",
+    "autor": "Michael Rosengarten BEng, MD.McGill",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:E24_(CardioNetworks_ECGpedia).jpg"
+  },
+  {
+    "archivo": "img/real/ecg/fluter-variable.jpg",
+    "titulo": "File:Atrial flutter34.JPG",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Atrial_flutter34.JPG"
+  },
+  {
+    "archivo": "img/real/ecg/fv.jpg",
+    "titulo": "File:Ventricular fibrillation (from ecg-quiz.com).jpg",
+    "autor": "Antoine Ayer",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ventricular_fibrillation_(from_ecg-quiz.com).jpg"
+  },
+  {
+    "archivo": "img/real/ecg/hbai.jpg",
+    "titulo": "File:LAFB2012.jpg",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:LAFB2012.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/hiperpotasemia.jpg",
+    "titulo": "File:Hyperkalemia ECG.jpg",
+    "autor": "Dr. Michael-Joseph F. Agbayani and Dr. Eddieson Gonzales (Manila, Philippines)",
+    "licencia": "CC BY 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Hyperkalemia_ECG.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/hipopotasemia.jpg",
+    "titulo": "File:LowKECG.JPG",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:LowKECG.JPG"
+  },
+  {
+    "archivo": "img/real/ecg/hipotermia.jpg",
+    "titulo": "File:HypothermiaECG.jpg",
+    "autor": "WikiSysop",
+    "licencia": "CC BY 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:HypothermiaECG.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/hvi-sobrecarga.jpg",
+    "titulo": "File:Left ventricular hypertrophy with secondary repolarization.jpg",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Left_ventricular_hypertrophy_with_secondary_repolarization.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/iam-anterior-brd.jpg",
+    "titulo": "File:Right bundle block with STEMI.jpg",
+    "autor": "Dr. Stephen W. Smith",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Right_bundle_block_with_STEMI.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/iam-antiguo-inferior.jpg",
+    "titulo": "File:E200 (CardioNetworks ECGpedia).jpg",
+    "autor": "Michael Rosengarten BEng, MD.McGill",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:E200_(CardioNetworks_ECGpedia).jpg"
+  },
+  {
+    "archivo": "img/real/ecg/iam-posterior.jpg",
+    "titulo": "File:E310 (CardioNetworks ECGpedia).jpg",
+    "autor": "Michael Rosengarten BEng, MD.McGill",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:E310_(CardioNetworks_ECGpedia).jpg"
+  },
+  {
+    "archivo": "img/real/ecg/iamcest-anterior.jpg",
+    "titulo": "File:ST elevation myocardial infarction ECG (cropped).jpg",
+    "autor": "Various",
+    "licencia": "CC BY 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ST_elevation_myocardial_infarction_ECG_(cropped).jpg"
+  },
+  {
+    "archivo": "img/real/ecg/iamcest-inferior.jpg",
+    "titulo": "File:ECG 001.jpg",
+    "autor": "http://en.wikipedia.org/wiki/User:Glenlarson",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ECG_001.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/inversion-electrodos.jpg",
+    "titulo": "File:E218 (CardioNetworks ECGpedia).jpg",
+    "autor": "Michael Rosengarten BEng, MD.McGill",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:E218_(CardioNetworks_ECGpedia).jpg"
+  },
+  {
+    "archivo": "img/real/ecg/marcapasos-ddd.jpg",
+    "titulo": "File:DualChamberPacemaker ECG 3x4.jpg",
+    "autor": "Jmarchn",
+    "licencia": "CC0",
+    "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "pagina": "https://commons.wikimedia.org/wiki/File:DualChamberPacemaker_ECG_3x4.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/mobitz-2.jpg",
+    "titulo": "File:2ndDegreeType2.jpg",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2ndDegreeType2.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/normal.jpg",
+    "titulo": "File:Normal 12 lead EKG.jpg",
+    "autor": "Ptrump16",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Normal_12_lead_EKG.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/p-pulmonale.jpg",
+    "titulo": "File:P-pulmonale - RAH with sinus tachycardia.jpg",
+    "autor": "Sameem Arif",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:P-pulmonale_-_RAH_with_sinus_tachycardia.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/paro-sinusal.jpg",
+    "titulo": "File:ECG Sinus Pause.jpg",
+    "autor": "PerpetuallyTachy",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ECG_Sinus_Pause.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/pericarditis.jpg",
+    "titulo": "File:PericarditisECG.JPG",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:PericarditisECG.JPG"
+  },
+  {
+    "archivo": "img/real/ecg/qt-largo.png",
+    "titulo": "File:Lqts2 (CardioNetworks ECGpedia).png",
+    "autor": "CardioNetworks: Googletrans",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Lqts2_(CardioNetworks_ECGpedia).png"
+  },
+  {
+    "archivo": "img/real/ecg/repolarizacion-precoz.jpg",
+    "titulo": "File:Benign early repolorization.jpg",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Benign_early_repolorization.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/ritmo-idioventricular.jpg",
+    "titulo": "File:Aivr (CardioNetworks ECGpedia).jpg",
+    "autor": "CardioNetworks: [ ]",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Aivr_(CardioNetworks_ECGpedia).jpg"
+  },
+  {
+    "archivo": "img/real/ecg/ritmo-union.png",
+    "titulo": "File:ECG of Junctional Rhythm.png",
+    "autor": "Dhaval Desai, MD, MPH",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ECG_of_Junctional_Rhythm.png"
+  },
+  {
+    "archivo": "img/real/ecg/sgarbossa.jpg",
+    "titulo": "File:E319 (CardioNetworks ECGpedia).jpg",
+    "autor": "Michael Rosengarten BEng, MD.McGill",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:E319_(CardioNetworks_ECGpedia).jpg"
+  },
+  {
+    "archivo": "img/real/ecg/takotsubo.jpg",
+    "titulo": "File:ECG of Takotsubo cardiomyopathy.jpg",
+    "autor": "Med Chaos",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ECG_of_Takotsubo_cardiomyopathy.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/tam.png",
+    "titulo": "File:Multifocal atrial tachycardia - MAT.png",
+    "autor": "Jer5150",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Multifocal_atrial_tachycardia_-_MAT.png"
+  },
+  {
+    "archivo": "img/real/ecg/taquicardia-sinusal.jpg",
+    "titulo": "File:ECG Sinus Tachycardia 132 bpm.jpg",
+    "autor": "Ewingdo",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ECG_Sinus_Tachycardia_132_bpm.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/tep.jpg",
+    "titulo": "File:Pulm embolism.jpg",
+    "autor": "R.W.Koster",
+    "licencia": "CC BY 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Pulm_embolism.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/torsades.png",
+    "titulo": "File:Torsades de Pointes TdP.png",
+    "autor": "Jer5150",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Torsades_de_Pointes_TdP.png"
+  },
+  {
+    "archivo": "img/real/ecg/trnav.jpg",
+    "titulo": "File:ECG AVNRT 181 bpm.jpg",
+    "autor": "Ewingdo",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ECG_AVNRT_181_bpm.jpg"
+  },
+  {
+    "archivo": "img/real/ecg/tv-monomorfica.png",
+    "titulo": "File:Electrocardiogram of Ventricular Tachycardia.png",
+    "autor": "The original uploader was Ksheka at English Wikipedia.",
+    "licencia": "CC BY-SA 2.5",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Electrocardiogram_of_Ventricular_Tachycardia.png"
+  },
+  {
+    "archivo": "img/real/ecg/wellens-a.jpg",
+    "titulo": "File:Wellens1.JPG",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Wellens1.JPG"
+  },
+  {
+    "archivo": "img/real/ecg/wellens-b.jpg",
+    "titulo": "File:Wellens2.JPG",
+    "autor": "James Heilman, MD",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Wellens2.JPG"
+  },
+  {
+    "archivo": "img/real/ecg/wenckebach.jpg",
+    "titulo": "File:DVA2424 (CardioNetworks ECGpedia).jpg",
+    "autor": "W.G. de Voogt, MD, PhD, SLAZ, The Netherlands",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:DVA2424_(CardioNetworks_ECGpedia).jpg"
+  },
+  {
+    "archivo": "img/real/ecg/wpw.png",
+    "titulo": "File:Wolff-Parkinson-White syndrome 12 lead EKG.png",
+    "autor": "User Ksheka on en.wikipedia",
+    "licencia": "CC BY-SA 3.0",
+    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Wolff-Parkinson-White_syndrome_12_lead_EKG.png"
+  }
+]

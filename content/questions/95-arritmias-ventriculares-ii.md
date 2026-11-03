@@ -3,7 +3,7 @@ subspecialty: Electrofisiología
 
 @@@ av2-001
 difficulty: 1
-image: img/ecg/tv-monomorfica.svg
+image: img/real/ecg/tv-monomorfica.png
 clue: Una taquicardia de QRS ancho con todos los complejos iguales, que dura más de 30 segundos o que hay que terminar antes por inestabilidad, recibe este nombre.
 answer: ¿Qué es la TV monomórfica sostenida?
 accept: tv monomorfica sostenida | taquicardia ventricular monomorfica sostenida | tvms | tv sostenida monomorfica | sustained monomorphic vt
@@ -404,7 +404,7 @@ ESC 2022 Arritmias ventriculares: se puede considerar la ablación antes del DAI
 
 @@@ av2-021
 difficulty: 4
-image: img/ecg/torsades.svg
+image: img/real/ecg/torsades.png
 clue: En una torsade de pointes dependiente de pausas, que no responde al magnesio, esta medida acorta el QT al aumentar la frecuencia cardíaca a 90-110 lpm.
 answer: ¿Qué es la estimulación temporal con sobreestimulación (overdrive)?
 accept: overdrive | sobreestimulacion | estimulacion temporal | marcapasos temporal | overdrive pacing | estimulacion a frecuencia alta

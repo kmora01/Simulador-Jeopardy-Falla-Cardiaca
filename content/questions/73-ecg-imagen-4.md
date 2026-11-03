@@ -3,7 +3,7 @@ subspecialty: Electrofisiología
 
 @@@ ecg4-001
 difficulty: 1
-image: img/ecg/bigeminismo-ventricular.svg
+image: img/real/ecg/bigeminismo-ventricular.jpg
 clue: En esta tira, cada latido sinusal va seguido de un complejo ancho y prematuro sin onda P, y el patrón se repite de forma fija: este trastorno del ritmo.
 answer: ¿Qué es el bigeminismo ventricular?
 accept: bigeminismo ventricular | bigeminismo | extrasistolia ventricular bigeminada | extrasistoles ventriculares bigeminadas | ventricular bigeminy
@@ -24,7 +24,7 @@ ESC 2022 Arritmias ventriculares: ante extrasístoles ventriculares frecuentes s
 
 @@@ ecg4-002
 difficulty: 1
-image: img/ecg/paro-sinusal.svg
+image: img/real/ecg/paro-sinusal.jpg
 clue: Tras tres latidos sinusales normales, la tira queda plana más de 3 segundos, sin ondas P ni QRS, y luego el ritmo sinusal se reanuda: este hallazgo.
 answer: ¿Qué es el paro sinusal (pausa sinusal)?
 accept: paro sinusal | pausa sinusal | arresto sinusal | sinus arrest | sinus pause
@@ -45,7 +45,7 @@ ESC 2021 Estimulación: el marcapasos está indicado en la disfunción sinusal c
 
 @@@ ecg4-003
 difficulty: 1
-image: img/ecg/extrasistoles-auriculares.svg
+image: img/real/ecg/extrasistoles-auriculares.jpg
 clue: Cada cuatro latidos aparece un QRS estrecho adelantado, precedido de una onda P de morfología distinta a la sinusal: estos latidos.
 answer: ¿Qué son las extrasístoles auriculares?
 accept: extrasistoles auriculares | extrasistole auricular | latidos auriculares prematuros | complejos auriculares prematuros | cap | premature atrial contractions | pac
@@ -66,7 +66,7 @@ ESC 2019 TSV: no requieren tratamiento salvo síntomas. Si molestan, los betablo
 
 @@@ ecg4-004
 difficulty: 1
-image: img/ecg/fluter-variable.svg
+image: img/real/ecg/fluter-variable.jpg
 clue: Ondas auriculares regulares en "dientes de sierra" a 300/min en II, con intervalos RR que cambian porque la conducción alterna entre 2:1, 3:1 y 4:1: este ritmo.
 answer: ¿Qué es el flúter auricular con conducción variable?
 accept: fluter auricular con conduccion variable | fluter con conduccion variable | fluter auricular | fluter | aleteo auricular | atrial flutter with variable block
@@ -87,7 +87,7 @@ ESC 2024 FA: la anticoagulación en el flúter sigue los mismos criterios que en
 
 @@@ ecg4-005
 difficulty: 1
-image: img/ecg/p-pulmonale.svg
+image: img/real/ecg/p-pulmonale.jpg
 clue: Onda P alta y picuda de 4 mm en II, III y aVF, con duración normal, en un paciente con EPOC grave: este signo electrocardiográfico.
 answer: ¿Qué es la P pulmonale?
 accept: p pulmonale | onda p pulmonale | p pulmonar | crecimiento auricular derecho | dilatacion auricular derecha | right atrial enlargement
@@ -108,7 +108,7 @@ ESC/ERS 2022 HP: un ECG anormal (P pulmonale, HVD, eje derecho) aumenta la proba
 
 @@@ ecg4-006
 difficulty: 2
-image: img/ecg/ritmo-union.svg
+image: img/real/ecg/ritmo-union.png
 clue: Ritmo regular a 48 lpm con QRS estrecho, sin P antes del QRS, y una pequeña deflexión negativa en II, III y aVF justo detrás de cada complejo: esa deflexión.
 answer: ¿Qué son las ondas P retrógradas?
 accept: ondas p retrogradas | p retrograda | p retrogradas | activacion auricular retrograda | retrograde p waves
@@ -171,7 +171,7 @@ ESC 2021 Estimulación: en el bloqueo bifascicular con síncope inexplicado se r
 
 @@@ ecg4-009
 difficulty: 2
-image: img/ecg/iam-posterior.svg
+image: img/real/ecg/iam-posterior.jpg
 clue: Dolor torácico de 1 hora: descenso horizontal del ST en V1–V3 con R altas y T positivas, sin elevación del ST en ninguna derivación estándar: este infarto.
 answer: ¿Qué es el infarto posterior (inferobasal)?
 accept: infarto posterior | iam posterior | infarto inferobasal | iam inferobasal | iamcest posterior | infarto posterior aislado | posterior mi
@@ -192,7 +192,7 @@ ESC 2023 SCA: el IAM posterior aislado se considera equivalente de IAMCEST y req
 
 @@@ ecg4-010
 difficulty: 2
-image: img/ecg/brugada-2.svg
+image: img/real/ecg/brugada-2.png
 clue: En V1–V2: r' de despegue alto, ST elevado que desciende en forma de "silla de montar" y vuelve a subir con una T positiva. Este patrón no es diagnóstico por sí solo.
 answer: ¿Qué es el patrón de Brugada tipo 2?
 accept: patron de brugada tipo 2 | brugada tipo 2 | patron en silla de montar | saddleback | brugada type 2 | patron brugada tipo 2
@@ -213,7 +213,7 @@ ESC 2022 Arritmias ventriculares: el síndrome de Brugada se diagnostica con un 
 
 @@@ ecg4-011
 difficulty: 2
-image: img/ecg/fluter-variable.svg
+image: img/real/ecg/fluter-variable.jpg
 clue: Las ondulaciones regulares de la línea de base de este trazado, sin línea isoeléctrica entre ellas y mejor vistas en II, III y aVF: estas ondas auriculares.
 answer: ¿Qué son las ondas F (de flúter)?
 accept: ondas f | ondas f de fluter | ondas de fluter | dientes de sierra | flutter waves
@@ -234,7 +234,7 @@ ESC 2024 FA: la ablación del istmo cavotricuspídeo es el tratamiento de elecci
 
 @@@ ecg4-012
 difficulty: 3
-image: img/ecg/marcapasos-ddd.svg
+image: img/real/ecg/marcapasos-ddd.jpg
 clue: En este trazado de marcapasos bicameral se ven dos espigas por ciclo. La distancia de 170 ms entre la auricular y la ventricular es este parámetro programable.
 answer: ¿Qué es el intervalo AV programado (retardo AV)?
 accept: intervalo av programado | retardo av | intervalo av | av delay | retraso av | intervalo av estimulado
@@ -255,7 +255,7 @@ ESC 2021 Estimulación: en pacientes con conducción AV conservada se recomienda
 
 @@@ ecg4-013
 difficulty: 3
-image: img/ecg/extrasistoles-auriculares.svg
+image: img/real/ecg/extrasistoles-auriculares.jpg
 clue: Tras la extrasístole de esta tira, el intervalo que la contiene mide menos que dos ciclos sinusales, porque el latido ectópico "reinicia" el nodo: este tipo de pausa.
 answer: ¿Qué es la pausa no compensadora?
 accept: pausa no compensadora | pausa incompleta | pausa no compensatoria | non compensatory pause
@@ -297,7 +297,7 @@ ESC 2022 Arritmias ventriculares: las causas adquiridas de QT largo, incluida la
 
 @@@ ecg4-015
 difficulty: 3
-image: img/ecg/brugada-2.svg
+image: img/real/ecg/brugada-2.png
 clue: Para buscar un patrón tipo 1 oculto ante este trazado, se repite el ECG colocando V1 y V2 en estas posiciones del tórax.
 answer: ¿Qué son el segundo y tercer espacios intercostales (precordiales altas)?
 accept: segundo y tercer espacio intercostal | precordiales altas | derivaciones precordiales altas | segundo espacio intercostal | tercer espacio intercostal | high precordial leads
@@ -360,7 +360,7 @@ ESC 2022 Arritmias ventriculares: en la TV fascicular sintomática se recomienda
 
 @@@ ecg4-018
 difficulty: 4
-image: img/ecg/bigeminismo-ventricular.svg
+image: img/real/ecg/bigeminismo-ventricular.jpg
 clue: Holter con este patrón durante la mayor parte del día (carga del 22 %) y FEVI que bajó al 38 % en un año, sin enfermedad coronaria ni realce tardío: esta entidad potencialmente reversible.
 answer: ¿Qué es la miocardiopatía inducida por extrasístoles ventriculares?
 accept: miocardiopatia inducida por extrasistoles | miocardiopatia inducida por extrasistoles ventriculares | miocardiopatia por extrasistoles | miocardiopatia inducida por ev | pvc induced cardiomyopathy
@@ -423,7 +423,7 @@ ESC 2021 Estimulación: el desplazamiento del electrodo requiere recolocación. 
 
 @@@ ecg4-021
 difficulty: 4
-image: img/ecg/iam-anterior-brd.svg
+image: img/real/ecg/iam-anterior-brd.jpg
 clue: Este IAMCEST anterior con BRD nuevo indica oclusión de la DA proximal a la salida de esta rama, que irriga la parte proximal de la rama derecha.
 answer: ¿Qué es la primera perforante septal?
 accept: primera perforante septal | primera septal | rama septal | perforante septal | ramas septales | first septal perforator
@@ -465,7 +465,7 @@ ESC 2021 Estimulación: un bloqueo bifascicular con BAV de segundo grado Mobitz 
 
 @@@ ecg4-023
 difficulty: 5
-image: img/ecg/iam-posterior.svg
+image: img/real/ecg/iam-posterior.jpg
 clue: En este trazado, la R alta con cociente R/S >1 en V2 es la representación en espejo de este hallazgo de la pared inferobasal necrosada.
 answer: ¿Qué es la onda Q posterior?
 accept: onda q posterior | q posterior | ondas q posteriores | onda q de la pared posterior | imagen especular de la onda q | posterior q wave
