@@ -3,7 +3,7 @@ subspecialty: Hemodinámica
 
 @@@ hem-001
 difficulty: 1
-image: img/hemo/gradiente-vi-ao.webp
+image: img/real/hemo/gradiente-vi-ao.png
 clue: Registro simultáneo de VI y aorta con presión sistólica del VI de 200 mmHg y aórtica de 130 mmHg, con ascenso aórtico lento: esta valvulopatía.
 answer: ¿Qué es la estenosis aórtica?
 accept: estenosis aortica | estenosis aortica grave | ea | aortic stenosis | estenosis valvular aortica
