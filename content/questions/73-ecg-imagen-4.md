@@ -276,7 +276,7 @@ ESC 2019 TSV: el ECG de 12 derivaciones y el Holter documentan la carga de ectop
 
 @@@ ecg4-014
 difficulty: 3
-image: img/ecg/hipocalcemia.svg
+image: img/real/ecg/hipocalcemia.jpg
 clue: Una mujer de 45 años, 2 días después de una tiroidectomía total, refiere parestesias periorales y tiene este ECG con QT largo por ST prolongado. La causa más probable.
 answer: ¿Qué es el hipoparatiroidismo posquirúrgico?
 accept: hipoparatiroidismo posquirurgico | hipoparatiroidismo | hipoparatiroidismo postoperatorio | lesion de paratiroides | postsurgical hypoparathyroidism
@@ -509,7 +509,7 @@ ESC 2022 Arritmias ventriculares: la ablación de la TV idiopática del VI es cl
 difficulty: 5
 final: true
 finalCategory: ELECTROLITOS Y ECG
-image: img/ecg/hipocalcemia.svg
+image: img/real/ecg/hipocalcemia.jpg
 clue: Una mujer de 52 años tiene este ECG con ST prolongado y tetania 24 horas después de una paratiroidectomía por adenoma con hiperparatiroidismo grave. Se debe a la captación masiva de calcio y fósforo por el hueso.
 answer: ¿Qué es el síndrome del hueso hambriento?
 accept: sindrome del hueso hambriento | hueso hambriento | hungry bone syndrome | sindrome de hueso hambriento
