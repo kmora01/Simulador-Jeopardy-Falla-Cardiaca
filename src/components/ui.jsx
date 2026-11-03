@@ -3,6 +3,10 @@ import { createPortal } from 'react-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import credits from '../../content/credits.json'
+
+// Atribución de las imágenes reales de Wikimedia Commons (CC BY / CC BY-SA exigen mostrarla).
+const CREDITS = new Map(credits.map((c) => [c.archivo, c]))
 
 export function Modal({ children, onClose, wide = false, className = '' }) {
   return (
@@ -88,6 +92,20 @@ export function ClinicalImage({ src, className = '', maxH = 'max-h-[40vh]' }) {
   const [open, setOpen] = useState(false)
   const [zoom, setZoom] = useState(false)
   const url = import.meta.env.BASE_URL + src
+  const credit = CREDITS.get(src)
+  // Sin el título del archivo: podría delatar la respuesta.
+  const creditLine = credit && (
+    <>
+      Imagen: {credit.autor} ·{' '}
+      <a href={credit.licenciaUrl} target="_blank" rel="noreferrer" className="underline" onClick={(e) => e.stopPropagation()}>
+        {credit.licencia}
+      </a>{' '}
+      ·{' '}
+      <a href={credit.pagina} target="_blank" rel="noreferrer" className="underline" onClick={(e) => e.stopPropagation()}>
+        Wikimedia Commons
+      </a>
+    </>
+  )
   useEffect(() => {
     if (!open) return
     const onKey = (e) => {
@@ -101,6 +119,7 @@ export function ClinicalImage({ src, className = '', maxH = 'max-h-[40vh]' }) {
   }, [open])
   return (
     <>
+      <span className="inline-flex max-w-full flex-col items-center">
       <button
         type="button"
         onClick={() => {
@@ -115,6 +134,8 @@ export function ClinicalImage({ src, className = '', maxH = 'max-h-[40vh]' }) {
           🔍 Ampliar
         </span>
       </button>
+      {creditLine && <span className="mt-1 text-center text-[10px] leading-tight text-white/40">{creditLine}</span>}
+      </span>
       {createPortal(
         <AnimatePresence>
           {open && (
@@ -126,7 +147,10 @@ export function ClinicalImage({ src, className = '', maxH = 'max-h-[40vh]' }) {
               onClick={() => setOpen(false)}
             >
               <div className="flex items-center justify-between px-4 py-3 text-sm text-white/70">
-                <span>{zoom ? 'Tamaño real: desplázate para recorrer la imagen' : 'Clic en la imagen para verla a tamaño real'}</span>
+                <span>
+                  {zoom ? 'Tamaño real: desplázate para recorrer la imagen' : 'Clic en la imagen para verla a tamaño real'}
+                  {creditLine && <span className="block text-xs text-white/45">{creditLine}</span>}
+                </span>
                 <button className="btn-ghost !py-1.5" onClick={() => setOpen(false)}>
                   Cerrar ✕
                 </button>
