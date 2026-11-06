@@ -12,6 +12,7 @@ import Review from './screens/Review'
 import BankBrowser from './screens/BankBrowser'
 import Settings from './screens/Settings'
 import Library from './screens/Library'
+import Trials from './screens/Trials'
 import TopBar from './components/TopBar'
 import ResumePrompt from './components/ResumePrompt'
 
@@ -103,6 +104,7 @@ export default function App() {
               {screen === 'review' && <Review />}
               {screen === 'bank' && <BankBrowser />}
               {screen === 'library' && <Library />}
+              {screen === 'trials' && <Trials />}
               {screen === 'settings' && <Settings />}
             </motion.div>
           </AnimatePresence>

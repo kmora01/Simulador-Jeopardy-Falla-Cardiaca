@@ -4,6 +4,7 @@ const NAV = [
   ['home', 'Inicio'],
   ['stats', 'Estadísticas'],
   ['review', 'Repaso SRS'],
+  ['trials', 'Ensayos'],
   ['library', 'Estudio'],
   ['bank', 'Banco'],
   ['settings', 'Ajustes'],
@@ -45,7 +46,7 @@ export default function TopBar({ onLogout }) {
     </header>
     {/* Celular: navegación inferior fija al alcance del pulgar. */}
     <nav
-      className="md:hidden fixed bottom-0 inset-x-0 z-40 grid grid-cols-6 border-t border-white/10 bg-[#030733]/95 backdrop-blur-xl"
+      className="md:hidden fixed bottom-0 inset-x-0 z-40 grid grid-cols-7 border-t border-white/10 bg-[#030733]/95 backdrop-blur-xl"
       style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
     >
       {NAV.map(([k, label]) => (
