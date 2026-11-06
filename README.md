@@ -20,6 +20,9 @@ Uso personal de entrenamiento.
 - **Pestaña Estudio**:
   - **Libro de lectura**: 13 unidades y 64 temas. Cada tema trae un **resumen propio** (`content/summaries/`), los **apuntes de todas las preguntas del banco** que le corresponden (pista, concepto y explicación, con sus imágenes) y los **ensayos relacionados**. Búsqueda en todo el libro, filtro dentro del tema, modo "solo pista y concepto", navegación anterior/siguiente y marca de "leído" por usuario. Los resúmenes son textos originales; no copian los libros.
   - **Mis libros**: lector de PDF **local** (pdf.js). El PDF se elige desde el dispositivo y se abre solo en ese navegador (se guarda en IndexedDB o como permiso de archivo); **nunca se sube al sitio**. Usa los marcadores del PDF como lista de capítulos, recuerda la página y permite marcar capítulos estudiados.
+- **Tarjetas de memoria** (pestaña Tarjetas): tarjetas que giran al clic, en modo directo (término o estudio al frente), inverso (significado o qué evaluó al frente) o mezclado, con progreso por usuario, filtro por tema y lista completa con búsqueda.
+  - **Semiología y signos** (`content/semiologia.json`, ~400 tarjetas): inspección, pulsos arterial y venoso, precordio, ruidos, soplos y sus epónimos, maniobras dinámicas, signos de insuficiencia aórtica, pericardio, escalas clínicas, radiografía, eco y resonancia, signos del ECG, hemodinámica, síndromes epónimos, clasificaciones e historia de la cardiología.
+  - **Estudios pivotales** (de `content/trials.json`): agrupados por fármaco o tema (IECA, ARA II, ARNI, betabloqueadores, ARM, iSGLT2, aGLP1, ivabradina, vericiguat, doble antiagregación, antiagregación acortada y desescalada, FA + ICP, DAI en prevención secundaria y primaria, resincronización) y el resto de artículos clave por área. Los grupos se definen en `src/lib/flashcards.js`.
 
 ## Seguridad del inicio de sesión (importante)
 

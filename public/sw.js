@@ -1,6 +1,6 @@
 // Service worker sencillo: red primero para la página, el banco y el libro de lectura (siempre la versión
 // más reciente si hay conexión), caché primero para los recursos con hash e imágenes.
-const CACHE = 'cardio-jeopardy-v1'
+const CACHE = 'cardio-jeopardy-v2'
 
 self.addEventListener('install', () => self.skipWaiting())
 self.addEventListener('activate', (e) => {
