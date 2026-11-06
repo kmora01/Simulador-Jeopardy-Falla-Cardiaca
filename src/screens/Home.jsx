@@ -169,6 +169,17 @@ export default function Home() {
             </div>
           </Card>
           <Card>
+            <div className="flex items-center justify-between gap-3">
+              <div>
+                <div className="text-sm text-white/60">Tarjetas de memoria</div>
+                <div className="text-sm text-white/80 mt-1">Signos, soplos, epónimos y estudios pivotales que giran al clic.</div>
+              </div>
+              <button className="btn-blue shrink-0" onClick={() => go('cards')}>
+                Estudiar
+              </button>
+            </div>
+          </Card>
+          <Card>
             <div className="text-sm text-white/60">Racha de estudio</div>
             <div className="flex items-end gap-6 mt-1">
               <div>

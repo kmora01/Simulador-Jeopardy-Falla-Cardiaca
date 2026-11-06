@@ -13,6 +13,7 @@ import BankBrowser from './screens/BankBrowser'
 import Settings from './screens/Settings'
 import Library from './screens/Library'
 import Trials from './screens/Trials'
+import Flashcards from './screens/Flashcards'
 import TopBar from './components/TopBar'
 import ResumePrompt from './components/ResumePrompt'
 
@@ -105,6 +106,7 @@ export default function App() {
               {screen === 'bank' && <BankBrowser />}
               {screen === 'library' && <Library />}
               {screen === 'trials' && <Trials />}
+              {screen === 'cards' && <Flashcards />}
               {screen === 'settings' && <Settings />}
             </motion.div>
           </AnimatePresence>
