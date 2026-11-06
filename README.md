@@ -18,7 +18,7 @@ Uso personal de entrenamiento.
 - Exportar e importar el progreso (Ajustes) para pasarlo a otro navegador o equipo.
 - **Versión para celular e instalable (PWA)**: tablero por categorías con los 5 valores en fila, navegación inferior, y opción "Agregar a pantalla de inicio" en iPhone/Android.
 - **Pestaña Estudio**:
-  - **Resúmenes propios** por tema (`content/summaries/`), organizados en unidades, con autoevaluación usando pistas del banco y marca de "estudiado" por usuario. Son textos originales; no copian los libros.
+  - **Libro de lectura**: 13 unidades y 64 temas. Cada tema trae un **resumen propio** (`content/summaries/`), los **apuntes de todas las preguntas del banco** que le corresponden (pista, concepto y explicación, con sus imágenes) y los **ensayos relacionados**. Búsqueda en todo el libro, filtro dentro del tema, modo "solo pista y concepto", navegación anterior/siguiente y marca de "leído" por usuario. Los resúmenes son textos originales; no copian los libros.
   - **Mis libros**: lector de PDF **local** (pdf.js). El PDF se elige desde el dispositivo y se abre solo en ese navegador (se guarda en IndexedDB o como permiso de archivo); **nunca se sube al sitio**. Usa los marcadores del PDF como lista de capítulos, recuerda la página y permite marcar capítulos estudiados.
 
 ## Seguridad del inicio de sesión (importante)
@@ -37,7 +37,9 @@ El progreso de cada usuario vive en el navegador donde juega (IndexedDB). Si cam
 
 ## Resúmenes
 
-Cada archivo de `content/summaries/` tiene una cabecera (`unit`, `title`, `books`, `categories` separadas por `;`), una línea `---` y el cuerpo en Markdown. `categories` debe usar nombres exactos de categorías del banco: de ahí sale la autoevaluación. `npm run build` los compila a `public/summaries.json`.
+Cada archivo de `content/summaries/` tiene una cabecera (`unit`, `title`, `books`, `categories` separadas por `;`), una línea `---` y el cuerpo en Markdown.
+
+El índice del libro está en `scripts/study-topics.mjs`: cada tema lista sus resúmenes y las categorías del banco que reúne. Las categorías transversales (siglas, números, epónimos, ensayos generales) se reparten pregunta por pregunta al tema clínico cuyas palabras clave (`kw`) coinciden; si ninguna coincide quedan en el tema de respaldo de `ROUTED`. Los ensayos de `content/trials.json` se asignan igual, con su área como respaldo. **Toda categoría nueva del banco debe añadirse a un tema** (o a `ROUTED`): si no, `npm run study` falla. `npm run build` compila el libro a `public/study/`.
 
 ## Banco de preguntas
 

@@ -58,25 +58,43 @@ export async function saveProgress(user, bookId, patch) {
 
 export const fmtSize = (n) => (n > 1e9 ? `${(n / 1e9).toFixed(1)} GB` : `${Math.round(n / 1e6)} MB`)
 
-/* ---------- Resúmenes propios (publicados) y su avance por usuario ---------- */
+/* ---------- Libro de lectura (public/study/) ---------- */
 
-let summariesPromise = null
-export function loadSummaries() {
-  if (!summariesPromise) {
-    summariesPromise = fetch(import.meta.env.BASE_URL + 'summaries.json', { cache: 'no-cache' })
-      .then((r) => (r.ok ? r.json() : []))
+let studyPromise = null
+export function loadStudyIndex() {
+  if (!studyPromise) {
+    studyPromise = fetch(import.meta.env.BASE_URL + 'study/index.json', { cache: 'no-cache' })
+      .then((r) => (r.ok ? r.json() : { units: [], topics: [], where: {} }))
       .catch(() => {
-        summariesPromise = null
-        return []
+        studyPromise = null
+        return { units: [], topics: [], where: {} }
       })
   }
-  return summariesPromise
+  return studyPromise
 }
 
-export async function readSummaries(user) {
-  const rows = await libDb.summaries.where('user').equals(user).toArray()
-  return new Set(rows.map((r) => r.id))
+const topicCache = new Map()
+export function loadTopic(id) {
+  if (!topicCache.has(id)) {
+    topicCache.set(
+      id,
+      fetch(import.meta.env.BASE_URL + 'study/t/' + id + '.json').then((r) => {
+        if (!r.ok) throw new Error('No se pudo cargar el tema')
+        return r.json()
+      }),
+    )
+    topicCache.get(id).catch(() => topicCache.delete(id))
+  }
+  return topicCache.get(id)
 }
+
+// Los temas estudiados se guardan en la misma tabla que los resúmenes, con prefijo "t:".
+export async function readTopics(user) {
+  const rows = await libDb.summaries.where('user').equals(user).toArray()
+  return new Set(rows.filter((r) => r.id.startsWith('t:')).map((r) => r.id.slice(2)))
+}
+
+export const markTopic = (user, id, read) => markSummary(user, 't:' + id, read)
 
 export async function markSummary(user, id, read) {
   if (read) await libDb.summaries.put({ user, id, at: Date.now() })

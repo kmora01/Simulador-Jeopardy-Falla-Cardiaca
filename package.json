@@ -4,11 +4,12 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/build-bank.mjs && node scripts/build-summaries.mjs && vite",
-    "build": "node scripts/build-bank.mjs && node scripts/build-summaries.mjs && vite build",
+    "dev": "node scripts/build-bank.mjs && node scripts/build-study.mjs && vite",
+    "build": "node scripts/build-bank.mjs && node scripts/build-study.mjs && vite build",
     "preview": "vite preview",
     "bank": "node scripts/build-bank.mjs",
     "bank:check": "node scripts/build-bank.mjs --check",
+    "study": "node scripts/build-study.mjs",
     "pipeline:chunk": "node pipeline/chunk.mjs",
     "pipeline:generate": "node pipeline/generate.mjs",
     "pipeline:collect": "node pipeline/collect.mjs"
