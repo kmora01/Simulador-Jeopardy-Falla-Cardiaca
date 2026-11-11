@@ -1,5 +1,7 @@
-// Mazos de tarjetas de memoria: semiología (content/semiologia.json) y estudios pivotales (content/trials.json).
+// Mazos de tarjetas de memoria: semiología (content/semiologia.json), estudios pivotales (content/trials.json)
+// y trasplante cardíaco (content/trasplante.json + los estudios del área «Trasplante cardiaco»).
 import semiologia from '../../content/semiologia.json'
+import trasplante from '../../content/trasplante.json'
 import { trials } from './trials'
 
 /* ---------- Mazo de semiología ---------- */
@@ -38,6 +40,8 @@ export const TRIAL_GROUPS = [
   ['DAI en prevención secundaria', ['avid', 'cash', 'cids', 'meta-sec']],
   ['DAI en prevención primaria', ['madit-1', 'mustt', 'cabg-patch', 'madit-2', 'definite', 'dinamit', 'scd-heft', 'iris', 'madit-rit', 'danish', 'vest', 'praetorian', 'untouched']],
   ['Resincronización (TRC)', ['mustic', 'miracle', 'miracle-icd', 'companion', 'care-hf', 'reverse', 'prospect', 'madit-crt', 'raft', 'echocrt', 'block-hf', 'apaf-crt', 'lbbp-resync']],
+  ['Trasplante: inmunosupresión y vasculopatía', ['mmf-aza-htx', 'everolimus-htx', 'sirolimus-denovo', 'sirolimus-cav', 'a2310', 'schedule', 'tictac', 'prava-htx', 'simva-htx', 'diltiazem-htx', 'ivus-htx', 'ctot11']],
+  ['Trasplante: rechazo, donante e infecciones', ['image', 'eimage', 'd-oar', 'photopheresis-htx', 'proceed2', 'dcd-heart', 'dhital-dcd', 'donate-hcv', 'abo-infant', 'paya-valgan', 'hiit-htx', 'xeno-2022']],
   ['Otros artículos clave de IC', ['strong-hf', 'guide-it', 'dose', 'advor', 'clorotic', 'transform-hf', 'champion', 'momentum3', 'coapt', 'mitra-fr', 'stich', 'revived', 'castle-af', 'castle-htx']],
 ]
 
@@ -63,10 +67,28 @@ export const trialCards = ordered
 
 export const TRIAL_CATS = [...new Set(trialCards.map((c) => c.cat))]
 
+/* ---------- Mazo de trasplante cardíaco ---------- */
+// Conceptos propios (content/trasplante.json) seguidos de los estudios del área «Trasplante cardiaco».
+
+const TX_AREA = 'Trasplante cardiaco'
+const txConcepts = trasplante.flatMap((g) =>
+  g.cards.map(([term, def]) => ({ id: `t:${slug(g.cat)}:${slug(term)}`, deck: 'tx', cat: g.cat, term, def })),
+)
+const txTrials = trialCards.filter((c) => c.trial.area === TX_AREA).map((c) => ({ ...c, deck: 'tx', cat: `Estudios: ${c.cat.replace(/^Trasplante: /, '')}` }))
+export const txCards = [...txConcepts, ...txTrials]
+export const TX_CATS = [...new Set(txCards.map((c) => c.cat))]
+
+/** Tarjeta de concepto (término → significado) frente a tarjeta de estudio. */
+export const isTerm = (c) => !c.trial
+
 export const DECKS = {
   semio: { label: 'Semiología y signos', cards: semioCards, cats: SEMIO_CATS, front: 'Término', back: 'Significado' },
   trials: { label: 'Estudios pivotales', cards: trialCards, cats: TRIAL_CATS, front: 'Estudio', back: 'Qué evaluó' },
+  tx: { label: 'Trasplante cardíaco', cards: txCards, cats: TX_CATS, front: 'Concepto o estudio', back: 'Significado' },
 }
+
+// Todas las tarjetas sin repetir (los estudios de trasplante están en dos mazos y comparten progreso).
+export const ALL_CARDS = [...new Map(Object.values(DECKS).flatMap((d) => d.cards).map((c) => [c.id, c])).values()]
 
 /* ---------- Progreso (por usuario, en este navegador) ---------- */
 // { [id]: { ok, fail, last } }; una tarjeta está dominada con al menos 2 aciertos y más aciertos que fallos.
@@ -99,7 +121,7 @@ export const fold = (s) =>
 
 export const searchText = (c) =>
   fold(
-    c.deck === 'semio'
+    isTerm(c)
       ? `${c.term} ${c.def} ${c.cat}`
       : [c.trial.name, c.trial.pop, c.trial.int, c.trial.comp, c.trial.outcome, c.trial.result, c.trial.pearl, c.cat].join(' '),
   )

@@ -17,6 +17,10 @@ export const JOURNALS = {
   'Heart Rhythm': { name: 'Heart Rhythm', handle: 'HRSonline', short: 'HR', color: '#6b2c91', ta: 'Heart Rhythm' },
   'Nat Med': { name: 'Nature Medicine', handle: 'NatureMedicine', short: 'NM', color: '#2f2f2f', ta: 'Nat Med' },
   'Ann Intern Med': { name: 'Annals of Internal Medicine', handle: 'AnnalsofIM', short: 'AIM', color: '#5a3e1b', ta: 'Ann Intern Med' },
+  'Am J Transplant': { name: 'American Journal of Transplantation', handle: 'AJTransplant', short: 'AJT', color: '#00657f', ta: 'Am J Transplant' },
+  Transplantation: { name: 'Transplantation', handle: 'TransplantJrnl', short: 'Tx', color: '#2d6a4f', ta: 'Transplantation' },
+  'J Heart Lung Transplant': { name: 'The Journal of Heart and Lung Transplantation', handle: 'JHLTOnline', short: 'JHLT', color: '#8a2be2', ta: 'J Heart Lung Transplant' },
+  'Circ Heart Fail': { name: 'Circulation: Heart Failure', handle: 'CircHF', short: 'Circ', color: '#a50f2d', ta: 'Circ Heart Fail' },
 }
 
 const FALLBACK = { name: 'Revista médica', handle: 'cardio', short: '?', color: '#444', ta: '' }
@@ -108,6 +112,30 @@ const QUERY = {
   allhat: 'ALLHAT antihypertensive lipid-lowering',
   accomplish: 'ACCOMPLISH benazepril amlodipine hydrochlorothiazide',
   'smart-date': 'SMART-DATE dual antiplatelet',
+  image: 'gene-expression profiling heart transplant rejection surveillance Pham',
+  eimage: 'early gene expression profiling heart transplant EIMAGE',
+  'd-oar': 'donor-derived cell-free DNA heart transplant rejection Khush',
+  proceed2: 'PROCEED II ex-vivo perfusion donor hearts',
+  'dcd-heart': 'transplantation outcomes donor hearts after circulatory death Schroder',
+  'prava-htx': 'pravastatin cardiac transplantation Kobashigawa',
+  'simva-htx': 'simvastatin graft vessel disease mortality heart transplantation Wenke',
+  'diltiazem-htx': 'diltiazem coronary artery disease after heart transplantation Schroeder',
+  'mmf-aza-htx': 'mycophenolate mofetil azathioprine cardiac transplantation Kobashigawa',
+  'everolimus-htx': 'everolimus prevention allograft rejection vasculopathy cardiac transplant Eisen',
+  a2310: 'everolimus reduced cyclosporine de novo heart transplant mycophenolate Eisen',
+  schedule: 'SCHEDULE everolimus cyclosporine withdrawal heart transplant renal function',
+  tictac: 'tacrolimus monotherapy cardiac transplant TICTAC',
+  'sirolimus-cav': 'sirolimus established cardiac allograft vasculopathy Mancini',
+  'sirolimus-denovo': 'sirolimus de novo cardiac transplant azathioprine Keogh',
+  'donate-hcv': 'heart lung transplants HCV-infected donors uninfected recipients',
+  'photopheresis-htx': 'photopheresis prevention rejection cardiac transplantation Barr',
+  'paya-valgan': 'valganciclovir oral ganciclovir CMV prevention solid organ transplant',
+  'hiit-htx': 'high-intensity interval training heart transplant recipients Nytroen',
+  ctot11: 'rituximab induction cardiac transplantation coronary vasculopathy CTOT',
+  'abo-infant': 'ABO-incompatible heart transplantation infants West',
+  'ivus-htx': 'intravascular ultrasound first year cardiac transplant vasculopathy Kobashigawa',
+  'dhital-dcd': 'heart transplantation distant procurement ex-vivo preservation circulatory death',
+  'xeno-2022': 'genetically modified porcine-to-human cardiac xenotransplantation',
 }
 
 const clean = (s) => s.replace(/[()]/g, ' ').replace(/\s+/g, ' ').trim()

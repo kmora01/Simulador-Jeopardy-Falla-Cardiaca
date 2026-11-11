@@ -2,13 +2,14 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import { motion } from 'framer-motion'
 import { useApp } from '../App'
 import { Card, Pill } from '../components/ui'
-import { DECKS, fold, loadProgress, mastered, saveProgress, searchText } from '../lib/flashcards'
+import { ALL_CARDS, DECKS, fold, isTerm, loadProgress, mastered, saveProgress, searchText } from '../lib/flashcards'
 import { shuffle } from '../lib/trials'
 import { sfx } from '../lib/sound'
 
 const TABS = [
   ['semio', 'Semiología y signos'],
   ['trials', 'Estudios pivotales'],
+  ['tx', 'Trasplante cardíaco'],
   ['list', 'Lista completa'],
 ]
 
@@ -22,6 +23,11 @@ const MODES = {
   trials: [
     ['direct', 'Estudio → qué evaluó'],
     ['reverse', 'Qué evaluó → estudio'],
+    ['mixed', 'Mezclado'],
+  ],
+  tx: [
+    ['direct', 'Concepto o estudio → significado'],
+    ['reverse', 'Significado → concepto o estudio'],
     ['mixed', 'Mezclado'],
   ],
 }
@@ -43,8 +49,8 @@ export default function Flashcards() {
     [user.username],
   )
 
-  const total = DECKS.semio.cards.length + DECKS.trials.cards.length
-  const done = [...DECKS.semio.cards, ...DECKS.trials.cards].filter((c) => mastered(progress[c.id])).length
+  const total = ALL_CARDS.length
+  const done = ALL_CARDS.filter((c) => mastered(progress[c.id])).length
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-8">
@@ -52,7 +58,7 @@ export default function Flashcards() {
         <div>
           <h1 className="category-text text-2xl sm:text-4xl text-white">Tarjetas de memoria</h1>
           <p className="hidden sm:block text-white/60 mt-1">
-            {DECKS.semio.cards.length} signos, soplos, epónimos y datos de imagen · {DECKS.trials.cards.length} estudios pivotales. Clic en la tarjeta para girarla.
+            {DECKS.semio.cards.length} signos, soplos, epónimos y datos de imagen · {DECKS.trials.cards.length} estudios pivotales · {DECKS.tx.cards.length} de trasplante cardíaco. Clic en la tarjeta para girarla.
           </p>
         </div>
         <div className="text-right shrink-0">
@@ -283,7 +289,7 @@ function CardTop({ card, side, status }) {
 }
 
 function Name({ card, withPearl = false }) {
-  if (card.deck === 'semio') {
+  if (isTerm(card)) {
     return <div className="category-text text-3xl sm:text-4xl text-jgold text-center leading-tight">{card.term}</div>
   }
   const t = card.trial
@@ -297,7 +303,7 @@ function Name({ card, withPearl = false }) {
 }
 
 function Meaning({ card, full = false }) {
-  if (card.deck === 'semio') {
+  if (isTerm(card)) {
     return <p className="text-lg sm:text-2xl text-center leading-snug text-white/95 font-medium max-w-3xl mx-auto">{card.def}</p>
   }
   const t = card.trial
@@ -361,11 +367,11 @@ function FullList({ progress }) {
               {list.map((c) => (
                 <div key={c.id} className="p-3 sm:p-4 grid sm:grid-cols-[14rem_1fr] gap-x-4 gap-y-1">
                   <div className="font-bold text-white flex items-start gap-2">
-                    <span>{c.deck === 'semio' ? c.term : `${c.trial.name} (${c.trial.year})`}</span>
+                    <span>{isTerm(c) ? c.term : `${c.trial.name} (${c.trial.year})`}</span>
                     {mastered(progress[c.id]) && <span className="text-emerald-300 text-xs mt-1">✓</span>}
                   </div>
                   <div className="text-white/75 text-sm">
-                    {c.deck === 'semio' ? (
+                    {isTerm(c) ? (
                       c.def
                     ) : (
                       <>
