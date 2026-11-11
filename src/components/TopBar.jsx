@@ -5,6 +5,7 @@ const NAV = [
   ['stats', 'Estadísticas'],
   ['review', 'Repaso SRS'],
   ['trials', 'Ensayos'],
+  ['feed', 'Feed'],
   ['cards', 'Tarjetas'],
   ['library', 'Estudio'],
   ['bank', 'Banco'],

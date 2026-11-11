@@ -97,3 +97,10 @@ body {
   background: rgba(255, 255, 255, 0.15);
   border-radius: 8px;
 }
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

@@ -14,6 +14,7 @@ import Settings from './screens/Settings'
 import Library from './screens/Library'
 import Trials from './screens/Trials'
 import Flashcards from './screens/Flashcards'
+import Feed from './screens/Feed'
 import TopBar from './components/TopBar'
 import ResumePrompt from './components/ResumePrompt'
 
@@ -107,6 +108,7 @@ export default function App() {
               {screen === 'library' && <Library />}
               {screen === 'trials' && <Trials />}
               {screen === 'cards' && <Flashcards />}
+              {screen === 'feed' && <Feed />}
               {screen === 'settings' && <Settings />}
             </motion.div>
           </AnimatePresence>
