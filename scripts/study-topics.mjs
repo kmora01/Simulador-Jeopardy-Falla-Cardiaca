@@ -19,6 +19,7 @@ export const UNITS = [
   '11 · Medicina interna y corazón',
   '12 · Farmacología cardiovascular',
   '13 · Evidencia, historia y miscelánea',
+  '14 · Trasplante cardíaco',
 ]
 
 const u = (n) => UNITS[n - 1]
@@ -44,7 +45,7 @@ export const TOPICS = [
   { id: 'ic-preservada', unit: u(3), title: 'IC con FEVI preservada y levemente reducida', summaries: ['0104-ic-fevi-preservada'], categories: ['IC CON FEVI PRESERVADA'], kw: ['fevi preservada', 'icfep', 'hfpef', 'h2fpef', 'hfa-peff', 'fevi levemente', 'deliver', 'emperor-preserved', 'topcat', 'paragon', 'step-hfpef', 'summit', 'finearts'] },
   { id: 'ic-aguda', unit: u(3), title: 'IC aguda descompensada', summaries: ['0105-ic-descompensada'], categories: ['IC DESCOMPENSADA Y AVANZADA'], kw: ['ic aguda', 'descompensad', 'edema agudo de pulmon', 'diuretico', 'furosemida', 'congestion', 'strong-hf', 'advor', 'acetazolamida', 'clorotiazida', 'dose', 'inotropic', 'dobutamina', 'levosimendan', 'milrinona', 'ultrafiltracion'] },
   { id: 'shock', unit: u(3), title: 'Shock cardiogénico y soporte mecánico', summaries: ['0106-shock-cardiogenico'], categories: ['SHOCK CARDIOGÉNICO'], kw: ['shock', 'scai', 'impella', 'ecmo', 'balon de contrapulsacion', 'bcia', 'iabp', 'culprit-shock', 'danger-shock', 'econ-shock', 'ecls-shock', 'iabp-shock', 'noradrenalina', 'lactato', 'power cardiaco'] },
-  { id: 'ic-avanzada', unit: u(3), title: 'IC avanzada, trasplante y asistencia ventricular', summaries: ['0107-ic-dispositivos', '0108-ic-avanzada-trasplante'], categories: ['TRASPLANTE Y ASISTENCIA VENTRICULAR', 'TRASPLANTE Y ASISTENCIA II'], kw: ['trasplante', 'rechazo', 'vasculopatia del injerto', 'asistencia ventricular', 'lvad', 'heartmate', 'intermacs', 'ic avanzada', 'momentum', 'tacrolimus', 'ciclosporina', 'micofenolato', 'everolimus', 'protocolo de stanford', 'biopsia endomiocardica', 'ishlt'] },
+  { id: 'ic-avanzada', unit: u(3), title: 'IC avanzada, trasplante y asistencia ventricular', summaries: ['0107-ic-dispositivos', '0108-ic-avanzada-trasplante'], categories: ['TRASPLANTE Y ASISTENCIA VENTRICULAR', 'TRASPLANTE Y ASISTENCIA II'], kw: ['asistencia ventricular', 'davi', 'lvad', 'heartmate', 'intermacs', 'ic avanzada', 'momentum', 'terapia de destino', 'puente al trasplante'] },
 
   // 4 · Cardiopatía isquémica
   { id: 'sca', unit: u(4), title: 'Síndrome coronario agudo: diagnóstico y tratamiento', summaries: ['0201-sca-diagnostico', '0202-sca-tratamiento'], categories: ['SÍNDROMES CORONARIOS', 'SCA SIN ELEVACIÓN DEL ST', 'SÍNDROME CORONARIO AGUDO II', 'CASOS CLÍNICOS: SÍNDROME CORONARIO AGUDO'], kw: ['sindrome coronario agudo', 'sca', 'scasest', 'iamsest', 'iamcest', 'infarto', 'angina inestable', 'minoca', 'scad', 'diseccion coronaria espontanea', 'takotsubo', 'definicion universal', 'ticagrelor', 'prasugrel', 'clopidogrel', 'dapt', 'fibrinolisis', 'tenecteplasa', 'alteplasa', 'estreptoquinasa', 'gusto', 'isis', 'plato', 'triton', 'cure', 'oasis', 'complete', 'clear synergy', 'commit', 'timi', 'killip'] },
@@ -114,6 +115,15 @@ export const TOPICS = [
   { id: 'lectura-critica', unit: u(13), title: 'Lectura crítica y estadística', summaries: ['0933-lectura-critica'], categories: ['LECTURA CRÍTICA DE ENSAYOS'], kw: ['estadistic', 'nnt', 'riesgo relativo', 'hazard ratio', 'no inferioridad', 'intencion de tratar', 'por protocolo', 'sensibilidad', 'especificidad', 'valor predictivo', 'sesgo', 'metaanalisis', 'win ratio', 'potencia', 'aleatorizacion', 'variable compuesta', 'curva roc'] },
   { id: 'historia', unit: u(13), title: 'Historia de la cardiología', summaries: ['0934-historia'], categories: ['HISTORIA DE LA CARDIOLOGÍA', 'HISTORIA DE LA CARDIOLOGÍA II'], kw: [] },
   { id: 'siglas-numeros', unit: u(13), title: 'Siglas, números y epónimos sueltos', summaries: [], categories: [], kw: [] },
+
+  // 14 · Trasplante cardíaco
+  { id: 'tx-candidato', unit: u(14), title: 'Evaluación del candidato y asignación', summaries: ['1401-tx-candidato'], categories: ['TRASPLANTE: EL CANDIDATO'], kw: ['candidato a trasplante', 'candidatos a trasplante', 'lista de trasplante', 'vo2 pico', 'cpra', 'sensibiliz', 'prueba cruzada', 'unos', 'estatus 1', 'puente a la candidatura', 'heart failure survival score'] },
+  { id: 'tx-donante', unit: u(14), title: 'Donante, preservación, cirugía y posoperatorio', summaries: ['1402-tx-donante-cirugia'], categories: ['TRASPLANTE: DONANTE, CIRUGÍA Y POSOPERATORIO'], kw: ['donante', 'muerte encefalica', 'asistolia', 'organ care system', 'ocs', 'perfusion normotermica', 'isquemia del injerto', 'disfuncion primaria del injerto', 'tecnica bicava', 'biauricular', 'heterotopico', 'denervacion', 'rechazo hiperagudo', 'proceed', 'dcd', 'abo incompatible'] },
+  { id: 'tx-inmuno', unit: u(14), title: 'Inmunosupresión', summaries: ['1403-tx-inmunosupresion'], categories: ['TRASPLANTE: INMUNOSUPRESIÓN'], kw: ['inmunosupres', 'tacrolimus', 'ciclosporina', 'micofenolato', 'azatioprina', 'everolimus', 'sirolimus', 'mtor', 'calcineurina', 'basiliximab', 'globulina antitimocitica', 'induccion', 'schedule', 'tictac'] },
+  { id: 'tx-rechazo', unit: u(14), title: 'Rechazo: diagnóstico, vigilancia y tratamiento', summaries: ['1404-tx-rechazo'], categories: ['TRASPLANTE: RECHAZO Y VIGILANCIA'], kw: ['rechazo', 'biopsia endomiocardica', 'allomap', 'expresion genica', 'adn libre', 'c4d', 'pamr', 'anticuerpos donante', 'dsa', 'quilty', 'billingham', 'fotoferesis', 'd-oar', 'biopsias', 'vigilancia con'] },
+  { id: 'tx-tardias', unit: u(14), title: 'Vasculopatía del injerto y complicaciones tardías', summaries: ['1405-tx-vasculopatia-tardias'], categories: ['TRASPLANTE: VASCULOPATÍA Y COMPLICACIONES TARDÍAS'], kw: ['vasculopatia del injerto', 'vasculopatia', 'cav', 'retrasplante', 'linfoproliferativo', 'postrasplante', 'kaposi', 'estatina', 'pravastatina', 'simvastatina', 'diltiazem', 'intima'] },
+  { id: 'tx-infecciones', unit: u(14), title: 'Infecciones, vacunas y vida con el injerto', summaries: ['1406-tx-infecciones-vida'], categories: ['TRASPLANTE: INFECCIONES Y VIDA CON EL INJERTO'], kw: ['citomegalovirus', 'cmv', 'valganciclovir', 'pneumocystis', 'toxoplasma', 'nocardia', 'listeria', 'aspergillus', 'oportunista', 'entrenamiento interval', 'vida con el injerto'] },
+  { id: 'tx-ensayos-historia', unit: u(14), title: 'Casos clínicos, ensayos e historia del trasplante', summaries: ['1407-tx-ensayos-historia'], categories: ['CASOS CLÍNICOS: TRASPLANTE CARDÍACO', 'TRASPLANTE: ENSAYOS, HISTORIA Y NÚMEROS'], kw: ['barnard', 'washkansky', 'shumway', 'xenotrasplante', 'kantrowitz'] },
 ]
 
 // Categorías transversales: categoría → tema de respaldo si ninguna palabra clave coincide.
@@ -148,4 +158,7 @@ export const TRIAL_AREAS = {
   'Diabetes, obesidad y riñón': 'diabetes',
   'Pericardio, TEP y otras': 'pericardio',
   Miocardiopatías: 'mcd-miocarditis',
+  'Hipertensión pulmonar': 'hp',
+  'Estimulación cardiaca y TRC': 'dispositivos',
+  'Trasplante cardiaco': 'tx-ensayos-historia',
 }
